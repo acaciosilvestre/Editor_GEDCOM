@@ -5,6 +5,7 @@ Imports System.IO
 Imports System.Linq
 Imports System.Text
 Imports System.Text.RegularExpressions
+Imports System.Diagnostics
 Imports System.Windows.Forms
 
 Public Class GedEvent
@@ -21,6 +22,7 @@ Public Class Individual
     Public Property Events As New List(Of GedEvent)
     Public Property Famc As String = Nothing
     Public Property Fams As New List(Of String)
+    Public Property Sources As New List(Of String)
 End Class
 
 Public Class Family
@@ -39,6 +41,7 @@ Public Class MainForm
     Private selectedIndiId As String = Nothing
     Private isRefreshingPeopleList As Boolean = False
     Private lastLoadedGedcom As String = ""
+    Private sourceDirectoryRoot As String = AppDomain.CurrentDomain.BaseDirectory
 
     Private ReadOnly peopleList As New ListBox()
     Private ReadOnly searchBox As New TextBox()
@@ -75,7 +78,9 @@ Public Class MainForm
         AddHandler validateButton.Click, AddressOf ValidateLoadedGedcom
         Dim treeButton = MakeButton("🌳 Árvore genealógica")
         AddHandler treeButton.Click, AddressOf ShowGenealogyTree
-        header.Controls.AddRange({loadButton, saveButton, ancestorsButton, extendedButton, addButton, validateButton, treeButton})
+        Dim kinshipButton = MakeButton("🔗 Parentesco com @I1@")
+        AddHandler kinshipButton.Click, AddressOf ShowKinshipWithI1
+        header.Controls.AddRange({loadButton, saveButton, ancestorsButton, extendedButton, addButton, validateButton, treeButton, kinshipButton})
 
         Dim split As New SplitContainer With {.Dock = DockStyle.Fill, .SplitterDistance = 32}
         Dim left As New Panel With {.Dock = DockStyle.Fill}
@@ -121,6 +126,7 @@ Public Class MainForm
         }
             If dlg.ShowDialog(Me) <> DialogResult.OK Then Return
             Try
+                sourceDirectoryRoot = Path.GetDirectoryName(dlg.FileName)
                 ParseGedcom(File.ReadAllText(dlg.FileName, Encoding.UTF8))
                 statusLabel.Text = "📄 Carregado: " & dlg.FileName
             Catch ex As Exception
@@ -178,6 +184,8 @@ Public Class MainForm
                             currentIndividual.Fams.Add(rest)
                         Case "FAMC"
                             currentIndividual.Famc = rest
+                        Case "SOUR"
+                            If Not String.IsNullOrWhiteSpace(rest) Then currentIndividual.Sources.Add(rest.Trim())
                         Case "BIRT", "DEAT", "BAPM", "CHR", "BURI", "CREM", "OCCU", "RESI", "EVEN", "EDUC", "IMMI", "EMIG", "NATU", "RETI"
                             currentEvent = New GedEvent With {.Type = tagOrId, .Description = rest}
                             currentIndividual.Events.Add(currentEvent)
@@ -586,9 +594,120 @@ Public Class MainForm
         eventsTab.Controls.Add(eventsPanel)
         details.TabPages.Add(eventsTab)
 
+        Dim sourcesTab As New TabPage("📚 Fontes")
+        sourcesTab.Controls.Add(BuildSourcesPanel(ind))
+        details.TabPages.Add(sourcesTab)
+
         Dim relationsTab As New TabPage("👪 Família")
         relationsTab.Controls.Add(BuildRelationsPanel(ind))
         details.TabPages.Add(relationsTab)
+    End Sub
+
+    Private Function GetSourcesFolder(Optional root As String = Nothing) As String
+        Dim baseFolder = If(String.IsNullOrWhiteSpace(root), sourceDirectoryRoot, root)
+        Return Path.Combine(baseFolder, "fontes")
+    End Function
+
+    Private Function BuildSourcesPanel(ind As Individual) As Control
+        Dim panel As New Panel With {.Dock = DockStyle.Fill, .Padding = New Padding(12)}
+        Dim intro As New Label With {
+            .Text = "Fontes documentais desta pessoa. Os arquivos ficam na pasta 'fontes' junto ao GEDCOM.",
+            .Dock = DockStyle.Top, .Height = 42, .AutoSize = False
+        }
+        Dim list As New ListBox With {.Dock = DockStyle.Fill, .HorizontalScrollbar = True}
+        For Each sourceName In ind.Sources
+            list.Items.Add(sourceName)
+        Next
+        AddHandler list.Click, Sub()
+                                   If list.SelectedItem IsNot Nothing Then OpenSourceDocument(CStr(list.SelectedItem))
+                               End Sub
+        AddHandler list.DoubleClick, Sub()
+                                         If list.SelectedItem IsNot Nothing Then OpenSourceDocument(CStr(list.SelectedItem))
+                                     End Sub
+        Dim buttons As New FlowLayoutPanel With {.Dock = DockStyle.Bottom, .Height = 42, .FlowDirection = FlowDirection.LeftToRight}
+        Dim addSourceButton = MakeButton("➕ Incluir fonte")
+        AddHandler addSourceButton.Click, Sub() AddSourceToIndividual(ind)
+        Dim openSourceButton = MakeButton("📖 Abrir fonte")
+        AddHandler openSourceButton.Click, Sub()
+                                               If list.SelectedItem IsNot Nothing Then OpenSourceDocument(CStr(list.SelectedItem))
+                                           End Sub
+        Dim removeSourceButton = MakeButton("🗑 Remover vínculo")
+        AddHandler removeSourceButton.Click, Sub()
+                                                 If list.SelectedItem Is Nothing Then Return
+                                                 ind.Sources.Remove(CStr(list.SelectedItem))
+                                                 RenderDetails()
+                                             End Sub
+        buttons.Controls.AddRange({addSourceButton, openSourceButton, removeSourceButton})
+        panel.Controls.Add(list)
+        panel.Controls.Add(buttons)
+        panel.Controls.Add(intro)
+        Return panel
+    End Function
+
+    Private Sub AddSourceToIndividual(ind As Individual)
+        Using dlg As New OpenFileDialog With {
+            .Title = "Selecionar documento de fonte",
+            .Filter = "Documentos e arquivos de fonte (*.*)|*.*",
+            .CheckFileExists = True,
+            .Multiselect = False
+        }
+            If dlg.ShowDialog(Me) <> DialogResult.OK Then Return
+            Try
+                Dim folder = GetSourcesFolder()
+                Directory.CreateDirectory(folder)
+                Dim fileName = Path.GetFileName(dlg.FileName)
+                Dim destination = Path.Combine(folder, fileName)
+                If Not String.Equals(Path.GetFullPath(dlg.FileName), Path.GetFullPath(destination), StringComparison.OrdinalIgnoreCase) Then
+                    If File.Exists(destination) Then
+                        Dim baseName = Path.GetFileNameWithoutExtension(fileName)
+                        Dim ext = Path.GetExtension(fileName)
+                        Dim counter = 2
+                        While File.Exists(destination)
+                            fileName = baseName & "_" & counter.ToString() & ext
+                            destination = Path.Combine(folder, fileName)
+                            counter += 1
+                        End While
+                    End If
+                    File.Copy(dlg.FileName, destination, False)
+                End If
+                If Not ind.Sources.Contains(fileName, StringComparer.OrdinalIgnoreCase) Then ind.Sources.Add(fileName)
+                RenderDetails()
+                statusLabel.Text = "📚 Fonte adicionada: " & fileName
+            Catch ex As Exception
+                MessageBox.Show("Não foi possível incluir a fonte: " & ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        End Using
+    End Sub
+
+    Private Sub OpenSourceDocument(fileName As String)
+        Try
+            Dim safeName = Path.GetFileName(fileName)
+            Dim sourcePath = Path.Combine(GetSourcesFolder(), safeName)
+            If Not File.Exists(sourcePath) Then
+                MessageBox.Show("O documento não foi encontrado:" & Environment.NewLine & sourcePath & Environment.NewLine & Environment.NewLine & "Verifique se o arquivo está na pasta 'fontes'.", "Fonte não encontrada", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
+            Process.Start(New ProcessStartInfo With {.FileName = sourcePath, .UseShellExecute = True})
+        Catch ex As Exception
+            MessageBox.Show("Não foi possível abrir o documento: " & ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Private Sub CopySourcesToFolder(destinationRoot As String)
+        Dim destinationFolder = GetSourcesFolder(destinationRoot)
+        Directory.CreateDirectory(destinationFolder)
+        Dim sourceFolder = GetSourcesFolder()
+        If Not Directory.Exists(sourceFolder) Then Return
+        For Each ind In individuals.Values
+            For Each sourceName In ind.Sources
+                Dim safeName = Path.GetFileName(sourceName)
+                Dim fromPath = Path.Combine(sourceFolder, safeName)
+                Dim toPath = Path.Combine(destinationFolder, safeName)
+                If File.Exists(fromPath) AndAlso Not String.Equals(Path.GetFullPath(fromPath), Path.GetFullPath(toPath), StringComparison.OrdinalIgnoreCase) AndAlso Not File.Exists(toPath) Then
+                    File.Copy(fromPath, toPath, False)
+                End If
+            Next
+        Next
     End Sub
 
     Private Function BuildRelationsPanel(ind As Individual) As Control
@@ -729,6 +848,147 @@ Public Class MainForm
         treeForm.Controls.Add(tabs)
         treeForm.Controls.Add(help)
         treeForm.ShowDialog(Me)
+    End Sub
+
+    ' Exibe o caminho de parentesco entre a pessoa selecionada e @I1@,
+    ' preservando os recursos já existentes do editor.
+    Private Sub ShowKinshipWithI1(sender As Object, e As EventArgs)
+        If selectedIndiId Is Nothing OrElse Not individuals.ContainsKey(selectedIndiId) Then
+            MessageBox.Show("Selecione uma pessoa antes de consultar o parentesco.", "Parentesco com @I1@", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Return
+        End If
+        If Not individuals.ContainsKey("@I1@") Then
+            MessageBox.Show("A pessoa de referência @I1@ não foi encontrada no GEDCOM carregado.", "Parentesco com @I1@", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        Dim path = FindKinshipPath(selectedIndiId, "@I1@")
+        Dim kinshipForm As New Form With {
+            .Text = "🔗 Parentesco entre " & PersonName(selectedIndiId) & " e @I1@",
+            .Width = 850, .Height = 700, .MinimumSize = New Size(600, 450),
+            .StartPosition = FormStartPosition.CenterParent
+        }
+        Dim tree As New TreeView With {
+            .Dock = DockStyle.Fill, .HideSelection = False, .FullRowSelect = True,
+            .ShowLines = True, .ShowPlusMinus = True, .ShowRootLines = True,
+            .Font = New Font("Segoe UI", 10.0F), .Indent = 24
+        }
+        If path Is Nothing OrElse path.Count = 0 Then
+            tree.Nodes.Add(New TreeNode("Não foi encontrado vínculo familiar entre as duas pessoas nos registros atuais."))
+        ElseIf path.Count = 1 Then
+            tree.Nodes.Add(MakePersonNode(path(0)))
+            tree.Nodes(0).Text &= " — pessoa de referência (@I1@)"
+        Else
+            Dim root As TreeNode = MakePersonNode(path(0))
+            tree.Nodes.Add(root)
+            Dim currentNode = root
+            For i As Integer = 0 To path.Count - 1
+                Dim personId = path(i)
+                If i > 0 Then
+                    Dim relation = DescribeRelationship(path(i - 1), personId)
+                    Dim nextNode = MakePersonNode(personId)
+                    nextNode.Text = relation & ": " & nextNode.Text
+                    currentNode.Nodes.Add(nextNode)
+                    currentNode = nextNode
+                End If
+                AddSpousesToKinshipNode(currentNode, personId, path)
+            Next
+            currentNode.Text &= " — pessoa de referência (@I1@)"
+            root.ExpandAll()
+        End If
+        AddHandler tree.NodeMouseDoubleClick, Sub(s, args) NavigateFromTree(args.Node, kinshipForm)
+        Dim note As New Label With {.Dock = DockStyle.Bottom, .Height = 30, .TextAlign = ContentAlignment.MiddleLeft,
+            .Padding = New Padding(8, 0, 0, 0), .Text = "Caminho linear de parentesco; cônjuges são exibidos junto a cada pessoa. Duplo clique abre a pessoa no editor."}
+        kinshipForm.Controls.Add(tree)
+        kinshipForm.Controls.Add(note)
+        kinshipForm.ShowDialog(Me)
+    End Sub
+
+    Private Function FindKinshipPath(startId As String, targetId As String) As List(Of String)
+        Dim queue As New Queue(Of String)()
+        Dim previous As New Dictionary(Of String, String)(StringComparer.OrdinalIgnoreCase)
+        Dim visited As New HashSet(Of String)(StringComparer.OrdinalIgnoreCase)
+        queue.Enqueue(startId) : visited.Add(startId)
+        While queue.Count > 0
+            Dim personId = queue.Dequeue()
+            If String.Equals(personId, targetId, StringComparison.OrdinalIgnoreCase) Then Exit While
+            For Each neighbor In GetKinshipNeighbors(personId)
+                If Not individuals.ContainsKey(neighbor) OrElse Not visited.Add(neighbor) Then Continue For
+                previous(neighbor) = personId
+                queue.Enqueue(neighbor)
+            Next
+        End While
+        If Not visited.Contains(targetId) Then Return Nothing
+        Dim result As New List(Of String)()
+        Dim cursor = targetId
+        result.Add(cursor)
+        While Not String.Equals(cursor, startId, StringComparison.OrdinalIgnoreCase)
+            If Not previous.ContainsKey(cursor) Then Return Nothing
+            cursor = previous(cursor)
+            result.Add(cursor)
+        End While
+        result.Reverse()
+        Return result
+    End Function
+
+    Private Function GetKinshipNeighbors(personId As String) As List(Of String)
+        Dim result As New List(Of String)()
+        If Not individuals.ContainsKey(personId) Then Return result
+        Dim ind = individuals(personId)
+        If ind.Famc IsNot Nothing AndAlso families.ContainsKey(ind.Famc) Then
+            Dim parental = families(ind.Famc)
+            If parental.Husb IsNot Nothing Then result.Add(parental.Husb)
+            If parental.Wife IsNot Nothing Then result.Add(parental.Wife)
+            result.AddRange(parental.Children)
+        End If
+        For Each famId In ind.Fams
+            If Not families.ContainsKey(famId) Then Continue For
+            Dim fam = families(famId)
+            If fam.Husb IsNot Nothing Then result.Add(fam.Husb)
+            If fam.Wife IsNot Nothing Then result.Add(fam.Wife)
+            result.AddRange(fam.Children)
+        Next
+        Return result.Where(Function(x) x IsNot Nothing AndAlso Not String.Equals(x, personId, StringComparison.OrdinalIgnoreCase)).Distinct(StringComparer.OrdinalIgnoreCase).ToList()
+    End Function
+
+    Private Function DescribeRelationship(fromId As String, toId As String) As String
+        If Not individuals.ContainsKey(fromId) OrElse Not individuals.ContainsKey(toId) Then Return "Parente"
+        Dim fromPerson = individuals(fromId)
+        If fromPerson.Famc IsNot Nothing AndAlso families.ContainsKey(fromPerson.Famc) Then
+            Dim fam = families(fromPerson.Famc)
+            If String.Equals(fam.Husb, toId, StringComparison.OrdinalIgnoreCase) Then Return "Pai"
+            If String.Equals(fam.Wife, toId, StringComparison.OrdinalIgnoreCase) Then Return "Mãe"
+            If fam.Children.Contains(toId, StringComparer.OrdinalIgnoreCase) Then Return "Irmão/irmã"
+        End If
+        For Each famId In fromPerson.Fams
+            If Not families.ContainsKey(famId) Then Continue For
+            Dim fam = families(famId)
+            If (String.Equals(fam.Husb, fromId, StringComparison.OrdinalIgnoreCase) AndAlso String.Equals(fam.Wife, toId, StringComparison.OrdinalIgnoreCase)) OrElse
+               (String.Equals(fam.Wife, fromId, StringComparison.OrdinalIgnoreCase) AndAlso String.Equals(fam.Husb, toId, StringComparison.OrdinalIgnoreCase)) Then Return "Cônjuge"
+            If fam.Children.Contains(toId, StringComparer.OrdinalIgnoreCase) Then Return "Filho/filha"
+        Next
+        For Each fam In families.Values
+            If fam.Children.Contains(fromId, StringComparer.OrdinalIgnoreCase) AndAlso fam.Children.Contains(toId, StringComparer.OrdinalIgnoreCase) Then Return "Irmão/irmã"
+            If fam.Children.Contains(fromId, StringComparer.OrdinalIgnoreCase) Then
+                If String.Equals(fam.Husb, toId, StringComparison.OrdinalIgnoreCase) Then Return "Pai"
+                If String.Equals(fam.Wife, toId, StringComparison.OrdinalIgnoreCase) Then Return "Mãe"
+            End If
+        Next
+        Return "Parente"
+    End Function
+
+    Private Sub AddSpousesToKinshipNode(node As TreeNode, personId As String, path As List(Of String))
+        If Not individuals.ContainsKey(personId) Then Return
+        For Each famId In individuals(personId).Fams.Distinct(StringComparer.OrdinalIgnoreCase)
+            If Not families.ContainsKey(famId) Then Continue For
+            Dim fam = families(famId)
+            Dim spouseId = If(String.Equals(fam.Husb, personId, StringComparison.OrdinalIgnoreCase), fam.Wife, fam.Husb)
+            If String.IsNullOrWhiteSpace(spouseId) OrElse Not individuals.ContainsKey(spouseId) Then Continue For
+            If path.Contains(spouseId, StringComparer.OrdinalIgnoreCase) Then Continue For
+            Dim spouseNode = MakePersonNode(spouseId)
+            spouseNode.Text = "Cônjuge: " & spouseNode.Text
+            node.Nodes.Add(spouseNode)
+        Next
     End Sub
 
     Private Function CreateGenealogyTree() As TreeView
@@ -1038,7 +1298,10 @@ Public Class MainForm
                 .Title = "💾 Salvar arquivo GEDCOM"
             }
                 If dlg.ShowDialog(Me) <> DialogResult.OK Then Return
+                Dim targetRoot = Path.GetDirectoryName(dlg.FileName)
+                CopySourcesToFolder(targetRoot)
                 File.WriteAllText(dlg.FileName, content, New UTF8Encoding(False))
+                sourceDirectoryRoot = targetRoot
                 statusLabel.Text = "💾 Arquivo salvo: " & dlg.FileName
             End Using
         Catch ex As Exception
@@ -1118,6 +1381,9 @@ Public Class MainForm
             output.Add($"0 {ind.Id} INDI")
             output.Add("1 NAME " & If(String.IsNullOrWhiteSpace(ind.Name), "Desconhecido", FormatGedcomName(ind.Name)))
             If Not String.IsNullOrWhiteSpace(ind.Sex) Then output.Add("1 SEX " & ind.Sex)
+            For Each sourceName In ind.Sources
+                output.Add("1 SOUR " & Path.GetFileName(sourceName))
+            Next
             For Each ev In ind.Events
                 output.Add($"1 {ev.Type}{If(ev.Description <> "", " " & ev.Description, "")}")
                 If ev.DateText <> "" Then output.Add("2 DATE " & ev.DateText)
