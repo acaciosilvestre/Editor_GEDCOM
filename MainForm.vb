@@ -23,6 +23,8 @@ Public Class Individual
     Public Property Famc As String = Nothing
     Public Property Fams As New List(Of String)
     Public Property Sources As New List(Of String)
+    Public Property Notes As New List(Of String)
+    Public Property Memories As New List(Of String)
 End Class
 
 Public Class Family
@@ -49,10 +51,11 @@ Public Class MainForm
     Private ReadOnly statusLabel As New Label()
 
     Public Sub New()
-        Text = "🌳Editor de Arquivos GEDCOM - VB.NET"
+        Text = "Editor de Arquivos GEDCOM - VB.NET"
         Width = 1250
         Height = 800
         MinimumSize = New Size(900, 600)
+        Icon = New System.Drawing.Icon("C:\Users\acaci\Downloads\gedcom1.ico")
         StartPosition = FormStartPosition.CenterScreen
         BuildInterface()
         LoadSample()
@@ -143,6 +146,7 @@ Public Class MainForm
         Dim currentIndividual As Individual = Nothing
         Dim currentFamily As Family = Nothing
         Dim currentEvent As GedEvent = Nothing
+        Dim currentNoteIndex As Integer = -1
         Dim rx As New Regex("^(\d+)\s+(@[^@]+@|[A-Za-z0-9_]+)?\s*(.*)$")
 
         For Each rawLine In content.Split({vbCrLf, vbLf}, StringSplitOptions.None)
@@ -156,6 +160,7 @@ Public Class MainForm
 
             If level = 0 Then
                 currentEvent = Nothing
+                currentNoteIndex = -1
                 currentIndividual = Nothing
                 currentFamily = Nothing
                 If rest = "INDI" Then
@@ -186,10 +191,21 @@ Public Class MainForm
                             currentIndividual.Famc = rest
                         Case "SOUR"
                             If Not String.IsNullOrWhiteSpace(rest) Then currentIndividual.Sources.Add(rest.Trim())
+                        Case "NOTE"
+                            currentIndividual.Notes.Add(rest)
+                            currentNoteIndex = currentIndividual.Notes.Count - 1
+                        Case "_MEM"
+                            If Not String.IsNullOrWhiteSpace(rest) Then currentIndividual.Memories.Add(Path.GetFileName(rest.Trim()))
                         Case "BIRT", "DEAT", "BAPM", "CHR", "BURI", "CREM", "OCCU", "RESI", "EVEN", "EDUC", "IMMI", "EMIG", "NATU", "RETI"
                             currentEvent = New GedEvent With {.Type = tagOrId, .Description = rest}
                             currentIndividual.Events.Add(currentEvent)
                     End Select
+                ElseIf level = 2 AndAlso currentNoteIndex >= 0 AndAlso currentNoteIndex < currentIndividual.Notes.Count AndAlso (tagOrId = "CONT" OrElse tagOrId = "CONC") Then
+                    If tagOrId = "CONT" Then
+                        currentIndividual.Notes(currentNoteIndex) &= vbCrLf & rest
+                    Else
+                        currentIndividual.Notes(currentNoteIndex) &= rest
+                    End If
                 ElseIf level = 2 AndAlso currentEvent IsNot Nothing Then
                     If tagOrId = "DATE" Then currentEvent.DateText = rest
                     If tagOrId = "PLAC" Then currentEvent.Place = rest
@@ -598,9 +614,207 @@ Public Class MainForm
         sourcesTab.Controls.Add(BuildSourcesPanel(ind))
         details.TabPages.Add(sourcesTab)
 
+        Dim notesTab As New TabPage("📝 Notas")
+        notesTab.Controls.Add(BuildNotesPanel(ind))
+        details.TabPages.Add(notesTab)
+
+        Dim memoriesTab As New TabPage("🖼️ Recordações")
+        memoriesTab.Controls.Add(BuildMemoriesPanel(ind))
+        details.TabPages.Add(memoriesTab)
+
         Dim relationsTab As New TabPage("👪 Família")
         relationsTab.Controls.Add(BuildRelationsPanel(ind))
         details.TabPages.Add(relationsTab)
+    End Sub
+
+    Private Function BuildNotesPanel(ind As Individual) As Control
+        Dim panel As New Panel With {.Dock = DockStyle.Fill, .Padding = New Padding(12)}
+        Dim intro As New Label With {
+            .Text = "Notas pessoais desta pessoa. O conteúdo será gravado no próprio arquivo GEDCOM.",
+            .Dock = DockStyle.Top, .Height = 38, .AutoSize = False
+        }
+        Dim list As New ListBox With {.Dock = DockStyle.Fill, .HorizontalScrollbar = True}
+        For Each note In ind.Notes
+            list.Items.Add(GetNoteCaption(note))
+        Next
+
+        Dim buttons As New FlowLayoutPanel With {.Dock = DockStyle.Bottom, .Height = 42, .FlowDirection = FlowDirection.LeftToRight}
+        Dim addButton = MakeButton("➕ Incluir nota")
+        AddHandler addButton.Click, Sub()
+                                        Dim value = ShowNoteEditor("Nova nota", "")
+                                        If value Is Nothing Then Return
+                                        ind.Notes.Add(value)
+                                        RenderDetails()
+                                        statusLabel.Text = "Nota adicionada."
+                                    End Sub
+        Dim editButton = MakeButton("✏️ Editar nota")
+        AddHandler editButton.Click, Sub()
+                                         If list.SelectedIndex < 0 OrElse list.SelectedIndex >= ind.Notes.Count Then Return
+                                         Dim idx = list.SelectedIndex
+                                         Dim value = ShowNoteEditor("Editar nota", ind.Notes(idx))
+                                         If value Is Nothing Then Return
+                                         ind.Notes(idx) = value
+                                         RenderDetails()
+                                         statusLabel.Text = "Nota atualizada."
+                                     End Sub
+        Dim removeButton = MakeButton("🗑 Excluir nota")
+        AddHandler removeButton.Click, Sub()
+                                           If list.SelectedIndex < 0 OrElse list.SelectedIndex >= ind.Notes.Count Then Return
+                                           If MessageBox.Show("Excluir a nota selecionada?", "Confirmar exclusão", MessageBoxButtons.YesNo, MessageBoxIcon.Question) <> DialogResult.Yes Then Return
+                                           ind.Notes.RemoveAt(list.SelectedIndex)
+                                           RenderDetails()
+                                           statusLabel.Text = "Nota excluída."
+                                       End Sub
+        buttons.Controls.AddRange({addButton, editButton, removeButton})
+        panel.Controls.Add(list)
+        panel.Controls.Add(buttons)
+        panel.Controls.Add(intro)
+        Return panel
+    End Function
+
+    Private Function GetNoteCaption(note As String) As String
+        Dim firstLine = note.Split({vbCrLf, vbLf}, StringSplitOptions.None).FirstOrDefault()
+        If String.IsNullOrWhiteSpace(firstLine) Then Return "(nota sem título)"
+        Return If(firstLine.Length > 110, firstLine.Substring(0, 107) & "...", firstLine)
+    End Function
+
+    ' Retorna Nothing quando o usuário cancela; string vazia é uma nota válida.
+    Private Function ShowNoteEditor(title As String, initialText As String) As String
+        Using dlg As New Form With {
+            .Text = title, .Width = 650, .Height = 430,
+            .MinimumSize = New Size(450, 300),
+            .StartPosition = FormStartPosition.CenterParent
+        }
+            Dim editor As New TextBox With {
+                .Multiline = True, .AcceptsReturn = True, .AcceptsTab = True,
+                .ScrollBars = ScrollBars.Vertical, .Dock = DockStyle.Fill,
+                .Font = New Font("Segoe UI", 10), .Text = initialText
+            }
+            Dim buttons As New FlowLayoutPanel With {
+                .Dock = DockStyle.Bottom, .Height = 44,
+                .FlowDirection = FlowDirection.RightToLeft,
+                .Padding = New Padding(5)
+            }
+            Dim ok As New Button With {.Text = "Salvar", .DialogResult = DialogResult.OK, .Width = 90}
+            Dim cancel As New Button With {.Text = "Cancelar", .DialogResult = DialogResult.Cancel, .Width = 90}
+            buttons.Controls.AddRange({ok, cancel})
+            dlg.Controls.Add(editor)
+            dlg.Controls.Add(buttons)
+            dlg.AcceptButton = ok
+            dlg.CancelButton = cancel
+            If dlg.ShowDialog(Me) = DialogResult.OK Then Return editor.Text
+        End Using
+        Return Nothing
+    End Function
+
+    Private Function GetMemoriesFolder(Optional root As String = Nothing) As String
+        Dim baseFolder = If(String.IsNullOrWhiteSpace(root), sourceDirectoryRoot, root)
+        Return Path.Combine(baseFolder, "fotos")
+    End Function
+
+    Private Function BuildMemoriesPanel(ind As Individual) As Control
+        Dim panel As New Panel With {.Dock = DockStyle.Fill, .Padding = New Padding(12)}
+        Dim intro As New Label With {
+            .Text = "Recordações associadas a esta pessoa. Os arquivos ficam na pasta 'fotos' junto ao GEDCOM. Clique duas vezes no nome para abrir.",
+            .Dock = DockStyle.Top, .Height = 42, .AutoSize = False
+        }
+        Dim list As New ListBox With {.Dock = DockStyle.Fill, .HorizontalScrollbar = True}
+        For Each memoryName In ind.Memories
+            list.Items.Add(memoryName)
+        Next
+        AddHandler list.Click, Sub()
+                                   If list.SelectedItem IsNot Nothing Then OpenMemoryFile(CStr(list.SelectedItem))
+                               End Sub
+        AddHandler list.DoubleClick, Sub()
+                                         If list.SelectedItem IsNot Nothing Then OpenMemoryFile(CStr(list.SelectedItem))
+                                     End Sub
+        Dim buttons As New FlowLayoutPanel With {.Dock = DockStyle.Bottom, .Height = 42, .FlowDirection = FlowDirection.LeftToRight}
+        Dim addButton = MakeButton("➕ Incluir recordação")
+        AddHandler addButton.Click, Sub() AddMemoryToIndividual(ind)
+        Dim openButton = MakeButton("🖼️ Abrir recordação")
+        AddHandler openButton.Click, Sub()
+                                         If list.SelectedItem IsNot Nothing Then OpenMemoryFile(CStr(list.SelectedItem))
+                                     End Sub
+        Dim removeButton = MakeButton("🗑 Remover vínculo")
+        AddHandler removeButton.Click, Sub()
+                                           If list.SelectedItem Is Nothing Then Return
+                                           ind.Memories.Remove(CStr(list.SelectedItem))
+                                           RenderDetails()
+                                           statusLabel.Text = "Vínculo da recordação removido. O arquivo não foi excluído."
+                                       End Sub
+        buttons.Controls.AddRange({addButton, openButton, removeButton})
+        panel.Controls.Add(list)
+        panel.Controls.Add(buttons)
+        panel.Controls.Add(intro)
+        Return panel
+    End Function
+
+    Private Sub AddMemoryToIndividual(ind As Individual)
+        Using dlg As New OpenFileDialog With {
+            .Title = "Selecionar recordação",
+            .Filter = "Imagens e arquivos (*.*)|*.*",
+            .CheckFileExists = True,
+            .Multiselect = False
+        }
+            If dlg.ShowDialog(Me) <> DialogResult.OK Then Return
+            Try
+                Dim folder = GetMemoriesFolder()
+                Directory.CreateDirectory(folder)
+                Dim fileName = Path.GetFileName(dlg.FileName)
+                Dim destination = Path.Combine(folder, fileName)
+                If Not String.Equals(Path.GetFullPath(dlg.FileName), Path.GetFullPath(destination), StringComparison.OrdinalIgnoreCase) Then
+                    If File.Exists(destination) Then
+                        Dim baseName = Path.GetFileNameWithoutExtension(fileName)
+                        Dim ext = Path.GetExtension(fileName)
+                        Dim counter = 2
+                        While File.Exists(destination)
+                            fileName = baseName & "_" & counter.ToString() & ext
+                            destination = Path.Combine(folder, fileName)
+                            counter += 1
+                        End While
+                    End If
+                    File.Copy(dlg.FileName, destination, False)
+                End If
+                If Not ind.Memories.Contains(fileName, StringComparer.OrdinalIgnoreCase) Then ind.Memories.Add(fileName)
+                RenderDetails()
+                statusLabel.Text = "🖼️ Recordação adicionada: " & fileName
+            Catch ex As Exception
+                MessageBox.Show("Não foi possível incluir a recordação: " & ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End Try
+        End Using
+    End Sub
+
+    Private Sub OpenMemoryFile(fileName As String)
+        Try
+            Dim safeName = Path.GetFileName(fileName)
+            Dim memoryPath = Path.Combine(GetMemoriesFolder(), safeName)
+            If Not File.Exists(memoryPath) Then
+                MessageBox.Show("O arquivo não foi encontrado:" & Environment.NewLine & memoryPath & Environment.NewLine & Environment.NewLine & "Verifique se o arquivo está na pasta 'fotos'.", "Recordação não encontrada", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Return
+            End If
+            Process.Start(New ProcessStartInfo With {.FileName = memoryPath, .UseShellExecute = True})
+        Catch ex As Exception
+            MessageBox.Show("Não foi possível abrir a recordação: " & ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Private Sub CopyMemoriesToFolder(destinationRoot As String)
+        Dim destinationFolder = GetMemoriesFolder(destinationRoot)
+        Directory.CreateDirectory(destinationFolder)
+        Dim memoryFolder = GetMemoriesFolder()
+        If Not Directory.Exists(memoryFolder) Then Return
+        For Each ind In individuals.Values
+            For Each memoryName In ind.Memories
+                Dim safeName = Path.GetFileName(memoryName)
+                Dim fromPath = Path.Combine(memoryFolder, safeName)
+                Dim toPath = Path.Combine(destinationFolder, safeName)
+                If File.Exists(fromPath) AndAlso
+                   Not String.Equals(Path.GetFullPath(fromPath), Path.GetFullPath(toPath), StringComparison.OrdinalIgnoreCase) AndAlso
+                   Not File.Exists(toPath) Then
+                    File.Copy(fromPath, toPath, False)
+                End If
+            Next
+        Next
     End Sub
 
     Private Function GetSourcesFolder(Optional root As String = Nothing) As String
@@ -1300,6 +1514,7 @@ Public Class MainForm
                 If dlg.ShowDialog(Me) <> DialogResult.OK Then Return
                 Dim targetRoot = Path.GetDirectoryName(dlg.FileName)
                 CopySourcesToFolder(targetRoot)
+                CopyMemoriesToFolder(targetRoot)
                 File.WriteAllText(dlg.FileName, content, New UTF8Encoding(False))
                 sourceDirectoryRoot = targetRoot
                 statusLabel.Text = "💾 Arquivo salvo: " & dlg.FileName
@@ -1383,6 +1598,16 @@ Public Class MainForm
             If Not String.IsNullOrWhiteSpace(ind.Sex) Then output.Add("1 SEX " & ind.Sex)
             For Each sourceName In ind.Sources
                 output.Add("1 SOUR " & Path.GetFileName(sourceName))
+            Next
+            For Each note In ind.Notes
+                Dim noteLines = note.Replace(vbCrLf, vbLf).Replace(vbCr, vbLf).Split({vbLf}, StringSplitOptions.None)
+                output.Add("1 NOTE " & If(noteLines.Length > 0, noteLines(0), ""))
+                For Each continuation In noteLines.Skip(1)
+                    output.Add("2 CONT " & continuation)
+                Next
+            Next
+            For Each memoryName In ind.Memories
+                output.Add("1 _MEM " & Path.GetFileName(memoryName))
             Next
             For Each ev In ind.Events
                 output.Add($"1 {ev.Type}{If(ev.Description <> "", " " & ev.Description, "")}")
