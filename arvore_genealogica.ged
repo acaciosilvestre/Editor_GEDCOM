@@ -1,0 +1,6673 @@
+0 HEAD
+1 SOUR GEDCOM_EDITOR_HTML
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Acácio /Silvestre/
+1 SEX M
+1 SOUR 19680802 - Acácio Silvestre - nascimento.pdf
+1 SOUR 19980110 - acácio silvestre - casamento.pdf
+1 SOUR 19840815 - DOESP - Acácio Silvestre - Conclusão de 1 grau.pdf
+1 SOUR 19930918 - Acácio Silvestre - concluíntes 2o grau.pdf
+1 SOUR 19960417 - Acácio Silvestre - professor cadastrado.pdf
+1 SOUR 19980212 - Acácio Silvestre - designação de professor.pdf
+1 SOUR 19980326 - Acácio Silvestre - designação de professor.pdf
+1 SOUR 19980515 - Acácio Silvestre - designação de professor.pdf
+1 SOUR 19980626 - Acácio Silvestre - designação de professor.pdf
+1 SOUR 19981016 - Acácio Silvestre - designação de professor.pdf
+1 SOUR 20000616 - Acácio Silvestre - filiação partidária.pdf
+1 _MEM P9030109.JPG
+1 BIRT
+2 DATE 2 AUG 1968
+2 PLAC São Paulo, Brazil
+1 CHR
+2 DATE 17 NOV 1968
+2 PLAC São Paulo, São Paulo, Brasil
+1 OCCU professor
+2 DATE 17 ABR 1996
+2 PLAC São Paulo, São Paulo, Brasil
+1 OCCU professor
+2 DATE 26 JUN 1998
+2 PLAC São Paulo, São Paulo, Brasil
+1 OCCU professor
+2 DATE 06 NOV 206
+2 PLAC São Paulo, São Paulo, Brasil
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Ramiro /Silvestre/
+1 SEX M
+1 SOUR 19390316 - Ramiro - Batismo.pdf
+1 SOUR 19630713 - Ramiro Silvestre - Certidão de Casamento.pdf
+1 SOUR 19630627 - Ramiro Silvestre - proclamas de casamento.pdf
+1 SOUR 19640201 - DOESP - Ramiro Silvestre - edital de qualificacao e inscricao eleitoral.pdf
+1 SOUR 19731116 - Ramiro Silvestre - Empregos.pdf
+1 SOUR 20090113 - Ramiro Silvestre - RG.pdf
+1 SOUR 20131120 - Ramiro Silvestre - Certidao de obito.pdf
+1 BIRT
+2 DATE 20 SEP 1938
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 DEAT Hospital Municipal
+2 DATE 20 NOV 2013
+2 PLAC Ibiúna, São Paulo, Brazil
+1 OCCU carpinteiro
+2 DATE 27 JUN 1963
+2 PLAC São Paulo, São Paulo, Brasil
+1 BURI Cemitério da Figueira
+2 DATE 21 NOV 2013
+2 PLAC Ibiúna, São Paulo, Brazil
+1 FAMC @F2@
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Geralda Eugênia /Ribeiro/
+1 SEX F
+1 SOUR 19361120 - Geralda - Batismo.pdf
+1 SOUR 19590127 - Geralda Eugenia Ribeiro - Título Eleitoral.pdf
+1 SOUR 20211126 - Geralda Ribeiro Silvestre - óbito.pdf
+1 _MEM P8290105.JPG
+1 BIRT
+2 DATE 20 NOV 1936
+2 PLAC Cruzília, Minas Gerais, Brazil
+1 DEAT Hospital Municipal do Campo Limpo
+2 DATE 26 NOV 2021
+2 PLAC São Paulo, Brazil
+1 BURI Cenitério Parque das Cerejeiras
+2 DATE 27 NOV 2021
+2 PLAC São Paulo, Brazil
+1 RESI Rua Cotinguiba, 48 - Indianópolis
+2 DATE 27 JAN 1958
+2 PLAC São Paulo, Brazil
+1 FAMC @F3@
+1 FAMS @F1@
+0 @I9@ INDI
+1 NAME Penido Antonio /Dias/
+1 SEX M
+1 SOUR 19190116 - Penido Antonio Dias - Batismo.pdf
+1 SOUR 19371109 - Penido Antonio Dias - Casamento.pdf
+1 SOUR 19740625 - Penido - Índice de Óbito.pdf
+1 SOUR 19740625 - Penido - Registro de Óbito.pdf
+1 SOUR 19700710 - Claudemir Silvestre Dias - filho de Penido - óbito.pdf
+1 NOTE Também conhecido como Penido Silvestre Antônio Dias e Penido Silvestre Dias
+1 BIRT
+2 DATE 26 OCT 1918
+2 PLAC Bom Sucesso, Minas Gerais, Brazil
+1 CHR
+2 DATE 16 JAN 1919
+2 PLAC Bom Sucesso, Minas Gerais, Brazil
+1 DEAT Fazenda São José
+2 DATE 24 JUN 1974
+2 PLAC Rancho Alegre, Paraná, Brazil
+1 OCCU lavrador
+2 DATE 24 JUN 1974
+2 PLAC Rancho Alegre, Paraná, Brazil
+1 FAMC @F16@
+1 FAMS @F2@
+0 @I10@ INDI
+1 NAME Veridiana /Meireles/
+1 SEX F
+1 SOUR 19131223 - Verediana Meireles -  batismo.pdf
+1 SOUR 19371109 - Penido Antonio Dias - Casamento.pdf
+1 SOUR 19510626 - Adelio Silvestre Dias - óbito.pdf
+1 SOUR 19540728 - Mario Silvestre - natimorto.pdf
+1 SOUR 19560418 - José Sebastião Silvestre - nascimento.pdf
+1 SOUR 19610222 - José SebastiãoSilvestre - óbito.pdf
+1 BIRT
+2 DATE 23 DEC 1913
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 CHR
+2 DATE 19 APR 1914
+2 PLAC Lavras, Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 1957
+2 PLAC Paraná, Brazil
+1 FAMC @F26@
+1 FAMS @F2@
+0 @I16@ INDI
+1 NAME Hildebrando Alves /Ribeiro/
+1 SEX M
+1 SOUR 18950623 - Hildebrando Alves Ribeiro - batismo.pdf
+1 SOUR 19230402 - Hildebrando Alves Ribeiro Casamento - Certidão.pdf
+1 SOUR 19730820 - Hildebrando Alves Ribeiro - Qualificação.pdf
+1 SOUR 19730920 - Hildebrando Alves Ribeiro - desapropriação.pdf
+1 BIRT
+2 DATE 22 APR 1895
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 23 JUN 1895
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 DEAT
+2 DATE 18 NOV 1976
+2 PLAC São Paulo, Brazil
+1 BURI
+2 PLAC Ipuiúna, Minas Gerais, Brazil
+1 EVEN Casou-se em 02/04/1923 no distrito de São Tomé das Letras, Município de Baependi. Residia no distrito de Encruzilhada (atual Cruzília)
+1 RESI
+2 PLAC Saúde, São Paulo, São Paulo, Brazil
+1 FAMC @F31@
+1 FAMS @F3@
+0 @I17@ INDI
+1 NAME Zeferina Sergia de /Jesus/
+1 SEX F
+1 SOUR 19230402 - Hildebrando Alves Ribeiro Casamento - Certidão.pdf
+1 SOUR 19640318 - Zeferina Sergia de Jesus - Certidão de Óbito.pdf
+1 _MEM Zeferina Sergia de Jesus - Maria Salomé de Carvalho e José Eugênio Ribeiro.jpg
+1 BIRT
+2 DATE 9 SEP 1905
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 18 MAY 1964
+2 PLAC Ipuiúna, Minas Gerais, Brazil
+1 EVEN Avô tem o mesmo nome.
+1 RESI
+2 PLAC Saúde, São Paulo, São Paulo, Brazil
+1 FAMC @F35@
+1 FAMS @F3@
+0 @I42@ INDI
+1 NAME Silvestre Antonio /Dias/
+1 SEX M
+1 SOUR 18911104 - Silvestre Antonio Dias - batismo.pdf
+1 SOUR 19160923 - Silvestre Antônio Dias - casamento.pdf
+1 BIRT
+2 DATE ABT 1891
+2 PLAC Bom Sucesso, Minas Gerais, Brazil
+1 DEAT
+2 DATE ABT 1968
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 FAMC @F46@
+1 FAMS @F16@
+0 @I43@ INDI
+1 NAME Gabriela /Ferreira/
+1 SEX F
+1 SOUR 19160923 - Silvestre Antônio Dias - casamento.pdf
+1 SOUR 19190116 - Penido Antonio Dias - Batismo.pdf
+1 SOUR 19221015 - Estevao Antonio Dias - Batismo.pdf
+1 SOUR 19240713 - Manoel Antonio Dias - Batismo.pdf
+1 SOUR 19260313 - Maria dos Reis Andrade - Batismo.pdf
+1 SOUR 19260106 - Maria dos Reis - Nascimento - Certidão.pdf
+1 SOUR 19280927 - Sebastião Antonio Dias - batismo.pdf
+1 SOUR 19280915 - Sebastião Silvestre Dias - Certidão de nascimento.pdf
+1 SOUR 19340512 - Iranilde Dias - batismo.pdf
+1 SOUR 19351104 - Conceição Antonia Dias - Nascimento - Certidão.pdf
+1 SOUR 19370806 - Djanira Antonia Dias - Nascimento.pdf
+1 SOUR 19370806 - Djanira Antonia Dias - Certidão de nascimento.pdf
+1 SOUR 19390911 - Valdevino - Batismo.pdf
+1 SOUR 19390911 - Valdevino - Batismo - Continuação.pdf
+1 SOUR 19390323 - Valdevino Antonio Dias - Certidão de Nascimento.pdf
+1 SOUR 19710822 - Ana Dias Cruz - Óbito - Certidão.pdf
+1 BIRT
+2 DATE 1900
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 DEAT
+2 DATE 1941
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 FAMC @F47@
+1 FAMS @F16@
+0 @I63@ INDI
+1 NAME Joaquim /Meirelles/
+1 SEX M
+1 SOUR 18761004 - Joaquim Meireles - Batismo.pdf
+1 BIRT
+2 DATE 26 SEP 1876
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 CHR
+2 DATE 4 OCT 1876
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 DEAT
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 FAMC @F48@
+1 FAMS @F26@
+0 @I64@ INDI
+1 NAME Mariana /Rosa/
+1 SEX F
+1 SOUR 18760702 - Mariana Rosa - Batismo.pdf
+1 SOUR 19240623 - Rosa Meireles - Casamento.pdf
+1 SOUR 19241206 - Maria da Conceição - casamento - filha de Joaquim Meirelles e Mariana Rosa.pdf
+1 SOUR 19361004 - Mariana Roza - Óbito - Certidão.pdf
+1 SOUR 19361005 - Mariana Rosa - Sepultamento.pdf
+1 BIRT
+2 DATE 20 JUN 1876
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 CHR
+2 DATE 2 JUL 1876
+2 PLAC Nossa Senhora do Carmo, Carmo da Cachoeira, Minas Gerais, Brazil
+1 DEAT
+2 DATE 4 OCT 1936
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 BURI
+2 DATE 1936
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 FAMC @F49@
+1 FAMS @F26@
+0 @I75@ INDI
+1 NAME Ananias Alves de /Lima/
+1 SEX M
+1 SOUR 18610901 - Ananias Alves de Lima - batismo.pdf
+1 SOUR 18871120 - Lifoncina - filha de Ananias Alves Lima.pdf
+1 SOUR 18950623 - Hildebrando Alves Ribeiro - batismo.pdf
+1 SOUR 18920329 - Jose Alves Lima - Batismo.pdf
+1 SOUR 18920827 - Ananias Alves Lima - DO_1_18920827_233.PDF
+1 SOUR 19060525 - Divisão de Terras - Ananias Alves Lima.pdf
+1 SOUR 18890523 - Inventário - Rita Firmina Leonor.pdf
+1 SOUR 1897-1898 - Recenseamento eleitoral - Ananias e Custódio Alves Lima.pdf
+1 NOTE Listado no Recenseamento eleitoral de 1897-1898
+1 BIRT
+2 DATE 1 SEP 1861
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 1907
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brazil
+1 OCCU Alferes da 3a. Companhia do Batalhão de Infantaria - Guarda Nacional
+2 DATE 27 AGO 1892
+2 PLAC Comarca do Turvo, Andrelândia, Minas Gerais, Brasil
+1 FAMC @F51@
+1 FAMS @F31@
+0 @I76@ INDI
+1 NAME Maria Cândida da /Conceição/
+1 SEX F
+1 SOUR 18671020 - Maria Cândida da Conceição - batismo.pdf
+1 SOUR 19461225 - Maria Candida da Conceição - reprografia - óbito.pdf
+1 SOUR 19461224 - Maria Cândida da Conceição - Certidão de Óbito.pdf
+1 BIRT
+2 DATE 20 OCT 1867
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 DEAT LUGAR DENOMINADO MURO DE PEDRA EM MADRE DE DEUS DE MINAS - MG
+2 DATE 24 DEC 1946
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 FAMC @F61@
+1 FAMS @F31@
+0 @I85@ INDI
+1 NAME José Eugenio /Ribeiro/
+1 SEX M
+1 SOUR 19520106 - Jose Eugenio Ribeiro - óbito.pdf
+1 SOUR 19230603 - Agripina - filha de José Eugênio Ribeiro e Maria Salomé de Carvalho.pdf
+1 SOUR 19200928 - Maria - afilhada de José Eugênio Ribeiro e Maria Salomé de Carvalho.pdf
+1 SOUR 20130123 - Pedro Carvalho Ribeiro - óbito.pdf
+1 _MEM Zeferina Sergia de Jesus - Maria Salomé de Carvalho e José Eugênio Ribeiro.jpg
+1 BIRT
+2 DATE 1883
+2 PLAC São Sebastião da Vitoria, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 6 JAN 1952
+2 PLAC São Paulo, São Paulo, Brazil
+1 OCCU aposentado
+2 DATE 6 JAN 1952
+2 PLAC São Paulo, São Paulo, Brasil
+1 RESI Av Miruna, 2515 - Planalto Paulista
+2 DATE 6 JAN 1952
+2 PLAC São Paulo, São Paulo, Brasil
+1 FAMC @F67@
+1 FAMS @F35@
+0 @I86@ INDI
+1 NAME Maria Salomé de /Carvalho/
+1 SEX F
+1 SOUR 19751121 - Maria Salomé de Carvalho - Certidão de óbito.pdf
+1 SOUR 19751121 - Maria Salomé de Carvalho - óbito.pdf
+1 SOUR 19090721 - Geralda - filha de José Eugenio Ribeiro e Maria Salomé.jpg
+1 SOUR 19091006 - Evilasio Eugenio Ribeiro - batismo.pdf
+1 SOUR 19571128 - Maria Salomé de Carvalho - despejo.pdf
+1 SOUR 20010219 - DOU - Maria Salomé de Carvalho (usucapião).pdf
+1 SOUR 19110218 - joaquim - filho de José Eugenio Ribeiro e Maria Salomé.jpg
+1 SOUR 19530811 - Diário do Congresso Nacional.pdf
+1 SOUR 19230603 - Agripina - filha de José Eugênio Ribeiro e Maria Salomé de Carvalho.pdf
+1 SOUR 19200928 - Maria - afilhada de José Eugênio Ribeiro e Maria Salomé de Carvalho.pdf
+1 SOUR 20130123 - Pedro Carvalho Ribeiro - óbito.pdf
+1 _MEM Zeferina Sergia de Jesus - Maria Salomé de Carvalho e José Eugênio Ribeiro.jpg
+1 BIRT
+2 DATE 1886
+2 PLAC Porto do Turvo, Minas Gerais, Brazil
+1 DEAT
+2 DATE 21 NOV 1975
+2 PLAC São Paulo, São Paulo, Brazil
+1 BURI
+2 DATE 22 NOV 1975
+2 PLAC São Paulo, São Paulo, Brazil
+1 EVEN
+2 DATE 22 NOV 1975
+2 PLAC Bela Vista, São Paulo, São Paulo, Brazil
+1 OCCU aposentada
+1 EVEN branca
+1 RESI Av Miruna, 2529 - Planalto Paulista
+2 DATE 11 AGO 1953
+2 PLAC São Paulo, São Paulo, Brazil
+1 RESI Rua Margacin, 36 - Cidade Ademar
+2 DATE NOV 1975
+2 PLAC São Paulo, São Paulo, Brazil
+1 FAMC @F75@
+1 FAMS @F35@
+0 @I108@ INDI
+1 NAME Tomaz Joaquim dos /Santos/
+1 SEX M
+1 SOUR 18881112 - Thomaz Joaquim - Casamento.pdf
+1 BIRT
+2 DATE 1864
+2 PLAC Bom Sucesso, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F46@
+0 @I109@ INDI
+1 NAME Ana Candida de /Jesus/
+1 SEX F
+1 SOUR 18881112 - Thomaz Joaquim - Casamento.pdf
+1 BIRT
+2 DATE 1864
+2 PLAC Bom Sucesso, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F46@
+0 @I110@ INDI
+1 NAME Manoel Vicente /Ferreira/
+1 SEX M
+1 BIRT
+2 PLAC Panchthar, Koshi, Nepal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F47@
+0 @I111@ INDI
+1 NAME Maria Antonia de /Souza/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F47@
+0 @I112@ INDI
+1 NAME Joao Gonsalves /Braga/
+1 SEX M
+1 SOUR 18630815 - João Antonio Goncalves e Maria Claudina Meireles - casamento.pdf
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F765@
+1 FAMS @F48@
+0 @I113@ INDI
+1 NAME Maria Claudina /Meirelles/
+1 SEX F
+1 SOUR 18630815 - João Antonio Goncalves e Maria Claudina Meireles - casamento.pdf
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F80@
+1 FAMS @F48@
+0 @I120@ INDI
+1 NAME José Maria do /Nascimento/
+1 SEX M
+1 SOUR 18640921 - Jose Maria do Nascimento e Rozalina Maria de Jesus - casamento.pdf
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F81@
+1 FAMS @F49@
+0 @I121@ INDI
+1 NAME Rozalina Maria de /Jesus/
+1 SEX F
+1 SOUR 18640921 - Jose Maria do Nascimento e Rozalina Maria de Jesus - casamento.pdf
+1 BIRT
+2 DATE 1838
+1 DEAT
+2 DATE DECEASED
+1 EVEN
+2 DATE 14 MAR 1913
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 FAMC @F82@
+1 FAMS @F49@
+0 @I129@ INDI
+1 NAME José Ignácio Alves /Lima/
+1 SEX M
+1 SOUR 18001020 - José Ignácio Alves Lima - batismo.pdf
+1 SOUR 18450705 - Claudina Justiniana de Jesus - Inventário.pdf
+1 SOUR 17620914 - Ana - filha de Joaquim Lopes Siqueira - padrinhos José Ignácio e Rita Firmina - Estevão e Mariana - escravos.pdf
+1 SOUR 18490525 - Felisbina Maria da Conceição - inventario(josé ignacio alves lima).pdf
+1 SOUR 18560328 - José Ignácio Alves Lima (terras).pdf
+1 SOUR 18460222 - Jose Ignacio Alves Lima - 2 casamento.pdf
+1 SOUR 18731103 - Vicente - ex ecravo de José Ignácio Alves.png
+1 SOUR 18791219 - Claudina Antonia de Jesus - inventário.pdf
+1 SOUR 18400816 - Madre de Deus - censo.pdf
+1 SOUR 18370204 - José Ignácio Alves Lima - Juiz de Paz em Madre de Deus.pdf
+1 SOUR 18420217 - José Ignacio assina manifesto sobre revolta de 1842 - O Maiorista.pdf
+1 NOTE 1856 - Registro de terras: Capão das Antas, Retiro Velho e Carumbé.
+1 NOTE Conteúdo da edição "O Astro de Minas". A página (número 4) traz um edital da Câmara Municipal de São João del-Rei datado de 28 de janeiro de 1837. O texto lista os cidadãos juramentados e empossados no cargo de Juiz de Paz nos diversos distritos da vila (como Distrito da Vila, Cajuru, Santo Antônio do Rio das Mortes, Piedade do Rio Grande, Madre de Deus, Carrancas, Nazaré, entre outros), correspondente à edição nº 1433, publicada em 4 de fevereiro de 1837.
+1 BIRT
+2 DATE 20 OCT 1800
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 CHR
+2 DATE 20 OCT 1800
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 DEAT
+2 DATE BEF 11 AUG 1882
+2 PLAC Minas Gerais, Brazil
+1 RESI Sítio Capão Das Antas
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 EVEN Capitão
+1 OCCU Juiz de Paz durante Censo populacional
+2 DATE 16 AGO 1840
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 OCCU Juiz de Paz
+2 DATE 4 FEV 1837
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 OCCU tenente, comandante da Guarda Nacional
+2 DATE 17 FEV 1842
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 FAMC @F83@
+1 FAMS @F51@
+0 @I130@ INDI
+1 NAME Rita Firmina /Leonor/
+1 SEX F
+1 SOUR 18650207 - Maria Pocidonia Marques - inventário.pdf
+1 SOUR 18851018 - Joaquim escravo de Rita Firmina Leonor.png
+1 SOUR 18890523 - Inventário - Rita Firmina Leonor.pdf
+1 SOUR 18840725 - Sabina - ex escrava de Rita Firmina Leonor.png
+1 BIRT
+2 DATE 1818
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE ABT 1890
+1 FAMC @F93@
+1 FAMS @F51@
+0 @I135@ INDI
+1 NAME José Bernardino do Carmo /Sandim/
+1 SEX M
+1 SOUR 18510000 - Bernardino José Gomes Sandim e Francisca Leopoldina de Araújo - Assentos Morro Grande.pdf
+1 SOUR 18510000 - José Bernardino do Carmo Sandim - Assentos Morro Grande.pdf
+1 SOUR 18791219 - Claudina Antonia de Jesus - inventário.pdf
+1 SOUR 18720428 - José Bernardino do Carmo Sandim e Maria Rita de Jesus - casamento.pdf
+1 SOUR 18780612 - José Bernardino do Carmo Sandim e Claudina Maria de Jesus - casamento.pdf
+1 NOTE batizada sub conditione
+1 _MEM José Bernardino do Carmo Sandim.jpg
+1 _MEM Emília Augusta e José Bernardino.jpg
+1 BIRT
+2 DATE ABT 1851
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE 1899
+2 PLAC Minas Gerais, Brazil
+1 FAMC @F749@
+1 FAMS @F75@
+0 @I146@ INDI
+1 NAME Manoel Alves /Ribeiro/
+1 SEX M
+1 SOUR 18510401 - Thereza Antonia de Souza - inventário.pdf
+1 SOUR 18400816 - José Alves Ribeiro e família - Relação de Habitantes de Madre de Deus.pdf
+1 SOUR 18671020 - Maria Cândida da Conceição - batismo.pdf
+1 SOUR 18770517 - Francisco Alves Ribeiro e Ana Ribeiro de Jesus - casamento.pdf
+1 BIRT
+2 DATE 1824
+2 PLAC Minas Gerais, Brazil
+1 CHR
+2 DATE 1825
+1 DEAT
+2 DATE ABT 1894
+1 RESI Censo de 1840
+2 DATE 16 AUG 1840
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 FAMC @F100@
+1 FAMS @F61@
+0 @I147@ INDI
+1 NAME Marcellina Maria de /Jesus/
+1 SEX F
+1 SOUR 18510401 - Thereza Antonia de Souza - inventário.pdf
+1 BIRT
+2 DATE ABT 1829
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 1897
+1 FAMC @F87@
+1 FAMS @F61@
+0 @I156@ INDI
+1 NAME Eugênio Ribeiro da /Silva/
+1 SEX M
+1 SOUR 18730914 - Eugenio Ribeiro da Silva e Zeferina Maria de Jesus - casamento.pdf
+1 SOUR Revista da ASBRAP 17 Art 19.pdf
+1 BIRT
+2 PLAC São Sebastião da Vitoria, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 3 NOV 1944
+2 PLAC São Sebastião da Vitoria, São João del Rei, Minas Gerais, Brazil
+1 FAMC @F103@
+1 FAMS @F67@
+0 @I157@ INDI
+1 NAME Zeferina Maria de /Jesus/
+1 SEX F
+1 SOUR 18601020 - Zeferina Maria de Jesus - batismo.pdf
+1 SOUR 18601020 - Zeferina Maria de Jesus - batismo pt2.pdf
+1 SOUR 18730914 - Eugenio Ribeiro da Silva e Zeferina Maria de Jesus - casamento.pdf
+1 SOUR Revista da ASBRAP 17 Art 19.pdf
+1 BIRT
+2 DATE 26 SEP 1860
+2 PLAC São Sebastião da Vitoria, São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 20 OCT 1860
+1 DEAT
+2 DATE DECEASED
+1 EVEN Mesmo nome da neta
+1 FAMC @F104@
+1 FAMS @F67@
+0 @I172@ INDI
+1 NAME Emília Augusta de /Carvalho/
+1 SEX F
+1 SOUR 18820000 - RITA DE CÁSSIA DE RESENDE - inventário.pdf
+1 _MEM Emília Augusta de Carvalho.jpg
+1 _MEM Emília Augusta e José Bernardino.jpg
+1 _MEM Emília Augusta de Carvalho e o filho João Gonçalves.jpg
+1 BIRT
+2 DATE ABT 1860
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F107@
+1 FAMS @F75@
+0 @I182@ INDI
+1 NAME Maria Candida de /Jesus/
+1 SEX F
+1 SOUR 18630815 - João Antonio Goncalves e Maria Claudina Meireles - casamento.pdf
+1 BIRT
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F80@
+0 @I183@ INDI
+1 NAME Francisco Joaquim do /Nascimento/
+1 SEX M
+1 SOUR 18640921 - Jose Maria do Nascimento e Rozalina Maria de Jesus - casamento.pdf
+1 BIRT
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F81@
+0 @I184@ INDI
+1 NAME Maria Cândida do /Nascimento/
+1 SEX F
+1 SOUR 18640921 - Jose Maria do Nascimento e Rozalina Maria de Jesus - casamento.pdf
+1 BIRT
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F81@
+0 @I185@ INDI
+1 NAME maria /francisca/
+1 SEX F
+1 SOUR 18640921 - Jose Maria do Nascimento e Rozalina Maria de Jesus - casamento.pdf
+1 BIRT
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F82@
+0 @I186@ INDI
+1 NAME Inácio Alves /Lima/
+1 SEX M
+1 SOUR 17811021 - Ignácio e Antônio Alves Lima - batismo.pdf
+1 SOUR 17990903 - Ignácio Alves Lima - casamento.pdf
+1 BIRT
+2 DATE 21 OCT 1781
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 21 OCT 1781
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 1853
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F114@
+1 FAMS @F83@
+0 @I187@ INDI
+1 NAME Floriana Antônia de São /José/
+1 SEX F
+1 SOUR 17840508 - Floriana Antonia de São José - batismo.pdf
+1 SOUR 17990903 - Ignácio Alves Lima - casamento.pdf
+1 BIRT
+2 DATE ABT 1784
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 CHR
+2 DATE 8 MAY 1784
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F127@
+1 FAMS @F83@
+0 @I195@ INDI
+1 NAME Maria Ignácia de /Jesus/
+1 SEX F
+1 SOUR 18510401 - Thereza Antonia de Souza - inventário.pdf
+1 BIRT
+2 DATE ABT 1806
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F83@
+1 FAMS @F87@
+0 @I196@ INDI
+1 NAME Joaquim Gomes /Sandim/
+1 SEX M
+1 SOUR 18510401 - Thereza Antonia de Souza - inventário.pdf
+1 SOUR 18320202 - Faustina - filha de Francisco de Nação e Domingas Crioula escravos de Joaquim Gomes Sandim.pdf
+1 SOUR 18291130 - óbito de Antônio filho de Lourenço e Maria - escravos de Joaquim Gomes Sandim.pdf
+1 SOUR 18400929 - óbito de Joaquim Gomes Sandim.pdf
+1 NOTE Causa da morte:  asma. Idade: 51 anos
+1 BIRT
+2 DATE ABT 1789
+1 DEAT
+2 DATE 29 SEP 1840
+2 PLAC Pouso Alegre, Campanha da Princesa da Beira, Minas Gerais, Brazil
+1 BURI
+2 DATE 1 APR 1851
+1 FAMC @F750@
+1 FAMS @F87@
+0 @I208@ INDI
+1 NAME Antonio Alves /Pedrosa/
+1 SEX M
+1 SOUR 18120909 - Antonio Alves Pedrosa - casamento.pdf
+1 SOUR 00000000 - Descendência de Manoel Alves Pedrosa e Maria da Assunção - cap 5.pdf
+1 SOUR 18110000 - Francisco Antônio Alves - nascimento.pdf
+1 BIRT
+2 DATE 1791
+2 PLAC Ibituruna, Minas Gerais, Brazil
+1 DEAT
+2 DATE 1868
+1 FAMC @F137@
+1 FAMS @F93@
+0 @I209@ INDI
+1 NAME Maria Possidônia Marques de /Assunção/
+1 SEX F
+1 SOUR 18650207 - Maria Pocidonia Marques - inventário.pdf
+1 SOUR 17941121 - Maria Possidonia Marques de Assunção - batismo.pdf
+1 SOUR 00000000 - Descendência de Manoel Alves Pedrosa e Maria da Assunção - cap 5_2.pdf
+1 SOUR 18120909 - Antonio Alves Pedrosa - casamento.pdf
+1 BIRT
+2 DATE 1794
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 18 NOV 1794
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 2 APR 1864
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 FAMC @F150@
+1 FAMS @F93@
+0 @I229@ INDI
+1 NAME José Alves /Ribeiro/
+1 SEX M
+1 SOUR 18000310 - José Alves Ribeiro  - batismo.pdf
+1 SOUR 18400816 - José Alves Ribeiro e família - Relação de Habitantes de Madre de Deus.pdf
+1 SOUR 18600810 - Casamento de José Alves Ribeiro e Antônia Maria Theodora.pdf
+1 BIRT
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 10 MAR 1800
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F122@
+1 FAMS @F100@
+0 @I230@ INDI
+1 NAME Venância Bernardina de /Jesus/
+1 SEX F
+1 SOUR 18040708 - Venancia Bernardina de Jesus - batismo.pdf
+1 SOUR 18400816 - José Alves Ribeiro e família - Relação de Habitantes de Madre de Deus.pdf
+1 SOUR MANOEL ALVES VALLE.pdf
+1 CHR
+2 DATE 8 JUL 1804
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE ABT 1859
+1 FAMC @F157@
+1 FAMS @F100@
+0 @I241@ INDI
+1 NAME Francisco Ribeiro Da /Silva/
+1 SEX M
+1 SOUR Distrito-de-Sao-Sebastiao-da-Vitoria.pdf
+1 BIRT
+2 DATE 1823
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 PLAC São Sebastião da Vitoria, São João del Rei, Minas Gerais, Brazil
+1 FAMS @F103@
+0 @I242@ INDI
+1 NAME Possidônia Cândida de /Jesus/
+1 SEX F
+1 SOUR Distrito-de-Sao-Sebastiao-da-Vitoria.pdf
+1 BIRT
+2 DATE 1826
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMS @F103@
+0 @I243@ INDI
+1 NAME Manoel Luiz do /Nascimento/
+1 SEX M
+1 SOUR Revista da ASBRAP 17 Art 19.pdf
+1 SOUR 18580608 - Manoel Luiz do Nascimento e Severina (Zeferina) Maria de Jesus - casamento.pdf
+1 NOTE Casamento realizado no oratório da casa de João José da Costa
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F104@
+0 @I244@ INDI
+1 NAME Severina Maria de /Jesus/
+1 SEX F
+1 SOUR Revista da ASBRAP 17 Art 19.pdf
+1 SOUR 18580608 - Manoel Luiz do Nascimento e Severina (Zeferina) Maria de Jesus - casamento.pdf
+1 NOTE Casamento realizado no oratório da casa de João José da Costa
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F104@
+0 @I251@ INDI
+1 NAME João Antonio de /Carvalho/
+1 SEX M
+1 SOUR 18550702 - Mariana Antonia de Jesus - inventário.pdf
+1 SOUR 18820000 - RITA DE CÁSSIA DE RESENDE - inventário.pdf
+1 BIRT
+2 DATE 1838
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE ABT 1895
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F159@
+1 FAMS @F107@
+0 @I252@ INDI
+1 NAME Rita de Cássia de /Resende/
+1 SEX F
+1 SOUR 18820000 - RITA DE CÁSSIA DE RESENDE - inventário.pdf
+1 BIRT
+2 DATE 1845
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 11 MAY 1882
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F163@
+1 FAMS @F107@
+0 @I265@ INDI
+1 NAME José Alves de /Lima/
+1 SEX M
+1 SOUR 17630301 - José Alves Lima - filiação - Requerimento Santo Ofício.pdf
+1 SOUR 17210920 - José Alves Lima - batismo.pdf
+1 SOUR 17210920 - José Alves Lima - batismo pt2.pdf
+1 SOUR 17630214 - José Alves Lima e Ana Maria da Conceição - casamento.pdf
+1 SOUR 17630214 - Capitão José Alves Lima - família.pdf
+1 SOUR 17671006 - Sesmaria - Cap José Alves Lima.pdf
+1 SOUR 17671214 - José Alves Lima - Carta Patente de Confirmação.jpg
+1 SOUR 17690615 - Alvará Régio - Cap. José Alves Lima.pdf
+1 SOUR 17690615 - José Alves Lima - pedido de confirmação.jpg
+1 SOUR 17850816 - Capitão José Alves Lima - requerimento engenho.jpg
+1 BIRT
+2 DATE 20 SEP 1721
+2 PLAC São Tiago, Castelo do Neiva, Viana do Castelo, Viana do Castelo, Portugal
+1 CHR
+2 DATE 22 SEP 1722
+2 PLAC São Tiago, Castelo do Neiva, Viana do Castelo, Viana do Castelo, Portugal
+1 DEAT
+2 DATE 31 JUL 1791
+2 PLAC Aiuruoca, Minas Gerais, Brazil
+1 EVEN
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN Capitão
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 FAMC @F171@
+1 FAMS @F114@
+0 @I266@ INDI
+1 NAME Ana Maria da /Conceição/
+1 SEX F
+1 SOUR 17450908 - Ana Maria da Conceição - batismo.pdf
+1 SOUR 17630214 - Capitão José Alves Lima - família.pdf
+1 SOUR 17630214 - José Alves Lima e Ana Maria da Conceição - casamento.pdf
+1 SOUR 18120000 - Ana Maria da Conceição - inventario.pdf
+1 BIRT
+2 DATE 8 SEP 1745
+2 PLAC Aiuruoca, Minas Gerais, Brazil
+1 CHR
+2 PLAC Aiuruoca, Minas Gerais, Brazil
+1 DEAT
+2 DATE 1812
+2 PLAC Aiuruoca, Minas Gerais, Brazil
+1 FAMC @F172@
+1 FAMS @F114@
+0 @I283@ INDI
+1 NAME José Álvares de /Lima/
+1 SEX M
+1 SOUR 17990506 - José Alves Lima e Maria Ribeiro de Jesus - casamento.jpg
+1 BIRT
+2 DATE 1778
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 7 JUN 1778
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 PLAC Minas Gerais, Brazil
+1 FAMC @F114@
+1 FAMS @F122@
+0 @I284@ INDI
+1 NAME Maria Ribeiro de /Jesus/
+1 SEX F
+1 SOUR 18530703 - testamento Maria Ribeiro de Jesus pt1.jpg
+1 SOUR 18530703 - testamento Maria Ribeiro de Jesus pt2.jpg
+1 SOUR 18530703 - testamento Maria Ribeiro de Jesus pt3.jpg
+1 SOUR 17990506 - José Alves Lima e Maria Ribeiro de Jesus - casamento.jpg
+1 SOUR 17810120 - Maria Ribeiro de Jesus - batismo.pdf
+1 BIRT
+2 DATE 1781
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 CHR
+2 DATE 20 JAN 1781
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 DEAT
+2 DATE 19 JUN 1854
+2 PLAC Jacuí, Minas Gerais, Brazil
+1 FAMC @F753@
+1 FAMS @F122@
+0 @I293@ INDI
+1 NAME João Alves /Pedrosa/
+1 SEX M
+1 SOUR 17790608 - Alferes João Alves Pedrosa - casamento.pdf
+1 SOUR 18050916 - Alferes João Alves Pedrosa - inventário.pdf
+1 BIRT
+2 DATE 1757
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 CHR
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 DEAT
+2 DATE 28 JUL 1805
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 EVEN Alferes
+1 FAMC @F174@
+1 FAMS @F127@
+0 @I294@ INDI
+1 NAME Maria Fernandes de São /José/
+1 SEX F
+1 SOUR 17790608 - Alferes João Alves Pedrosa - casamento.pdf
+1 SOUR 18300627 - Maria Fernandes de São José - sepultamento e testamento.pdf
+1 SOUR 18300627 - Maria Fernandes de São José - testamento cont e aditamento.pdf
+1 SOUR 18050916 - Alferes João Alves Pedrosa - inventário.pdf
+1 BIRT
+2 DATE 1760
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE 27 JUN 1830
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
+1 FAMC @F187@
+1 FAMS @F127@
+0 @I315@ INDI
+1 NAME José Alvares /Pedrosa/
+1 SEX M
+1 SOUR 17820826 - José Alves Pedrosa - casamento.pdf
+1 SOUR 18310101 - José Alves Pedrosa - mapa de população.pdf
+1 SOUR 18170324 - Leonor Maria da Assunção e 18320620 - José Alves Pedrosa - inventario e test.pdf
+1 BIRT
+2 DATE 1758
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 DEAT
+2 DATE 18 JUN 1832
+2 PLAC Ibituruna, Minas Gerais, Brazil
+1 EVEN
+2 DATE 20 JUN 1832
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 RESI Fazenda Bocaina
+1 OCCU Lavrador
+1 FAMC @F174@
+1 FAMS @F137@
+0 @I316@ INDI
+1 NAME Leonor Maria da /Assumpção/
+1 SEX F
+1 SOUR 17820826 - José Alves Pedrosa - casamento.pdf
+1 SOUR 17670618 - Leonor Maria da Assunção - batismo.pdf
+1 SOUR 18170324 - Leonor Maria da Assunção e 18320620 - José Alves Pedrosa - inventario e test.pdf
+1 BIRT
+2 DATE 7 JUN 1767
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 CHR
+2 DATE 18 JUN 1767
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE 26 NOV 1816
+2 PLAC Ibituruna, Minas Gerais, Brazil
+1 RESI
+2 PLAC Piedade, São Paulo, Brazil
+1 RESI
+2 PLAC Nossa Senhora do Pilar, Ouro Preto, Minas Gerais, Brazil
+1 FAMC @F187@
+1 FAMS @F137@
+0 @I339@ INDI
+1 NAME Domingos Marques /Pereira/
+1 SEX M
+1 SOUR 18261213 - Domingos Marques Pereira - inventário.pdf
+1 BIRT
+2 DATE ABT 1770
+2 PLAC Minas Gerais, Brazil
+1 DEAT
+2 DATE 9 SEP 1826
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 RESI Fazenda Ribeirão dos Cavalos
+2 DATE 1826
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 EVEN Alferes
+1 FAMS @F150@
+0 @I340@ INDI
+1 NAME Rosa Maria de São /José/
+1 SEX F
+1 SOUR 17730614 - Rosa Maria de São José - batismo.pdf
+1 SOUR 17730614 - Rosa Maria de São José.pdf
+1 SOUR 18310101 - Rosa Maria de São José - mapa de população - Piedade do Rio Grande.pdf
+1 SOUR 18390101 - José Alves Pedrosa - Rosa Maria de São José - Mapa de população - Piedade do Rio Grande.pdf
+1 BIRT
+2 DATE 14 Jun 1773
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 14 JUN 1773
+2 PLAC Santana do Garambéu, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 RESI Foram moradores na Fazenda Ribeirão dos Cavalos da qual eram os maiores proprietários, por herança e compra.
+1 FAMC @F195@
+1 FAMS @F150@
+0 @I356@ INDI
+1 NAME Graciano Alves de /Morais/
+1 SEX M
+1 SOUR 17791010 - Graciano Alves de Moraes - batismo (Pilar).pdf
+1 SOUR 18310423 - Graciano Alvares de Moraes - censo Madre de Deus.pdf
+1 SOUR 18020827 - Graciano Alves de Moraes e Ana Bernardina Emerenciana - casamento.pdf
+1 SOUR Manoel Francisco da Silva e os antigos troncos paulistas.pdf
+1 SOUR MANOEL ALVES VALLE.pdf
+1 SOUR 18400816 - Madre de Deus - censo.pdf
+1 SOUR 1897-1898 - Recenseamento eleitoral - Graciano Alves de Moraes.pdf
+1 SOUR 18420217 - José Ignacio assina manifesto sobre revolta de 1842 - O Maiorista.pdf
+1 NOTE sabia ler, segundo o Censo de 16 de agosto 1840
+1 NOTE Listado no recenseamento eleitoral 1897-1898
+1 NOTE Listado no manifesto publicado no Jornal O Maioral em 17 de fevereiro 1842.
+1 CHR
+2 DATE 10 OCT 1779
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 DEAT
+2 DATE 11 NOV 1853
+2 PLAC Nazaré, São João del Rei, Minas Gerais, Brazil
+1 OCCU lavrador
+2 DATE 16 AGO 1840
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 FAMC @F207@
+1 FAMS @F157@
+0 @I357@ INDI
+1 NAME Ana Bernardina Emerenciana de /Almeida/
+1 SEX F
+1 SOUR 18020827 - Graciano Alves de Moraes e Ana Bernardina Emerenciana - casamento.pdf
+1 SOUR MANOEL ALVES VALLE.pdf
+1 CHR
+2 DATE 6 JUL 1770
+2 PLAC Aiuruoca, Minas Gerais, Brazil
+1 DEAT
+2 DATE 7 JUN 1819
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 FAMC @F215@
+1 FAMS @F157@
+0 @I366@ INDI
+1 NAME Antônio José de /Ávila/
+1 SEX M
+1 SOUR 18160128 - Antonio José de Avila - batismo.pdf
+1 SOUR 18550702 - Mariana Antonia de Jesus - inventário.pdf
+1 BIRT
+2 DATE 1816
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 CHR
+2 DATE 28 JAN 1816
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F225@
+1 FAMS @F159@
+0 @I367@ INDI
+1 NAME Mariana Antônia de /Jesus/
+1 SEX F
+1 SOUR 18550702 - Mariana Antonia de Jesus - inventário.pdf
+1 BIRT
+2 DATE 1818
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 16 JAN 1853
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F229@
+1 FAMS @F159@
+0 @I376@ INDI
+1 NAME João Inácio de /Carvalho/
+1 SEX M
+1 SOUR 18551010 - João Inácio de Carvalho - inventário.pdf
+1 SOUR 1838 - João Ignácio de Carvalho - mapa de população.jpg
+1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 BIRT
+2 DATE 1809
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 2 FEB 1855
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN Tenente
+1 OCCU lavrador
+2 DATE 1838
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 OCCU proprietário
+2 DATE 23 JAN 1842
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F229@
+1 FAMS @F163@
+0 @I377@ INDI
+1 NAME Ilidia Mafalda de /Resende/
+1 SEX F
+1 SOUR 1838 - João Ignácio de Carvalho - mapa de população.jpg
+1 SOUR 18551010 - João Inácio de Carvalho - inventário.pdf
+1 BIRT
+2 DATE ABT 1822
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 29 APR 1884
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN
+2 DATE AFT 29 APR 1884
+1 OCCU lavradora
+2 DATE 1838
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F238@
+1 FAMS @F163@
+0 @I391@ INDI
+1 NAME Manuel /Gomes/
+1 SEX M
+1 BIRT
+2 DATE 16 NOV 1681
+2 PLAC Barcelos, Braga, Portugal
+1 CHR
+2 DATE 16 NOV 1681
+2 PLAC Barcelos, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F243@
+1 FAMS @F171@
+0 @I392@ INDI
+1 NAME Francisca /Álvares/
+1 SEX F
+1 BIRT
+2 DATE 23 AUG 1687
+2 PLAC Barcelos, Braga, Portugal
+1 CHR
+2 DATE 23 AUG 1687
+2 PLAC São Sebastião, Darque, Viana do Castelo, Viana do Castelo, Portugal
+1 DEAT
+2 DATE 5 JAN 1745
+2 PLAC Viana do Castelo, Viana do Castelo, Portugal
+1 FAMC @F244@
+1 FAMS @F171@
+0 @I394@ INDI
+1 NAME Manuel de Souza /Vieira/
+1 SEX M
+1 SOUR 17420900 - Manoel de Souza Vieira - terras minerais.jpg
+1 SOUR 17420901 - Manoel de Souza Vieira - terras minerais.jpg
+1 SOUR 17480000 - Manoel de Souza Vieira - inventario.pdf
+1 BIRT
+2 DATE 16 MAY 1704
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 22 MAY 1704
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE ABT 1748
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F245@
+1 FAMS @F172@
+0 @I395@ INDI
+1 NAME Quitéria Maria da /Conceição/
+1 SEX F
+1 SOUR 17210320 - Quiteria Maria da Conceição - batismo.pdf
+1 SOUR 17550211 - Quitéria da Conceição - casamento e resumo.pdf
+1 SOUR 17550211 - Quitéria da Conceição - casamento.pdf
+1 BIRT
+2 DATE 20 MAR 1721
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 20 MAR 1721
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 10 APR 1819
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 FAMC @F247@
+1 FAMS @F172@
+0 @I399@ INDI
+1 NAME Manuel Alves /Pedrosa/
+1 SEX M
+1 SOUR 18031018 - TESTAMENTO DE MANOEL ALVES PEDROSA.pdf
+1 SOUR 17150609 - Manoel Alves Pedrosa - batismo.pdf
+1 SOUR Descendência de Manoel Alves Pedrosa e Maria da Assunção.pdf
+1 BIRT
+2 DATE 7 JUN 1715
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 13 JUN 1715
+2 PLAC Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 7 JUN 1808
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 RESI
+2 DATE ABT 1750
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 RESI
+2 DATE ABT 1750
+2 PLAC Arcângelo, São João del Rei, Minas Gerais, Brazil
+1 EVEN
+2 DATE 18 OCT 1803
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
+1 FAMC @F257@
+1 FAMS @F174@
+0 @I400@ INDI
+1 NAME Maria da Assunção /Franco/
+1 SEX F
+1 SOUR 00000000 - Os Alves Pedrosa.pdf
+1 SOUR Descendência de Manoel Alves Pedrosa e Maria da Assunção.pdf
+1 BIRT
+2 DATE ABT 1732
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE ABT 1735
+2 PLAC Nossa Senhora do Pilar, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 15 JAN 1772
+2 PLAC Emboabas, São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN
+2 DATE 20 APR 1772
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F261@
+1 FAMS @F174@
+0 @I424@ INDI
+1 NAME Antônio Fernandes /Lima/
+1 SEX M
+1 SOUR 00000000 - Antonio Fernandes Lima.pdf
+1 SOUR 17950622 - Antonio Fernandes Lima e 18310110 - Rita Maria de São José.pdf
+1 SOUR 17100907 - Manoel Rodrigues Pires e 17100320 - Maria Jacinta.pdf
+1 SOUR 17590623 - Antonio Fernandes Lima - sesmaria.jpg
+1 SOUR 17590623 - Antonio Fernandes Lima - sesmaria pt 2.jpg
+1 SOUR 18080430 -Bernardino Alves Pedrosa e Narcisa Maria do Nascimento-casamento-pt1.pdf
+1 SOUR 18080430 -Bernardino Alves Pedrosa e Narcisa Maria do Nascimento-casamento-pt2.pdf
+1 BIRT
+2 DATE ABT 1724
+2 PLAC Barcelos, Braga, Portugal
+1 DEAT
+2 DATE 8 MAY 1795
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F265@
+1 FAMS @F187@
+0 @I425@ INDI
+1 NAME Rita Maria de São /José/
+1 SEX F
+1 SOUR 00000000 - Antonio Fernandes Lima.pdf
+1 SOUR 17950622 - Antonio Fernandes Lima e 18310110 - Rita Maria de São José.pdf
+1 SOUR 18280920 - Padre João Fernandes Lima pt1.pdf
+1 SOUR 18280920 - Padre João Fernandes Lima pt2.pdf
+1 SOUR 17100907 - Manoel Rodrigues Pires e 17100320 - Maria Jacinta.pdf
+1 BIRT
+2 DATE 13 MAR 1735
+2 PLAC Madalena, Pico, Azores, Portugal
+1 CHR
+2 DATE 22 MAR 1735
+2 PLAC Madalena, Pico, Azores, Portugal
+1 DEAT
+2 DATE 11 MAR 1829
+2 PLAC Piau, Minas Gerais, Brazil
+1 FAMC @F268@
+1 FAMS @F187@
+0 @I441@ INDI
+1 NAME José Rabelo de /Macedo/
+1 SEX M
+1 SOUR Cap 9 MARIA DE CARVALHO DUARTE.pdf
+1 SOUR 18030105 - José Rabelo de Macedo e 1820 - Maria de Carvalho Duarte - invent.pdf
+1 BIRT
+2 DATE 22 SEP 1726
+2 PLAC Vizela, Braga, Portugal
+1 CHR
+2 DATE 26 SEP 1726
+2 PLAC Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 5 JAN 1803
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 RESI Viveram na fazenda Ribeirão dos Cavalos perto de Prados e São José (atual Tiradentes), MG.
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 RESI Viveram na fazenda Ribeirão dos Cavalos perto de Prados e São José (atual Tiradentes), MG
+2 PLAC Prados, Minas Gerais, Brazil
+1 RESI
+2 PLAC Paraíba do Sul, Rio de Janeiro, Brazil
+1 FAMC @F272@
+1 FAMS @F195@
+0 @I442@ INDI
+1 NAME Maria de Carvalho /Duarte/
+1 SEX F
+1 SOUR 17371029 - Maria de Carvalho Duarte - batismo.pdf
+1 SOUR 18030105 - José Rabelo de Macedo e 1820 - Maria de Carvalho Duarte - invent.pdf
+1 SOUR Cap 9 MARIA DE CARVALHO DUARTE.pdf
+1 BIRT
+2 DATE 1737
+2 PLAC Prados, Minas Gerais, Brazil
+1 CHR
+2 DATE 29 OCT 1737
+2 PLAC Prados, Minas Gerais, Brazil
+1 DEAT
+2 DATE 6 OCT 1823
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 EVEN
+2 DATE 14 APR 1822
+1 RESI Fazenda Ribeirão dos Cavalos perto de Prados e São José Del Rei (atual Tiradentes/MG)
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 FAMC @F273@
+1 FAMS @F195@
+0 @I466@ INDI
+1 NAME João Alves de /Moraes/
+1 SEX M
+1 SOUR 17640423 - João Alves de Moraes e Ana Esmeria de Brito - casamento.pdf
+1 SOUR Manoel Francisco da Silva e os antigos troncos paulistas.pdf
+1 SOUR MANOEL ALVES VALLE.pdf
+1 BIRT
+2 DATE ABT 1728
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE 2 MAY 1796
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
+1 FAMC @F290@
+1 FAMS @F207@
+0 @I467@ INDI
+1 NAME Anna Esméria de /Brito/
+1 SEX F
+1 SOUR 17640423 - João Alves de Moraes e Ana Esmeria de Brito - casamento.pdf
+1 SOUR Manoel Francisco da Silva e os antigos troncos paulistas.pdf
+1 SOUR MANOEL ALVES VALLE.pdf
+1 BIRT
+2 DATE ABT 1748
+2 PLAC Baependi, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F297@
+1 FAMS @F207@
+0 @I483@ INDI
+1 NAME Manoel Francisco da /Silva/
+1 SEX M
+1 SOUR 17701021 - batismo de Francisca - filha de Manoel Francisco da Silva e Ana Maria de Almeida.pdf
+1 SOUR Manoel Francisco da Silva e os antigos troncos paulistas.pdf
+1 SOUR 17691206 - Manoel Francisco da Silva e Ana Maria de Almeida - casamento.pdf
+1 BIRT
+2 DATE 4 MAR 1709
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 CHR
+2 DATE 6 MAR 1719
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F301@
+1 FAMS @F215@
+0 @I484@ INDI
+1 NAME Ana Maria de /Almeida/
+1 SEX F
+1 SOUR 17701021 - batismo de Francisca - filha de Manoel Francisco da Silva e Ana Maria de Almeida.pdf
+1 SOUR Manoel Francisco da Silva e os antigos troncos paulistas.pdf
+1 SOUR 17470903 - Ana Maria de Almeida - batismo.pdf
+1 SOUR 17691206 - Manoel Francisco da Silva e Ana Maria de Almeida - casamento.pdf
+1 BIRT
+2 DATE 1747
+2 PLAC Prados, Minas Gerais, Brazil
+1 CHR
+2 DATE 3 SEP 1747
+2 PLAC Prados, Minas Gerais, Brazil
+1 DEAT
+2 DATE 1822
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 4 JUL 1822
+2 PLAC Aiuruoca, Minas Gerais, Brazil
+1 FAMC @F302@
+1 FAMS @F215@
+0 @I501@ INDI
+1 NAME Joze Pedro do Nascimento de /Ávila/
+1 SEX M
+1 SOUR 17891029 - Joze Pedro de Avila - batismo.pdf
+1 SOUR 18160128 - Antonio José de Avila - batismo.pdf
+1 SOUR 18160417 - Maria Filha de José Pedro de Avila e Maria Policiana de Jesus.pdf
+1 SOUR 181802101 - Eria - Filha de José Pedro de Avila e Maria Policiana de Jesus.pdf
+1 SOUR 18311121 - José Pedro de Avila - mapa.jpg
+1 SOUR 18311121 - José Pedro de Avila - mapa2.jpg
+1 NOTE Padrinhos: Antônio Carvalho Duarte e sua esposa Mariana de Jesus.
+1 BIRT
+2 DATE OCT 1789
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 CHR
+2 DATE 29 OCT 1789
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 EVEN
+2 DATE 29 OCT 1789
+2 PLAC Nossa Senhora da Piedade, Barbacena, Barbacena, Minas Gerais, Brazil
+1 FAMC @F314@
+1 FAMS @F225@
+0 @I502@ INDI
+1 NAME Maria Policiana de /Jesus/
+1 SEX F
+1 SOUR 18160128 - Antonio José de Avila - batismo.pdf
+1 SOUR 18160417 - Maria Filha de José Pedro de Avila e Maria Policiana de Jesus.pdf
+1 SOUR 181802101 - Eria - Filha de José Pedro de Avila e Maria Policiana de Jesus.pdf
+1 BIRT
+2 DATE ABT 1790
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F321@
+1 FAMS @F225@
+0 @I510@ INDI
+1 NAME João Correa de /Carvalho/
+1 SEX M
+1 SOUR 17811001 - João Correa de Carvalho - batismo.pdf
+1 SOUR 17811001 - Guarda Mor João Correa de Carvalho.pdf
+1 SOUR 18051125 - João Correa de Carvalho - casamento.pdf
+1 SOUR 18100124 - João Correa de Carvalho - Guarda Mor - nomeação.jpg
+1 SOUR 18100126 - João Correia de Carvalho - pedido de provisão.jpg
+1 SOUR 18560422 - João Correa de Carvalho - terras públicas - Nazareth.pdf
+1 SOUR 18630305 - João Correa de Carvalho e (1882) Ana Matildes de Jesus.pdf
+1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 SOUR 18390000 - Mapa de População Santo Antonio do Rio das Mortes Pequeno - João Correa de Carvalho.jpg
+1 SOUR 18350407 - João Correia de Carvalho - anúncio.jpg
+1 BIRT
+2 DATE 1 OCT 1781
+2 PLAC Rio das Mortes, São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 1 OCT 1781
+2 PLAC Rio das Mortes, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 8 JUL 1862
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 OCCU guarda-mor, proprietário
+2 DATE 23 JAN 1842
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F278@
+1 FAMS @F229@
+0 @I511@ INDI
+1 NAME Anna Mathildes de /Jesus/
+1 SEX F
+1 SOUR 17860709 - Anna Matildes de Jesus - batismo.pdf
+1 SOUR 18051125 - João Correa de Carvalho - casamento.pdf
+1 SOUR 18630305 - João Correa de Carvalho e (1882) Ana Matildes de Jesus.pdf
+1 CHR
+2 DATE 9 JUL 1786
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE DEC 1881
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F760@
+1 FAMS @F229@
+0 @I530@ INDI
+1 NAME Francisco Antônio de /Carvalho/
+1 SEX M
+1 SOUR 17980226 - Francisco Antonio de Carvalho - batismo.pdf
+1 SOUR 18370612 - Francisco Antonio de Carvalho - inventário.pdf
+1 SOUR 18320505 - Francisco Antonio de Carvalho - O astro de minas ed693.jpg
+1 SOUR 18330419 - Francisco Antonio de Carvalho - O astro de minas ed849.jpg
+1 BIRT
+2 DATE 1798
+2 PLAC Arcângelo, São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 26 FEB 1798
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 17 FEB 1836
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F760@
+1 FAMS @F238@
+0 @I531@ INDI
+1 NAME Delfina Henriqueta Júlia de /Resende/
+1 SEX F
+1 SOUR 18310000 - Delphina Henriqueta Julia - mapa de população.pdf
+1 SOUR 18570410 - Delphina Henriqueta Julia de Resende - terras públicas - Nazareth.pdf
+1 SOUR 18780313 - Delphina Henriqueta Julia de Resende - sepultamento.pdf
+1 SOUR 18210610 - José - filho de Francisco Antônio de Carvalho e Delphina Henriqueta pt1.pdf
+1 SOUR 18210610 - José - filho de Francisco Antônio de Carvalho e Delphina Henriqueta pt2.pdf
+1 SOUR 18240202 - Maria - filha de Francisco Antonio de Carvalho e Delphina Henriqueta.pdf
+1 SOUR 18370000 - DELFINA HENRIQUETA JULIA DE RESENDE.pdf
+1 BIRT
+2 DATE 1803
+2 PLAC Coimbra, Coimbra, Portugal
+1 DEAT
+2 DATE 13 MAR 1878
+2 PLAC Nazaré, São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 13 MAR 1878
+2 PLAC Nazaré, São João del Rei, Minas Gerais, Brazil
+1 FAMC @F322@
+1 FAMS @F238@
+0 @I540@ INDI
+1 NAME Antônio /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE 16 NOV 1653
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F329@
+1 FAMS @F243@
+0 @I541@ INDI
+1 NAME Maria /Gomes/
+1 SEX F
+1 BIRT
+2 DATE 16 SEP 1657
+2 PLAC Travassos, Viana do Castelo, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F330@
+1 FAMS @F243@
+0 @I543@ INDI
+1 NAME Gaspar /Alvares/
+1 SEX M
+1 BIRT
+2 DATE 8 OCT 1645
+2 PLAC Refóios do Lima, Ponte de Lima, Viana do Castelo, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F331@
+1 FAMS @F244@
+0 @I544@ INDI
+1 NAME Angela de /Barros/
+1 SEX F
+1 BIRT
+2 PLAC Vigo, Pontevedra, Galicia, Spain
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F332@
+1 FAMS @F244@
+0 @I545@ INDI
+1 NAME Manoel de Souza /Teixeira/
+1 SEX M
+1 BIRT
+2 DATE 1670
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 17 AUG 1670
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F333@
+1 FAMS @F245@
+0 @I546@ INDI
+1 NAME Izabel de Souza de /Benevides/
+1 SEX F
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 6 MAY 1684
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F337@
+1 FAMS @F245@
+0 @I551@ INDI
+1 NAME Amaro de Mendonça /Coelho/
+1 SEX M
+1 SOUR 16840119 - Amaro de Mendonça Coelho - batismo.jpg
+1 SOUR 17121017 - Amaro de Mendonça Coelho e Maria da Assunção - casamento.pdf
+1 SOUR 17170514 - Amaro de Mendonça Coelho - indice.jpg
+1 SOUR 17170514 - Amaro de Mendonça Coelho - provisão.jpg
+1 SOUR 17121012 - Casamento de Amaro de Mendonça Coelho e Maria da Assumção.pdf
+1 SOUR 16840119 - Capitão Amaro de Mendonça Coelho.pdf
+1 BIRT
+2 DATE 1684
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 19 JAN 1684
+2 PLAC Nossa Senhora da Ajuda, Pedro Miguel, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE BEF AUG 1768
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 OCCU Capitão
+2 DATE 14 MAY 1717
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F340@
+1 FAMS @F247@
+0 @I552@ INDI
+1 NAME Maria da /Assunção/
+1 SEX F
+1 SOUR 17691226 - Informação sobre Maria da Assunção e seus pais.pdf
+1 SOUR 17121017 - Amaro de Mendonça Coelho e Maria da Assunção - casamento.pdf
+1 SOUR 17121012 - Casamento de Amaro de Mendonça Coelho e Maria da Assumção.pdf
+1 BIRT
+2 DATE ABT 1698
+2 PLAC Magé, Rio de Janeiro, Brazil
+1 CHR
+2 PLAC Nossa Senhora da Piedade, Magé, Rio de Janeiro, Brazil
+1 DEAT
+2 DATE APR 1780
+2 PLAC Lavras do Funil, São João del Rei, Minas Gerais, Brazil
+1 FAMC @F349@
+1 FAMS @F247@
+0 @I572@ INDI
+1 NAME Pedro /Vaz/
+1 SEX M
+1 BIRT
+2 DATE SEP 1668
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 9 SEP 1668
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 1 JAN 1754
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F351@
+1 FAMS @F257@
+0 @I573@ INDI
+1 NAME Maria Álvares /Pedrosa/
+1 SEX F
+1 BIRT
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 30 MAR 1681
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 11 OCT 1735
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F354@
+1 FAMS @F257@
+0 @I581@ INDI
+1 NAME Inácio /Franco/
+1 SEX M
+1 SOUR 17280200 - Ignacio Franco e Maria Tereza de Jesus- Casamento - Rio das Mortes.pdf
+1 SOUR 16950403 - Ignácio Franco.pdf
+1 BIRT
+2 DATE 3 APR 1695
+2 PLAC Válega, Ovar, Aveiro, Portugal
+1 CHR
+2 DATE 9 APR 1695
+2 PLAC Válega, Ovar, Aveiro, Portugal
+1 DEAT
+2 DATE 1745
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 1745
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F357@
+1 FAMS @F261@
+0 @I582@ INDI
+1 NAME Maria Teresa de /Jesus/
+1 SEX F
+1 SOUR 17280200 - Ignacio Franco e Maria Tereza de Jesus- Casamento - Rio das Mortes.pdf
+1 BIRT
+2 DATE 1714
+2 PLAC Faial, Azores, Portugal
+1 CHR
+2 DATE 14 JUL 1714
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 PLAC Faial, Azores, Portugal
+1 FAMC @F361@
+1 FAMS @F261@
+0 @I591@ INDI
+1 NAME Francisco de /Puga/
+1 SEX M
+1 BIRT
+2 DATE ABT 1684
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 DEAT
+2 DATE 20 OCT 1780
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 FAMC @F363@
+1 FAMS @F265@
+0 @I592@ INDI
+1 NAME Andreza /Gonçalves/
+1 SEX F
+1 BIRT
+2 DATE ABT 1688
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 DEAT
+2 DATE 14 OCT 1753
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 FAMC @F366@
+1 FAMS @F265@
+0 @I600@ INDI
+1 NAME Manuel Rodrigues /Pires/
+1 SEX M
+1 SOUR 17100907 - Manoel Rodrigues Pires e 17100320 - Maria Jacinta.pdf
+1 SOUR 17470224 - Manuel Rodrigues Pires - sepultamento.jpg
+1 BIRT
+2 DATE 7 SEP 1710
+2 PLAC Madalena, Pico, Azores, Portugal
+1 DEAT
+2 DATE 24 FEB 1747
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 BURI
+2 DATE 24 FEB 1747
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 FAMC @F368@
+1 FAMS @F268@
+0 @I601@ INDI
+1 NAME Maria /Jacintha/
+1 SEX F
+1 SOUR 17100907 - Manoel Rodrigues Pires e 17100320 - Maria Jacinta.pdf
+1 SOUR 17870713 - Maria Jacinta - sepultamento.pdf
+1 BIRT
+2 DATE 30 MAR 1710
+2 PLAC Ribeirinha, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 13 JUL 1787
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 BURI
+2 DATE 13 JUL 1787
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 FAMC @F372@
+1 FAMS @F268@
+0 @I608@ INDI
+1 NAME Domingos /Rebello/
+1 SEX M
+1 SOUR 17080212 - Domingos Rabelo e Ana Gonçalves - casamento.pdf
+1 BIRT
+2 PLAC Vizela, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F377@
+1 FAMS @F272@
+0 @I609@ INDI
+1 NAME Ana /Gonçalves/
+1 SEX F
+1 SOUR 17080212 - Domingos Rabelo e Ana Gonçalves - casamento.pdf
+1 BIRT
+2 PLAC Vizela, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F380@
+1 FAMS @F272@
+0 @I616@ INDI
+1 NAME Caetano de Carvalho /Duarte/
+1 SEX M
+1 SOUR 17370115 - Caetano de Carvalho Duarte e Catarina de São José - casamento.pdf
+1 SOUR 17420000 - Caetano Carvalho Duarte - confrontação de terras - códice.pdf
+1 SOUR 17420000 - Caetano Carvalho Duarte - confrontação de terras.pdf
+1 SOUR 17670122 - Caetano de Carvalho Duarte citado em sesmaria de João de Araújo Moreira.pdf
+1 SOUR 17690419 - Sesmaria de João de Araújo Martins Cita Caetano Carvalho Duarte.pdf
+1 SOUR 17740507 - Requerimento de Sesmaria - Caetano Carvalho.pdf
+1 SOUR 17841223 - Caetano de Carvalho Duarte-sepultamento.pdf
+1 SOUR 17841223 - Caetano de Carvalho Duarte.pdf
+1 BIRT
+2 DATE 1702
+2 PLAC São Miguel de Lousada, Lousada, Porto, Portugal
+1 CHR
+2 DATE 24 DEC 1702
+2 PLAC São Miguel de Lousada, Lousada, Porto, Portugal
+1 DEAT
+2 DATE DEC 1784
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 23 DEC 1784
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F382@
+1 FAMS @F273@
+0 @I617@ INDI
+1 NAME Catarina de São /José/
+1 SEX F
+1 SOUR 17210825 - Catarina de São José - batismo.jpg
+1 SOUR 17370115 - Caetano de Carvalho Duarte e Catarina de São José - casamento.pdf
+1 SOUR 17870730 - Catarina de São José - sepultamento.pdf
+1 SOUR 17870730 - Catarina de São José - testamento.pdf
+1 BIRT
+2 DATE 25 AUG 1721
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 29 AUG 1721
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 30 JUL 1787
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 30 JUL 1787
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F361@
+1 FAMS @F273@
+0 @I619@ INDI
+1 NAME Mariana Antônia de /Jesus/
+1 SEX F
+1 SOUR 18140420 - José de Carvalho Duarte e 18330608 - Mariana Antonia de Jesus.pdf
+1 SOUR 17840626 - José de Carvalho Duarte - casamento.pdf
+1 SOUR 17840626 - José de Carvalho Duarte - matrimonio.pdf
+1 BIRT
+2 DATE ABT 1769
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 8 JUN 1833
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 RESI Censo de 1831
+2 DATE 6 DEC 1831
+2 PLAC Arcangelo, São João del Rei, Minas Gerais, Brazil
+1 FAMC @F762@
+1 FAMS @F760@
+0 @I626@ INDI
+1 NAME Thereza Maria /Duarte/
+1 SEX F
+1 SOUR 17640128 - Gonçalo Correa Neto e Tereza Maria Duarte - casamento.pdf
+1 SOUR 17451122 - Tereza Maria Duarte.pdf
+1 SOUR 17910911 - Tereza Maria Duarte - sepultamento.pdf
+1 SOUR 18090318 - Gonçalo Correa Neto e 17910911 - Teresa Maria Duarte.pdf
+1 NOTE Faleceu no Engenho da Paciência, em Santo Antônio do Rio das Mortes Pequeno, onde era moradora.
+1 BIRT
+2 DATE 22 NOV 1745
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 CHR
+2 DATE 22 NOV 1745
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 11 SEP 1791
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 11 SEP 1791
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F273@
+1 FAMS @F278@
+0 @I627@ INDI
+1 NAME Gonçalo Correa /Netto/
+1 SEX M
+1 SOUR 17640128 - Gonçalo Correa Neto e Tereza Maria Duarte - casamento.pdf
+1 SOUR 17561104 - Gonçalo Correa Neto - sesmaria.jpg
+1 SOUR 17561104 - Gonçalo Correa Neto - sesmaria continuação.jpg
+1 SOUR 17640902 - Gonçalo Correa Neto - sesmaria indice.jpg
+1 SOUR 17640902 - Gonçalo Correa Neto - sesmaria.jpg
+1 SOUR 17660917 - Gonçalo Correa Neto - sesmaria - Goiabeiras.pdf
+1 SOUR 17660000 - Padre Gonçalo Correa de Carvalho.pdf
+1 SOUR 17670716 - Gonçalo Correa Neto - sesmaria Paciencia.pdf
+1 SOUR 17970620 - Gonçalo Correa Neto - Juiz Ordinário - requerimento.jpg
+1 SOUR 18040615 - Gonçalo Correa Neto - ofício.pdf
+1 SOUR 18090318 - Gonçalo Correa Neto e 17910911 - Teresa Maria Duarte.pdf
+1 SOUR 17830724 - Anna (filha de Gonçalo Correa Neto) - batismo (Rio das Mortes) Batismos 1784, Mar-1789, Maio .pdf
+1 SOUR 17850330 - Mariana - filha de Gonçalo Correa Neto.pdf
+1 SOUR 17860719 - Manoel filho de Gonçalo Correa Neto.pdf
+1 SOUR 18090319 - Gonçalo Correa Netto - óbito.pdf
+1 SOUR 17990528 - Estevão filho de Catarina escrava de Gonçalo Correa Netto.pdf
+1 BIRT
+2 DATE ABT 1740
+2 PLAC Leça da Palmeira, Matosinhos, Porto, Portugal
+1 DEAT
+2 DATE 19 MAR 1809
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMC @F777@
+1 FAMS @F278@
+0 @I629@ INDI
+1 NAME Escolástica Maria Lopes de /Siqueira/
+1 SEX F
+1 SOUR 17521225 - Escolástica Maria Lopes de Siqueira.pdf
+1 SOUR 17521225 - Escolástica Maria Lopes de Siqueira - batismo pt1.pdf
+1 SOUR 17521225 - Escolástica Maria Lopes de Siqueira - batismo pt2.pdf
+1 SOUR 18110123 - Escolástica Maria Lopes de Siqueira - inventario.pdf
+1 BIRT
+2 DATE 1752
+2 PLAC Carrancas, Carrancas, Minas Gerais, Brazil
+1 CHR
+2 DATE 25 DEC 1752
+2 PLAC Carrancas, Carrancas, Minas Gerais, Brazil
+1 DEAT
+2 DATE 10 DEC 1810
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN * com o português Manoel Antonio de Souza
+2 DATE 27 NOV 1770
+2 PLAC Rio das Mortes, São João del Rei, Minas Gerais, Brazil
+1 FAMC @F763@
+1 FAMS @F762@
+0 @I644@ INDI
+1 NAME José de Carvalho /Duarte/
+1 SEX M
+1 SOUR 18140420 - José Carvalho Duarte - falecimento.pdf
+1 SOUR 18140420 - José Carvalho Duarte - falecimento - outro registro.pdf
+1 SOUR 18140420 - José de Carvalho Duarte e 18330608 - Mariana Antonia de Jesus.pdf
+1 SOUR José de Carvalho Duarte.pdf
+1 SOUR 17840626 - José de Carvalho Duarte - casamento.pdf
+1 SOUR 17840626 - José de Carvalho Duarte - matrimonio.pdf
+1 BIRT
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE 20 APR 1814
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN São Miguel do Cajuru
+2 DATE 1736
+1 FAMC @F273@
+1 FAMS @F760@
+0 @I645@ INDI
+1 NAME Manoel Alves /Valle/
+1 SEX M
+1 SOUR MANOEL ALVES VALLE.pdf
+1 BIRT
+2 DATE ABT 1710
+2 PLAC Barcelos, Braga, Portugal
+1 DEAT
+2 DATE 1778
+2 PLAC Minas Gerais, Brazil
+1 FAMC @F384@
+1 FAMS @F290@
+0 @I646@ INDI
+1 NAME Micaela Preta de /Moraes/
+1 SEX F
+1 SOUR MANOEL ALVES VALLE.pdf
+1 BIRT
+2 DATE ABT 1712
+2 PLAC Barcelos, Braga, Portugal
+1 DEAT
+2 DATE 1763
+2 PLAC Lavras, Minas Gerais, Brazil
+1 FAMC @F385@
+1 FAMS @F290@
+0 @I660@ INDI
+1 NAME Manoel Munhoz /Paes/
+1 SEX M
+1 BIRT
+2 DATE ABT 1723
+2 PLAC Taubaté, São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F386@
+1 FAMS @F297@
+0 @I661@ INDI
+1 NAME Bernardina Soares de /Almeida/
+1 SEX F
+1 SOUR Manoel Francisco da Silva e os antigos troncos paulistas.pdf
+1 BIRT
+2 DATE ABT 1728
+2 PLAC São João de Cananéia, São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F396@
+1 FAMS @F297@
+0 @I668@ INDI
+1 NAME Manoel /Francisco/
+1 SEX M
+1 BIRT
+2 DATE 29 MAR 1678
+2 PLAC Ponte, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F397@
+1 FAMS @F301@
+0 @I669@ INDI
+1 NAME Maria /Luiz/
+1 SEX F
+1 BIRT
+2 DATE 18 DEC 1687
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F398@
+1 FAMS @F301@
+0 @I670@ INDI
+1 NAME José Garcia da /Costa/
+1 SEX M
+1 SOUR 17391215 - José Garcia da Costa e Bernarda Maria de Almeida - casamento.pdf
+1 SOUR 17391215 - Bernarda Maria de Almeida - p compartilhar.pdf
+1 BIRT
+2 DATE 14 FEB 1713
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 19 FEB 1713
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE AFT 1764
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F400@
+1 FAMS @F302@
+0 @I671@ INDI
+1 NAME Bernarda Maria de /Almeida/
+1 SEX F
+1 SOUR 17391215 - José Garcia da Costa e Bernarda Maria de Almeida - casamento.pdf
+1 SOUR 17391215 - Bernarda Maria de Almeida - p compartilhar.pdf
+1 BIRT
+2 DATE ABT 1719
+2 PLAC Prados, Minas Gerais, Brazil
+1 DEAT
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F405@
+1 FAMS @F302@
+0 @I694@ INDI
+1 NAME João José de /Ávila/
+1 SEX M
+1 SOUR 17410312 - João José de Ávila - batismo.pdf
+1 SOUR 17730223 - João José de Ávila e Quitéria Maria do Nascimento - casamento.pdf
+1 BIRT
+2 DATE 1741
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 CHR
+2 DATE 12 MAR 1741
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE BEF 30 MAR 1820
+1 FAMC @F413@
+1 FAMS @F314@
+0 @I695@ INDI
+1 NAME Quitéria Maria do /Nascimento/
+1 SEX F
+1 SOUR 17510400 - Quiteria Maria do Nascimento - batismo.pdf
+1 SOUR 17730223 - João José de Ávila e Quitéria Maria do Nascimento - casamento.pdf
+1 BIRT
+2 DATE 1751
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 CHR
+2 DATE 3 DEC 1751
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 30 MAR 1820
+1 FAMC @F421@
+1 FAMS @F314@
+0 @I711@ INDI
+1 NAME de /Jesus/
+1 SEX M
+1 BIRT
+2 DATE ABT 1765
+2 PLAC Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F321@
+0 @I713@ INDI
+1 NAME Estêvão Ribeiro de /Rezende/
+1 SEX M
+1 SOUR 17770720 - Estevão Ribeiro de Resende - batismo.pdf
+1 SOUR 17770720 - Estevão Ribeiro de Resende - certidão batismo pt1.pdf
+1 SOUR 17770720 - Estevão Ribeiro de Resende - certidão batismo pt2.pdf
+1 SOUR 18000000 - Processo de Estevão Ribeiro de Resende.pdf
+1 SOUR 18090301 - Estevão Ribeiro de Rezende - passaporte.jpg
+1 SOUR PT-TT-MCO-A-C-002-005-0004-00018_m0001.jpg
+1 SOUR PT-TT-MCO-A-C-002-005-0004-00018_m0002.jpg
+1 SOUR PT-TT-MCO-A-C-002-005-0004-00018_m0003.jpg
+1 SOUR PT-TT-MCO-A-C-002-005-0004-00018_m0004.jpg
+1 SOUR 18011224 - Estevão Ribeiro de Rezende - Hábito da Ordem de Cristo - pedido de dispensa.pdf
+1 BIRT
+2 DATE 20 JUL 1777
+2 PLAC Lagoa Dourada, Minas Gerais, Brazil
+1 DEAT
+2 DATE 8 SEP 1856
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 BURI
+2 DATE 9 SEP 1856
+2 PLAC Cemitério São Francisco de Paula, Catumbi, Rio de Janeiro, Rio de Janeiro, Brazil
+1 OCCU Bacharel em direito pela universidade de Coimbra,
+2 DATE 1804
+2 PLAC Coimbra, Portugal
+1 OCCU juiz de fora
+2 DATE From 1806 to 1808
+2 PLAC Palmela, Setúbal, Portugal
+1 OCCU Juiz de Fora em SP.
+2 DATE 13 MAY 1810
+1 OCCU Juiz de Fora em, SP
+2 DATE 1810
+1 OCCU Fiscal dos Diamantes, no Serro Frio, MG
+2 DATE FEB 1816
+2 PLAC Serro, Minas Gerais, Brazil
+1 OCCU Foi também "Procurador de Defuntos e Ausentes", fiscal dos diamantes de Serro Frio, em 1816, ocasião que também exerceu o cargo de "Desembargador da Relação da Bahia".
+2 DATE 1816
+1 OCCU Desembargador da Relação na
+2 DATE 1816
+2 PLAC Capitanai da Baia
+1 OCCU Desembargador da Casa da Suplicação em
+2 DATE 1818
+1 OCCU ministro de todas as repartições do publico serviço
+2 DATE MAY 1822
+1 OCCU deputado à Assembléia Constituinte de
+2 DATE 1823
+1 OCCU Ministro do Império no 3º Gabinete de
+2 DATE 10 NOV 1823
+1 OCCU Desembargador do Paço em,
+2 DATE 1824
+1 OCCU Deputado Geral em
+2 DATE 1826
+1 OCCU Senador por sua província em
+2 DATE 1826
+1 OCCU Desembargador do Paço
+2 DATE 1826
+1 OCCU Ministro da Justiça no 6º Gabinete de
+2 DATE 15 JAN 1827
+1 OCCU Proprietário Rural, Desembargador e Político Brasileiro
+1 OCCU sócio do IHGB em 1840
+1 RESI Em 1816 residia em Moji Mirim, sendo recenseado como fazendeiro potentado, com vinte e sete escravos.
+2 DATE 1816
+2 PLAC Mogi Mirim, São Paulo, Brazil
+1 EVEN Valença. Barão com Grandeza de
+2 DATE 12 OCT 1825
+1 EVEN Valença. Conde de;
+2 DATE 10 OCT 1826
+2 PLAC Decreto, Umingan, Pangasinan, Philippines
+1 EVEN Valença. Marquês de
+2 DATE 29 NOV 1829
+2 PLAC concedido por carta de D. Pedro I do Brasil, em 29 de novembro de 1829.
+1 EVEN Barão com Grandeza, Conde e Marquês de Valença
+1 EVEN cavaleiro da Ordem Militar de Cristo
+1 EVEN grã-cruz da Imperial Ordem de Cristo
+1 EVEN Grande do Império
+1 EVEN Fidalgo Cavaleiro
+1 EVEN Dignitário da I. Ordem do Cruzeiro
+1 EVEN Cavaleiro Professo da R. Ordem de Cristo de Portugal;
+1 EVEN Conselho dos Procuradores Gerais das Províncias do Brasil (1822 a 1823)
+2 DATE Estêvão Ribeiro de Resende
+2 PLAC Minas Gerais, Brazil
+1 EVEN
+1 EVEN Precedido por Francisco Vilela Barbosa	 //	Sucedido por José da Costa Carvalho
+1 EVEN Conselheiro de Estado Honorário em 1827.
+1 EVEN sócio do IHGB em 1840,etc
+1 EVEN No Arquivo Nobiliárquico, pág. 525, em vez de procurador, leia-se provedor
+1 EVEN
+1 EVEN quando retornou ao Brasil, foi nomeado primeiro Juiz de Fora da Provincia de São Paulo em 1810; cargo criado pelo alvará de 13 de maio de 1810
+1 FAMC @F437@
+1 FAMS @F322@
+0 @I724@ INDI
+1 NAME João /André/
+1 SEX M
+1 BIRT
+2 DATE ABT 1603
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F452@
+1 FAMS @F329@
+0 @I725@ INDI
+1 NAME Domingas /Gonçalves/
+1 SEX F
+1 BIRT
+2 DATE ABT 1607
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMC @F456@
+1 FAMS @F329@
+0 @I728@ INDI
+1 NAME Manoel /Alvares/
+1 SEX M
+1 BIRT
+2 DATE 1618
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 CHR
+2 DATE 16 APR 1618
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F457@
+1 FAMS @F330@
+0 @I729@ INDI
+1 NAME Isabel /Gomes/
+1 SEX F
+1 BIRT
+2 DATE FEB 1618
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 CHR
+2 DATE 11 FEB 1618
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F460@
+1 FAMS @F330@
+0 @I731@ INDI
+1 NAME Gaspar /Alvares/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F331@
+0 @I732@ INDI
+1 NAME Domingas /Rodrigues/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F331@
+0 @I733@ INDI
+1 NAME Afonso da /Gandra/
+1 SEX M
+1 BIRT
+2 PLAC Tui, Pontevedra, Galicia, Spain
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F332@
+0 @I734@ INDI
+1 NAME Maior de /Barros/
+1 SEX F
+1 BIRT
+2 PLAC Tui, Pontevedra, Galicia, Spain
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F332@
+0 @I735@ INDI
+1 NAME Manoel Rodrigues de Sousa /Rico/
+1 SEX M
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 24 APR 1644
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F465@
+1 FAMS @F333@
+0 @I736@ INDI
+1 NAME Izabel de /Sousa/
+1 SEX F
+1 BIRT
+2 DATE 1648
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 21 JUN 1648
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F466@
+1 FAMS @F333@
+0 @I747@ INDI
+1 NAME Manoel Vieira /Benevides/
+1 SEX M
+1 BIRT
+2 DATE 1648
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 9 JUL 1648
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 OCCU Pedreiro
+2 DATE 1685
+1 FAMC @F471@
+1 FAMS @F337@
+0 @I748@ INDI
+1 NAME Anna /Gomes/
+1 SEX F
+1 BIRT
+2 DATE 1647
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 26 JUL 1647
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMC @F476@
+1 FAMS @F337@
+0 @I756@ INDI
+1 NAME Inácio /Coelho/
+1 SEX M
+1 BIRT
+2 DATE 1649
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 25 MAR 1729
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 BURI
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 OCCU Oficial de Barbeiro
+2 DATE 1699
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 FAMS @F340@
+0 @I757@ INDI
+1 NAME Francisca de /Mendonça/
+1 SEX F
+1 BIRT
+2 DATE 1656
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 EVEN
+2 DATE 23 JAN 1674
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 FAMC @F480@
+1 FAMS @F340@
+0 @I775@ INDI
+1 NAME Domingos Ramalho de /Brito/
+1 SEX M
+1 SOUR 17691226 - Informação sobre Maria da Assunção e seus pais.pdf
+1 SOUR 17180119 - Domingos Ramalho de Brito - vereador.pdf
+1 SOUR 16991023 - Domingos Ramalho e Ursula de Gois - casamento.pdf
+1 SOUR 17610000 - BENTO DE MENDONÇA COELHO - De Genere et Moribus.pdf
+1 BIRT
+2 DATE ABT 1667
+2 PLAC Guapimirim, Magé, Rio de Janeiro, Brazil
+1 CHR
+2 DATE ABT 1667
+2 PLAC Guapimirim, Magé, Rio de Janeiro, Brazil
+1 DEAT
+2 DATE AFT 3 FEB 1718
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 FAMC @F483@
+1 FAMS @F349@
+0 @I776@ INDI
+1 NAME Úrsula de /Góes/
+1 SEX F
+1 SOUR 17691226 - Informação sobre Maria da Assunção e seus pais.pdf
+1 SOUR 16991023 - Domingos Ramalho e Ursula de Gois - casamento.pdf
+1 SOUR 17610000 - BENTO DE MENDONÇA COELHO - De Genere et Moribus.pdf
+1 BIRT
+2 DATE 6 AUG 1673
+2 PLAC Nossa Senhora da Candelária, Rio de Janeiro, Rio de Janeiro, Brazil
+1 CHR
+2 DATE 6 AUG 1673
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F484@
+1 FAMS @F349@
+0 @I779@ INDI
+1 NAME Francisco /Frutuoso/
+1 SEX M
+1 BIRT
+2 DATE DEC 1640
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 22 DEC 1640
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 18 MAY 1686
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F487@
+1 FAMS @F351@
+0 @I780@ INDI
+1 NAME Maria /Ribeira/
+1 SEX F
+1 BIRT
+2 DATE JAN 1646
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 28 JAN 1646
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 24 MAY 1721
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 BAPM
+2 DATE 28 JAN 1646
+2 PLAC Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F489@
+1 FAMS @F351@
+0 @I789@ INDI
+1 NAME Domingos /Lourenço/
+1 SEX M
+1 DEAT
+2 DATE 26 SEP 1698
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F492@
+1 FAMS @F354@
+0 @I790@ INDI
+1 NAME Suzana /Pedroza/
+1 SEX F
+1 BIRT
+2 DATE ABT 1659
+2 PLAC Nossa Senhora da Oliveira, Oliveira São Paio e São Sebastião, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 12 SEP 1700
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F494@
+1 FAMS @F354@
+0 @I795@ INDI
+1 NAME Manuel /Francisco/
+1 SEX M
+1 BIRT
+2 DATE 21 JAN 1661
+2 PLAC Ovar, Aveiro, Portugal
+1 CHR
+2 DATE 2 AUG 1661
+2 PLAC Ovar, Aveiro, Portugal
+1 DEAT
+2 DATE 15 MAY 1726
+2 PLAC Portugal
+1 BURI
+2 DATE 16 MAY 1726
+2 PLAC Porto, Portugal
+1 FAMC @F496@
+1 FAMS @F357@
+0 @I796@ INDI
+1 NAME Vicencia /João/
+1 SEX F
+1 CHR
+2 DATE 14 MAR 1666
+2 PLAC Pardilhó, Estarreja, Aveiro, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F497@
+1 FAMS @F357@
+0 @I804@ INDI
+1 NAME Manuel Gonçalves da /Fonseca/
+1 SEX M
+1 SOUR 17060207 - Manuel Gonçalves da Fonseca e Antônia Aguiar - casamento.pdf
+1 BIRT
+2 DATE 1673
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE ABT 1745
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE ABT 1745
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 EVEN
+2 DATE ABT 1723
+2 PLAC Brazil
+1 FAMC @F500@
+1 FAMS @F361@
+0 @I805@ INDI
+1 NAME Antonia da Graça de /Aguiar/
+1 SEX F
+1 SOUR 17060207 - Manuel Gonçalves da Fonseca e Antônia Aguiar - casamento.pdf
+1 SOUR 16870221 - Antonia da Graça - batismo.jpg
+1 BIRT
+2 DATE 21 FEB 1687
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 21 FEB 1687
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 21 APR 1759
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 IMMI Dos Açores  para o Brasil
+2 DATE 1723
+1 EVEN Antonia da Graça é uma das imigrantes açorianas, conhecidas como as  Três Ilhoas, que se estabeleceram em Minas Gerais.
+1 FAMC @F505@
+1 FAMS @F361@
+0 @I810@ INDI
+1 NAME Pedro /Alvares/
+1 SEX M
+1 DEAT
+2 DATE BEF 1702
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 FAMS @F363@
+0 @I811@ INDI
+1 NAME Luzia de /Puga/
+1 SEX F
+1 DEAT
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 FAMS @F363@
+0 @I816@ INDI
+1 NAME Manuel /Alvares/
+1 SEX M
+1 DEAT
+2 DATE BEF 1710
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 FAMS @F366@
+0 @I817@ INDI
+1 NAME Maria /Alvares/
+1 SEX F
+1 DEAT
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+1 FAMS @F366@
+0 @I820@ INDI
+1 NAME Manoel Rodrigues /Pires/
+1 SEX M
+1 BIRT
+2 PLAC Candelária, Madalena, Pico, Azores, Portugal
+1 DEAT
+2 DATE 7 OCT 1717
+2 PLAC Madalena, Pico, Azores, Portugal
+1 FAMC @F509@
+1 FAMS @F368@
+0 @I821@ INDI
+1 NAME Barbara /Pereira/
+1 SEX F
+1 BIRT
+2 DATE 27 NOV 1678
+2 PLAC Madalena, Pico, Azores, Portugal
+1 DEAT
+2 DATE 12 MAY 1747
+2 PLAC Madalena, Pico, Azores, Portugal
+1 FAMC @F510@
+1 FAMS @F368@
+0 @I829@ INDI
+1 NAME João Furtado de /Albernaz/
+1 SEX M
+1 BIRT
+2 DATE 1685
+2 PLAC Ribeirinha, Horta, Faial, Azores, Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMC @F515@
+1 FAMS @F372@
+0 @I830@ INDI
+1 NAME Luzia da /Rosa/
+1 SEX F
+1 BIRT
+2 DATE 21 MAR 1679
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 23 MAR 1732
+2 PLAC Ribeirinha, Horta, Faial, Azores, Portugal
+1 FAMC @F516@
+1 FAMS @F372@
+0 @I840@ INDI
+1 NAME Antonio /Rebello/
+1 SEX M
+1 DEAT
+2 DATE BEF 1707
+1 FAMS @F377@
+0 @I841@ INDI
+1 NAME Madalena /João/
+1 SEX F
+1 BIRT
+2 PLAC Vilarinho, Santo Tirso, Porto, Portugal
+1 DEAT
+2 DATE BEF 1707
+1 FAMS @F377@
+0 @I849@ INDI
+1 NAME Francisco /Gonçalves/
+1 SEX M
+1 DEAT
+2 DATE BEF 1707
+1 FAMS @F380@
+0 @I850@ INDI
+1 NAME Francisca de /Macedo/
+1 SEX F
+1 DEAT
+2 DATE AFT 1707
+1 FAMS @F380@
+0 @I853@ INDI
+1 NAME João /Carvalho/
+1 SEX M
+1 BIRT
+2 DATE 29 JUN 1667
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 DEAT
+2 DATE 26 DEC 1735
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 BURI
+2 DATE 27 DEC 1735
+2 PLAC Porto, Porto, Portugal
+1 FAMC @F529@
+1 FAMS @F382@
+0 @I854@ INDI
+1 NAME Domingas /Duarte/
+1 SEX F
+1 BIRT
+2 DATE 8 JAN 1660
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 CHR
+2 DATE 8 JUN 1660
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 DEAT
+2 DATE 26 NOV 1726
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 FAMC @F531@
+1 FAMS @F382@
+0 @I865@ INDI
+1 NAME João Alves /Valle/
+1 SEX M
+1 BIRT
+2 DATE ABT 1684
+2 PLAC Barcelos, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F384@
+0 @I866@ INDI
+1 NAME Maria /Rodrigues/
+1 SEX F
+1 BIRT
+2 DATE ABT 1688
+2 PLAC Póvoa de Lanhoso, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F384@
+0 @I867@ INDI
+1 NAME Preto de /Morais/
+1 SEX M
+1 BIRT
+2 DATE ABT 1684
+2 PLAC Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F385@
+0 @I868@ INDI
+1 NAME Moraes
+1 SEX F
+1 BIRT
+2 DATE ABT 1684
+2 PLAC Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F385@
+0 @I870@ INDI
+1 NAME Lourenço de Brito /Leme/
+1 SEX M
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Taubaté, São Paulo, Brazil
+1 DEAT
+2 DATE BEF 1755
+2 PLAC Brazil
+1 FAMC @F532@
+1 FAMS @F386@
+0 @I871@ INDI
+1 NAME Cristina Maria de /Siqueira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1694
+2 PLAC Taubaté, São Paulo, Brazil
+1 DEAT
+2 DATE 6 AUG 1784
+2 PLAC Atibaia, São Paulo, Brazil
+1 EVEN
+1 FAMC @F535@
+1 FAMS @F386@
+0 @I888@ INDI
+1 NAME Cosme /Soares/
+1 SEX M
+1 BIRT
+2 DATE 22 SEP 1696
+2 PLAC Porto, Portugal
+1 CHR
+2 DATE 28 SEP 1696
+2 PLAC Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F538@
+1 FAMS @F396@
+0 @I889@ INDI
+1 NAME Antônia /Moreira/
+1 SEX F
+1 BIRT
+2 DATE 5 NOV 1703
+2 PLAC Porto, Porto, Portugal
+1 CHR
+2 DATE 11 NOV 1703
+2 PLAC Porto, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F539@
+1 FAMS @F396@
+0 @I890@ INDI
+1 NAME Domingos /João/
+1 SEX M
+1 BIRT
+2 DATE ABT 1650
+2 PLAC Ponte, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F397@
+0 @I891@ INDI
+1 NAME Maria /Francisca/
+1 SEX F
+1 BIRT
+2 DATE ABT 1650
+2 PLAC Ponte, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F397@
+0 @I892@ INDI
+1 NAME Domingos /Luiz/
+1 SEX M
+1 BIRT
+2 DATE ABT 1662
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F540@
+1 FAMS @F398@
+0 @I893@ INDI
+1 NAME Catharina /Manoel/
+1 SEX F
+1 BIRT
+2 DATE 18 MAR 1657
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 12 JAN 1706
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMC @F541@
+1 FAMS @F398@
+0 @I896@ INDI
+1 NAME Antônio da Costa da /Fonseca/
+1 SEX M
+1 BIRT
+2 DATE ABT 1680
+2 PLAC Paredes da Beira, São João da Pesqueira, Viseu, Portugal
+1 CHR
+2 PLAC Paredes da Beira, São João da Pesqueira, Viseu, Portugal
+1 DEAT
+2 DATE 30 MAY 1736
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 FAMC @F543@
+1 FAMS @F400@
+0 @I897@ INDI
+1 NAME Maria da Boa Nova /Garcia/
+1 SEX F
+1 BIRT
+2 DATE ABT 1682
+2 PLAC Matriz, Horta, Faial, Azores, Portugal
+1 CHR
+2 PLAC Matriz, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 2 SEP 1714
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 BURI
+2 DATE 3 SEP 1714
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 FAMC @F544@
+1 FAMS @F400@
+0 @I908@ INDI
+1 NAME Feliciano /Cardozo/
+1 SEX M
+1 SOUR Feliciano Cardoso e Catarina de Almeida.pdf
+1 SOUR 17631201 - Feliciano Cardoso - obito.pdf
+1 SOUR 16910920 - Feliciano Cardoso - batismo.pdf
+1 BIRT
+2 DATE AUG 1691
+2 PLAC Nazaré Paulista, São Paulo, Brazil
+1 CHR
+2 DATE 8 SEP 1691
+2 PLAC Nazaré Paulista, São Paulo, Brazil
+1 DEAT
+2 DATE 1 DEC 1763
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 EVEN Ascendência predominante: portuguesa e pouquíssimo indígena
+1 FAMC @F545@
+1 FAMS @F405@
+0 @I909@ INDI
+1 NAME Catharina de /Almeida/
+1 SEX F
+1 SOUR Feliciano Cardoso e Catarina de Almeida.pdf
+1 SOUR 17330408 - Catharina de Almeida - óbito.pdf
+1 DEAT
+2 DATE 8 APR 1733
+2 PLAC Prados, Minas Gerais, Brazil
+1 BURI
+2 DATE 8 APR 1733
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F550@
+1 FAMS @F405@
+0 @I925@ INDI
+1 NAME António de Ávila /Bittencourt/
+1 SEX M
+1 SOUR 17370304 - Antonio de Ávila Bitencourt - bio e casamento.pdf
+1 SOUR 17580826 - Antonio Davila Bitencourt - sesmaria.jpg
+1 SOUR 17580826 - Antonio Davila Bitencourt - sesmaria - cont.jpg
+1 SOUR 17591129 - Antonio de Avila Bitencourt - sesmaria.pdf
+1 SOUR 17600204 - Antônio de Ávila Bittencourt - terras.pdf
+1 SOUR 17800808 - Antonio de Avila Bitencourt - testamento pt1.pdf
+1 SOUR 17800808 - Antonio de Avila Bitencourt - testamento pt2.pdf
+1 SOUR 17850113 - Antonio de Avila Bitencourt - sepultamento.pdf
+1 SOUR 17041219 - Antônio de Avila Bitencourt - batismo.pdf
+1 BIRT
+2 DATE 19 DEC 1704
+2 PLAC Piedade, Lajes do Pico, Pico, Azores, Portugal
+1 CHR
+2 DATE 23 DEC 1704
+2 PLAC Piedade, Lajes do Pico, Pico, Azores, Portugal
+1 DEAT
+2 DATE 13 JAN 1785
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 BURI
+2 DATE 13 JAN 1785
+2 PLAC Nossa Senhora da Piedade, Barbacena, Minas Gerais, Brazil
+1 FAMC @F553@
+1 FAMS @F413@
+0 @I926@ INDI
+1 NAME Ignácia /Ferreira/
+1 SEX F
+1 SOUR Salvador Moreira de Castilho.pdf
+1 SOUR 17370304 - Antonio de Ávila Bitencourt - bio e casamento.pdf
+1 SOUR 17520416 - izabel (antonio de avila bitencourt) - batismo.pdf
+1 SOUR 17921223 - Ignacia Ferreira - sepultamento.pdf
+1 BIRT
+2 DATE BEF 4 MAR 1737
+2 PLAC São Francisco das Chagas de Taubaté, São Paulo, Brazil
+1 DEAT
+2 DATE 23 DEC 1792
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 BURI
+2 DATE 23 DEC 1792
+2 PLAC Barbacena, Minas Gerais, Brazil
+1 FAMC @F556@
+1 FAMS @F413@
+0 @I945@ INDI
+1 NAME João Gomes do /Nascimento/
+1 SEX M
+1 SOUR 17451005 - João Gomes do Nascimento e Rita Maria da Conceição - casamento.pdf
+1 SOUR 17750322 - João Gomes do Nascimento - acusação.pdf
+1 SOUR 17750710 - INVENTÁRIO DE JOÃO GOMES DO NASCIMENTO.pdf
+1 SOUR 17981111 - Thome e Maria - casamento.pdf
+1 SOUR 17080430 - Bernardino Alves Pedroda e Narcisa Maria do Nascimento - casamento.pdf
+1 SOUR 17080430 - Bernardino Alves Pedroda e Narcisa Maria do Nascimento - casamento pt2.pdf
+1 BIRT
+2 DATE BEF 19 DEC 1706
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 CHR
+2 DATE 19 DEC 1706
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 DEAT
+2 DATE BEF 10 JUL 1775
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 BURI
+2 DATE BEF 10 JUL 1775
+2 PLAC Ibertioga, Minas Gerais, Brazil
+1 FAMC @F567@
+1 FAMS @F421@
+0 @I946@ INDI
+1 NAME Rita Maria da /Conceição/
+1 SEX F
+1 SOUR 17451005 - João Gomes do Nascimento e Rita Maria da Conceição - casamento.pdf
+1 SOUR 17760000 - Rita Maria da Conceição - requerimento de tutela.pdf
+1 BIRT
+2 DATE BEF 5 OCT 1745
+2 PLAC São José del Rei, Minas Gerais, Brazil
+1 DEAT
+2 DATE AFT 7 MAY 1790
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brazil
+1 FAMC @F568@
+1 FAMS @F421@
+0 @I975@ INDI
+1 NAME Severino /Ribeiro/
+1 SEX M
+1 SOUR 17641126 - Severino Ribeiro - casamento.pdf
+1 SOUR 17760807 - Severino Ribeiro - Requerimento de Patente.pdf
+1 SOUR 17990516 - Coronel Severino Ribeiro - requerimento de certidão.pdf
+1 SOUR 18000618 - Severino Ribeiro - decreto reforma.pdf
+1 BIRT
+2 DATE 8 JUN 1726
+2 PLAC Loures, Lisbon, Portugal
+1 CHR
+2 DATE 26 JUN 1726
+2 PLAC Loures, Lisbon, Portugal
+1 DEAT
+2 DATE 21 DEC 1800
+2 PLAC Prados, Minas Gerais, Brazil
+1 BURI
+2 DATE 22 DEC 1800
+2 PLAC Prados, Minas Gerais, Brazil
+1 EVEN Obtém patente de Capitão da Cavallaria Auxiliar da Nobreza do Destricto do Arraial dos Prados, termo da Villa de São Jozé
+2 DATE 2 NOV 1769
+2 PLAC Prados, Minas Gerais, Brazil
+1 EVEN Coronel
+1 EVEN Cavaleiro de Milícias
+2 PLAC São João del Rei, São João del Rei, Minas Gerais, Brazil
+1 EVEN
+1 FAMC @F578@
+1 FAMS @F437@
+0 @I976@ INDI
+1 NAME Josefa Maria de /Rezende/
+1 SEX F
+1 SOUR 17430205 - Josefa Maria de Rezende - batismo.pdf
+1 SOUR 18040000 - Josefa Maria de Resende - requerimento.pdf
+1 SOUR 18250529 - Josefa Maria de Rezende - óbito e testamento.pdf
+1 SOUR 17750107 - batismo de silvestre - afilhado de Josefa Maria de Resende.pdf
+1 BIRT
+2 DATE 5 FEB 1743
+2 PLAC Prados, Minas Gerais, Brazil
+1 CHR
+2 DATE 5 FEB 1743
+2 PLAC Prados, Minas Gerais, Brazil
+1 DEAT
+2 DATE 29 MAY 1825
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 BURI
+2 DATE 29 MAY 1825
+2 PLAC Prados, Minas Gerais, Brazil
+1 EVEN
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F508@
+1 FAMS @F437@
+0 @I1004@ INDI
+1 NAME Pedro /André/
+1 SEX M
+1 BIRT
+2 DATE ABT 1550
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F452@
+0 @I1005@ INDI
+1 NAME Ana /Brás/
+1 SEX F
+1 BIRT
+2 DATE ABT 1550
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE 16 FEB 1630
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMS @F452@
+0 @I1014@ INDI
+1 NAME Antônio /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE ABT 1580
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F579@
+1 FAMS @F456@
+0 @I1015@ INDI
+1 NAME Madanella /Pires/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F580@
+1 FAMS @F456@
+0 @I1016@ INDI
+1 NAME Domingos /Álvares/
+1 SEX M
+1 BIRT
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 RESI Aldeia de Travaços
+2 DATE 1615
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMS @F457@
+0 @I1017@ INDI
+1 NAME Francisca /Gonçalves/
+1 SEX F
+1 BIRT
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F457@
+0 @I1021@ INDI
+1 NAME Maria /Gomes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1590
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 CHR
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE 6 FEB 1660
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 BURI
+2 DATE 7 FEB 1660
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMC @F582@
+1 FAMS @F460@
+0 @I1022@ INDI
+1 NAME Domingos /Pires/
+1 SEX M
+1 BIRT
+2 DATE ABT 1585
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 RESI Aldeia de Mandim
+2 DATE 1612
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMC @F587@
+1 FAMS @F460@
+0 @I1032@ INDI
+1 NAME Pedro Rodrigues /Rico/
+1 SEX M
+1 BIRT
+2 DATE 8 MAR 1610
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 8 MAR 1610
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE BEF 26 JUL 1685
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMC @F591@
+1 FAMS @F465@
+0 @I1033@ INDI
+1 NAME Bárbara de /Sousa/
+1 SEX F
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 19 APR 1644
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMC @F594@
+1 FAMS @F465@
+0 @I1039@ INDI
+1 NAME Simão /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE 19 MAY 1600
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Colmeal, Figueira de Castelo Rodrigo, Guarda, Portugal
+1 FAMC @F595@
+1 FAMS @F466@
+0 @I1040@ INDI
+1 NAME Maria Francisca de /Souza/
+1 SEX F
+1 BIRT
+2 DATE ABT 1604
+2 PLAC Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMC @F598@
+1 FAMS @F466@
+0 @I1049@ INDI
+1 NAME Antonio /Vieira/
+1 SEX M
+1 BIRT
+2 DATE JUN 1622
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE before about 27 December 1698
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 DATE 28 DEC 1698
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMC @F599@
+1 FAMS @F471@
+0 @I1050@ INDI
+1 NAME Maria de /Benevides/
+1 SEX F
+1 BIRT
+2 DATE 1626
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 12 DEC 1626
+2 PLAC Senhor Bom Jesus, Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 17 JUL 1671
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMC @F601@
+1 FAMS @F471@
+0 @I1063@ INDI
+1 NAME Manoel de /Afonseca/
+1 SEX M
+1 BIRT
+2 DATE 1626
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 FAMC @F602@
+1 FAMS @F476@
+0 @I1064@ INDI
+1 NAME Izabel /Gomes/
+1 SEX F
+1 BIRT
+2 DATE 1617
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 8 JAN 1617
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMC @F603@
+1 FAMS @F476@
+0 @I1071@ INDI
+1 NAME Francisco /Furtado/
+1 SEX M
+1 BIRT
+2 DATE 1635
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F480@
+0 @I1072@ INDI
+1 NAME Maria /Rodrigues/
+1 SEX F
+1 BIRT
+2 DATE ABT 1630
+2 PLAC Portugal
+1 DEAT
+2 DATE 7 JAN 1742
+2 PLAC Cemitério Madalena, Madalena, Pico, Azores, Portugal
+1 RESI
+2 PLAC Madalena, Pico, Azores, Portugal
+1 RESI
+2 PLAC Valverde, Azores, Portugal
+1 FAMS @F480@
+0 @I1082@ INDI
+1 NAME Diogo /Garcez/
+1 SEX M
+1 BIRT
+2 DATE ABT 1640
+2 PLAC Portugal
+1 DEAT
+2 DATE BEF 1697
+2 PLAC Brazil
+1 FAMS @F483@
+0 @I1083@ INDI
+1 NAME Leonor de /Brito/
+1 SEX F
+1 BIRT
+2 DATE 1658
+2 PLAC Brazil
+1 DEAT
+2 DATE 1745
+1 EVEN
+2 DATE BEF 1697
+1 FAMS @F483@
+0 @I1084@ INDI
+1 NAME António Fernandes da /Silva/
+1 SEX M
+1 BIRT
+2 DATE ABT 1642
+2 PLAC Crestuma, Vila Nova de Gaia, Porto, Portugal
+1 DEAT
+2 DATE 27 DEC 1686
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 FAMC @F609@
+1 FAMS @F484@
+0 @I1085@ INDI
+1 NAME Maria das /Neves/
+1 SEX F
+1 BIRT
+2 DATE ABT 1650
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 DEAT
+2 DATE 13 OCT 1727
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 EVEN
+2 DATE 3 OCT 1672
+1 FAMC @F610@
+1 FAMS @F484@
+0 @I1092@ INDI
+1 NAME Francisco /Frutuoso/
+1 SEX M
+1 BIRT
+2 DATE 1619
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 28 MAR 1676
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F612@
+1 FAMS @F487@
+0 @I1093@ INDI
+1 NAME Catarina /Ribeira/
+1 SEX F
+1 BIRT
+2 DATE 1621
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 30 JUL 1672
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F614@
+1 FAMS @F487@
+0 @I1098@ INDI
+1 NAME Francisco /Vaz/
+1 SEX M
+1 BIRT
+2 DATE ABT 1625
+2 PLAC Portugal
+1 CHR
+2 PLAC Oliveira, Barcelos, Braga, Portugal
+1 DEAT
+2 DATE 7 FEB 1681
+2 PLAC São Miguel das Caldas de Vizela, Guimarães, Braga, Portugal
+1 FAMS @F489@
+0 @I1099@ INDI
+1 NAME Catarina /Ribeira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1627
+2 PLAC Portugal
+1 DEAT
+2 DATE 6 JUL 1685
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F489@
+0 @I1109@ INDI
+1 NAME Domingos /Vaz/
+1 SEX M
+1 BIRT
+2 DATE MAY 1631
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 1 JUN 1631
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 29 APR 1718
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F615@
+1 FAMS @F492@
+0 @I1110@ INDI
+1 NAME Maria /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE APR 1625
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 27 APR 1625
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 17 MAY 1700
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F616@
+1 FAMS @F492@
+0 @I1113@ INDI
+1 NAME Pedro /Martins/
+1 SEX M
+1 BIRT
+2 DATE ABT 1630
+1 DEAT
+2 DATE 14 MAR 1703
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F494@
+0 @I1114@ INDI
+1 NAME Francisca /Pedroza/
+1 SEX F
+1 BIRT
+2 DATE JAN 1631
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 CHR
+2 DATE 15 JAN 1631
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 13 DEC 1712
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMC @F618@
+1 FAMS @F494@
+0 @I1120@ INDI
+1 NAME Manoel Francisco /Filho/
+1 SEX M
+1 BIRT
+2 DATE ABT 1630
+2 PLAC Aveiro, Portugal
+1 CHR
+2 PLAC Aveiro, Portugal
+1 DEAT
+2 DATE BEF 1688
+2 PLAC Ovar, Aveiro, Portugal
+1 FAMC @F619@
+1 FAMS @F496@
+0 @I1121@ INDI
+1 NAME Anna /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE BEF 1641
+2 PLAC Ovar, Aveiro, Portugal
+1 DEAT
+2 DATE 26 MAR 1688
+2 PLAC Ovar, Aveiro, Portugal
+1 FAMC @F620@
+1 FAMS @F496@
+0 @I1122@ INDI
+1 NAME Gonçalo /Marques/
+1 SEX M
+1 BIRT
+2 DATE 1630
+2 PLAC Estarreja, Aveiro, Portugal
+1 CHR
+2 DATE 17 JAN 1666
+2 PLAC Aveiro, Aveiro, Portugal
+1 DEAT
+2 PLAC Estarreja, Aveiro, Portugal
+1 EVEN
+1 FAMC @F621@
+1 FAMS @F497@
+0 @I1123@ INDI
+1 NAME Appolonia /André/
+1 SEX F
+1 BIRT
+2 DATE 1630
+2 PLAC Estarreja, Aveiro, Portugal
+1 CHR
+2 DATE 3 MAR 1658
+2 PLAC Estarreja, Aveiro, Portugal
+1 DEAT
+2 PLAC Estarreja, Aveiro, Portugal
+1 FAMC @F626@
+1 FAMS @F497@
+0 @I1131@ INDI
+1 NAME Francisco Rodrigues da /Fonseca/
+1 SEX M
+1 BIRT
+2 PLAC Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 1710
+2 PLAC Horta, Faial, Azores, Portugal
+1 FAMC @F635@
+1 FAMS @F500@
+0 @I1132@ INDI
+1 NAME Bárbara /Garcia/
+1 SEX F
+1 BIRT
+2 DATE 1650
+2 PLAC Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 2 JUN 1710
+2 PLAC Horta, Faial, Azores, Portugal
+1 FAMC @F637@
+1 FAMS @F500@
+0 @I1144@ INDI
+1 NAME Manuel Gonçalves /Correia/
+1 SEX M
+1 SOUR 16850722 - Manoel Gonçalves da Correia e Maria Nunes -casamento.pdf
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Feteira, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE ABT 1722
+2 PLAC Azores, Portugal
+1 BURI
+2 DATE ABT 1722
+2 PLAC Azores, Portugal
+1 FAMC @F639@
+1 FAMS @F505@
+0 @I1145@ INDI
+1 NAME Maria /Nunes/
+1 SEX F
+1 SOUR 16850722 - Manoel Gonçalves da Correia e Maria Nunes -casamento.pdf
+1 BIRT
+2 DATE APR 1667
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 24 APR 1667
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 5 JAN 1742
+2 PLAC Prados, Minas Gerais, Brazil
+1 BURI
+2 DATE 6 JAN 1742
+2 PLAC Nossa Senhora da Conceição, Prados, Minas Gerais, Brazil
+1 RESI
+2 DATE ABT 1723
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 RESI Residência com a filha Helena
+2 DATE AFT 1726
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F640@
+1 FAMS @F505@
+0 @I1152@ INDI
+1 NAME Helena Maria de /Jesus/
+1 SEX F
+1 SOUR 17100115 - Helena Maria de Jesus - batismo.jpg
+1 SOUR JOÃO DE REZENDE COSTA.pdf
+1 BIRT
+2 DATE 15 JAN 1710
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 19 JAN 1710
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 29 MAR 1772
+2 PLAC Nossa Senhora da Conceição, Prados, Minas Gerais, Brazil
+1 BURI
+2 DATE 29 MAR 1772
+2 PLAC Prados, Minas Gerais, Brazil
+1 RESI Fazenda Carandaí
+2 DATE 1750
+2 PLAC Lagoa Dourada, Minas Gerais, Brazil
+1 EVEN Três irmãs açorianas que imigraram para o Brasil por volta de 1723
+1 EVEN Portuguesa
+1 FAMC @F505@
+1 FAMS @F508@
+0 @I1153@ INDI
+1 NAME João de Resende /Costa/
+1 SEX M
+1 SOUR 17730701 - João de Resende Costa - sesmaria.pdf
+1 SOUR 17580000 - João de Resende Costa - testamento.pdf
+1 SOUR JOÃO DE REZENDE COSTA.pdf
+1 BIRT
+2 DATE 1696
+2 PLAC Vila do Porto, Santa Maria, Azores, Portugal
+1 CHR
+2 DATE DEC 1696
+2 PLAC Vila do Porto, Santa Maria, Azores, Portugal
+1 DEAT
+2 DATE 8 MAR 1758
+2 PLAC Prados, Minas Gerais, Brazil
+1 BURI
+2 DATE 9 MAR 1758
+2 PLAC Prados, Minas Gerais, Brazil
+1 RESI Fazenda Engenho Velho dos Cataguás
+2 DATE ABT 1720
+2 PLAC Lagoa Dourada, Minas Gerais, Brazil
+1 RESI Fazenda Carandaí
+2 DATE 1750
+2 PLAC Lagoa Dourada, Minas Gerais, Brazil
+1 FAMS @F508@
+0 @I1154@ INDI
+1 NAME Antonio /Gonçalves/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F509@
+0 @I1155@ INDI
+1 NAME Barbara /Rodrigues/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F509@
+0 @I1156@ INDI
+1 NAME Francisco Jorge /Alvernas/
+1 SEX M
+1 BIRT
+2 DATE ABT 1646
+2 PLAC Cemitério Madalena, Madalena, Pico, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F510@
+0 @I1157@ INDI
+1 NAME Ana /Pereira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Pedro Miguel, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 21 OCT 1714
+2 PLAC Madalena, Pico, Azores, Portugal
+1 FAMS @F510@
+0 @I1169@ INDI
+1 NAME Pedro de Faria /Albernaz/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F515@
+0 @I1170@ INDI
+1 NAME Maria /Furtado/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F515@
+0 @I1171@ INDI
+1 NAME André /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE 1637
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 CHR
+2 DATE 25 OCT 1637
+1 DEAT
+2 DATE 14 JAN 1714
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 FAMC @F642@
+1 FAMS @F516@
+0 @I1172@ INDI
+1 NAME Paula da /Rosa/
+1 SEX F
+1 BIRT
+2 DATE 1654
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 8 JAN 1715
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 FAMS @F516@
+0 @I1192@ INDI
+1 NAME Gonçalo /Simões/
+1 SEX M
+1 BIRT
+2 DATE 7 NOV 1624
+2 PLAC Lousada, Porto, Portugal
+1 CHR
+2 DATE 17 NOV 1624
+2 PLAC Macieira, Lousada, Porto, Portugal
+1 DEAT
+2 DATE 21 OCT 1704
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 FAMC @F653@
+1 FAMS @F529@
+0 @I1193@ INDI
+1 NAME Domingas /Gaspar/
+1 SEX F
+1 BIRT
+2 DATE 1624
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 CHR
+2 DATE 29 FEB 1624
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 DEAT
+2 DATE 24 OCT 1662
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 FAMC @F654@
+1 FAMS @F529@
+0 @I1199@ INDI
+1 NAME Inácio /Manuel/
+1 SEX M
+1 BIRT
+2 DATE 1607
+2 PLAC Porto, Portugal
+1 DEAT
+2 DATE 30 MAR 1663
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 BURI
+2 DATE 30 MAR 1663
+2 PLAC Lousada, Porto, Portugal
+1 FAMC @F655@
+1 FAMS @F531@
+0 @I1200@ INDI
+1 NAME Maria /João/
+1 SEX F
+1 BIRT
+2 DATE ABT 1625
+2 PLAC Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F531@
+0 @I1201@ INDI
+1 NAME Domingos Bicudo de /Brito/
+1 SEX M
+1 BIRT
+2 DATE ABT 1616
+2 PLAC São Paulo, São Paulo, Brazil
+1 CHR
+2 PLAC Mogi Guaçu, São Paulo, Brazil
+1 DEAT
+2 DATE ABT 1680
+2 PLAC Brazil
+1 FAMC @F656@
+1 FAMS @F532@
+0 @I1202@ INDI
+1 NAME Francisca Leme de /Alvarenga/
+1 SEX F
+1 BIRT
+2 DATE ABT 1615
+2 PLAC São Paulo, Brazil
+1 DEAT
+2 DATE ABT 1680
+2 PLAC Brazil
+1 FAMC @F668@
+1 FAMS @F532@
+0 @I1206@ INDI
+1 NAME Manoel Munhoz /Paes/
+1 SEX M
+1 BIRT
+2 DATE ABT 1660
+2 PLAC São Paulo, Brazil
+1 DEAT
+2 DATE 15 SEP 1729
+2 PLAC Taubaté, São Paulo, Brazil
+1 FAMC @F673@
+1 FAMS @F535@
+0 @I1207@ INDI
+1 NAME Isabel da Silva /Leme/
+1 SEX F
+1 BIRT
+2 DATE ABT 1665
+2 PLAC São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F681@
+1 FAMS @F535@
+0 @I1212@ INDI
+1 NAME António /Soares/
+1 SEX M
+1 BIRT
+2 DATE ABT 1670
+2 PLAC Campanhã, Porto, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F688@
+1 FAMS @F538@
+0 @I1213@ INDI
+1 NAME Isabel de /Azevedo/
+1 SEX F
+1 BIRT
+2 DATE 23 NOV 1679
+2 PLAC Campanhã, Porto, Porto, Portugal
+1 CHR
+2 DATE 1679
+2 PLAC Porto, Portugal
+1 DEAT
+2 DATE 30 SEP 1696
+2 PLAC Campanhã, Porto, Porto, Portugal
+1 FAMC @F689@
+1 FAMS @F538@
+0 @I1215@ INDI
+1 NAME Bento Moreira Sam /Payo/
+1 SEX M
+1 BIRT
+2 DATE ABT 1680
+2 PLAC Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F539@
+0 @I1216@ INDI
+1 NAME Sebastianna Vieira e /Sylva/
+1 SEX F
+1 BIRT
+2 DATE ABT 1685
+2 PLAC Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F539@
+0 @I1221@ INDI
+1 NAME Francisco /Luís/
+1 SEX M
+1 BIRT
+2 DATE ABT 1630
+2 PLAC Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 25 AUG 1691
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMS @F540@
+0 @I1222@ INDI
+1 NAME Luzia /João/
+1 SEX F
+1 BIRT
+2 DATE ABT 1630
+2 PLAC Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 20 OCT 1677
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMS @F540@
+0 @I1223@ INDI
+1 NAME Francisco /Fernandes/
+1 SEX M
+1 BIRT
+2 DATE 16 JUN 1624
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 22 JUL 1702
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 BURI
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMC @F690@
+1 FAMS @F541@
+0 @I1224@ INDI
+1 NAME Marta /Ferreira/
+1 SEX F
+1 BIRT
+2 DATE 22 OCT 1617
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 27 AUG 1671
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMC @F691@
+1 FAMS @F541@
+0 @I1227@ INDI
+1 NAME Pedro /Álvares/
+1 SEX M
+1 BIRT
+2 DATE ABT 1650
+2 PLAC Viseu, Portugal
+1 DEAT
+2 DATE 18 SEP 1689
+2 PLAC Paredes da Beira, São João da Pesqueira, Viseu, Portugal
+1 FAMS @F543@
+0 @I1228@ INDI
+1 NAME Maria da /Fonseca/
+1 SEX F
+1 BIRT
+2 DATE ABT 1655
+2 PLAC Viseu, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F543@
+0 @I1230@ INDI
+1 NAME Francisco /Garcia/
+1 SEX M
+1 BIRT
+2 DATE ABT 1645
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 14 DEC 1712
+2 PLAC Matriz, Horta, Faial, Azores, Portugal
+1 FAMS @F544@
+0 @I1231@ INDI
+1 NAME Maria de /Bem/
+1 SEX F
+1 BIRT
+2 DATE ABT 1655
+2 PLAC Matriz, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 15 NOV 1705
+2 PLAC Matriz, Horta, Faial, Azores, Portugal
+1 BURI
+2 DATE 16 NOV 1705
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 FAMC @F694@
+1 FAMS @F544@
+0 @I1234@ INDI
+1 NAME Francisco Rodrigues /Cardoso/
+1 SEX M
+1 BIRT
+2 DATE 1670
+2 PLAC São Paulo, Brazil
+1 CHR
+2 DATE BEF 1700
+2 PLAC Brazil
+1 DEAT
+2 DATE 1710
+1 EVEN Indígena e portuguesa
+1 FAMC @F696@
+1 FAMS @F545@
+0 @I1235@ INDI
+1 NAME Maria de /Pontes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1672
+1 DEAT
+2 DATE 1724
+2 PLAC São João Batista de Atibaia, São Paulo, São Paulo, Brazil
+1 EVEN Ascendência predominante: portuguesa
+1 FAMC @F698@
+1 FAMS @F545@
+0 @I1247@ INDI
+1 NAME Manoel /Ramos/
+1 SEX M
+1 BIRT
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 CHR
+2 DATE 23 NOV 1638
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 DEAT
+2 DATE 15 SEP 1695
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 FAMC @F705@
+1 FAMS @F550@
+0 @I1248@ INDI
+1 NAME Catarina de /Almeida/
+1 SEX F
+1 BIRT
+2 DATE JAN 1651
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 CHR
+2 DATE 15 JAN 1651
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 DEAT
+2 DATE 12 JUN 1718
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 FAMC @F706@
+1 FAMS @F550@
+0 @I1256@ INDI
+1 NAME Jerónimo /Vieira/
+1 SEX M
+1 BIRT
+2 DATE ABT 1674
+2 PLAC Piedade, Lajes do Pico, Pico, Azores, Portugal
+1 CHR
+2 PLAC Lajes do Pico, Pico, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F711@
+1 FAMS @F553@
+0 @I1257@ INDI
+1 NAME Maria do Rosário de /Bittencourt/
+1 SEX F
+1 BIRT
+2 DATE ABT 1678
+2 PLAC Lajes do Pico, Pico, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F712@
+1 FAMS @F553@
+0 @I1266@ INDI
+1 NAME Salvador Moreira de /Castilho/
+1 SEX M
+1 SOUR Salvador Moreira de Castilho.pdf
+1 BIRT
+2 DATE 29 MAR 1684
+2 PLAC Diocese de Taubaté, Brazil
+1 DEAT
+2 DATE 31 AUG 1757
+2 PLAC Lambari, Minas Gerais, Brazil
+1 BURI
+2 DATE 31 AUG 1757
+2 PLAC Campanha, Minas Gerais, Brazil
+1 OCCU Escrivão
+2 DATE From 1714 to 1722
+2 PLAC São Francisco das Chagas de Taubaté, São Paulo, Brazil
+1 OCCU Juiz
+2 DATE From 1722 to 1735
+2 PLAC Taubaté, São Paulo, Brazil
+1 OCCU Capitão
+2 DATE From 1725 to 1735
+2 PLAC Taubaté, São Paulo, Brazil
+1 OCCU Capitão
+2 DATE ABT 1735
+1 OCCU Sargento-mór
+2 DATE 1740
+1 OCCU Sargento Mor
+2 DATE 1740
+1 OCCU Juiz Ordinário de Órfãos
+2 DATE 1722 a 1735
+2 PLAC Taubaté, São Paulo, Brazil
+1 FAMC @F714@
+1 FAMS @F556@
+0 @I1267@ INDI
+1 NAME Isabel de /Miranda/
+1 SEX F
+1 BIRT
+2 DATE ABT 1690
+2 PLAC Diocese de Taubaté, Brazil
+1 DEAT
+2 DATE ABT 1760
+1 FAMC @F722@
+1 FAMS @F556@
+0 @I1288@ INDI
+1 NAME Manuel /Fernandes/
+1 SEX M
+1 BIRT
+2 DATE 24 FEB 1682
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 CHR
+2 DATE 23 JUL 1684
+2 PLAC Portalegre, Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMC @F733@
+1 FAMS @F567@
+0 @I1289@ INDI
+1 NAME Maria Gomes do /Nascimento/
+1 SEX F
+1 BIRT
+2 DATE 1682
+2 PLAC Barcelos, Braga, Portugal
+1 CHR
+2 DATE 25 SEP 1682
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F735@
+1 FAMS @F567@
+0 @I1295@ INDI
+1 NAME Daniel de Sousa /Pimentel/
+1 SEX M
+1 SOUR 17451005 - João Gomes do Nascimento e Rita Maria da Conceição - casamento.pdf
+1 BIRT
+2 DATE 25 DEC 1690
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 CHR
+2 PLAC Namibia
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F736@
+1 FAMS @F568@
+0 @I1296@ INDI
+1 NAME Leonor Rodrigues /Cide/
+1 SEX F
+1 SOUR 17451005 - João Gomes do Nascimento e Rita Maria da Conceição - casamento.pdf
+1 BIRT
+2 DATE ABT 1704
+2 PLAC Diocese de Taubaté, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F741@
+1 FAMS @F568@
+0 @I1313@ INDI
+1 NAME Estêvão /Ribeiro/
+1 SEX M
+1 BIRT
+2 DATE 1697
+2 PLAC Loures, Lisbon, Portugal
+1 CHR
+2 DATE 9 JUL 1697
+2 PLAC Loures, Lisbon, Portugal
+1 DEAT
+2 PLAC Lisbon, Portugal
+1 BURI
+2 PLAC Lisbon, Portugal
+1 FAMC @F748@
+1 FAMS @F578@
+0 @I1314@ INDI
+1 NAME Leonarda Maria de /Souza/
+1 SEX F
+1 BIRT
+2 DATE ABT 1700
+2 PLAC Lisbon, Portugal
+1 DEAT
+2 PLAC Lisbon, Portugal
+1 BURI
+2 PLAC Lisbon, Portugal
+1 FAMS @F578@
+0 @I1316@ INDI
+1 NAME Rodrigo /Annes/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F579@
+0 @I1317@ INDI
+1 NAME Maria /Gonçalves/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F579@
+0 @I1318@ INDI
+1 NAME Manoel /Álvares/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F580@
+0 @I1319@ INDI
+1 NAME Anna /Francisca/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F580@
+0 @I1321@ INDI
+1 NAME João /Pires/
+1 SEX M
+1 BIRT
+2 DATE ABT 1570
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F582@
+0 @I1322@ INDI
+1 NAME Maria /Gomes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1570
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMS @F582@
+0 @I1330@ INDI
+1 NAME Gonçalo /Anes/
+1 SEX M
+1 BIRT
+2 DATE ABT 1530
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+1 CHR
+2 DATE ABT 1530
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE 26 DEC 1613
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 BURI
+2 DATE 27 DEC 1613
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMS @F587@
+0 @I1331@ INDI
+1 NAME Anna /Pires/
+1 SEX F
+1 BIRT
+2 DATE ABT 1535
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 DATE 13 APR 1601
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 BURI
+2 DATE 14 APR 1601
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+1 FAMS @F587@
+0 @I1337@ INDI
+1 NAME Manuel Rodrigues /Rico/
+1 SEX M
+1 BIRT
+2 DATE ABT 1593
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 11 JAN 1647
+2 PLAC São Miguel, Azores, Portugal
+1 FAMS @F591@
+0 @I1338@ INDI
+1 NAME Inês /Cordeira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1593
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 5 NOV 1654
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Senhor Bom Jesus, Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F591@
+0 @I1344@ INDI
+1 NAME Manuel /Afonso/
+1 SEX M
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE before about 11 January 1632
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F594@
+0 @I1345@ INDI
+1 NAME Gregória de /Sousa/
+1 SEX F
+1 BIRT
+2 DATE ABT 1600
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 19 OCT 1653
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Senhor Bom Jesus, Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F594@
+0 @I1346@ INDI
+1 NAME Gaspar /Martins/
+1 SEX M
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 12 NOV 1642
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F595@
+0 @I1347@ INDI
+1 NAME Domingas /Simoes/
+1 SEX F
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 6 MAY 1637
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F595@
+0 @I1354@ INDI
+1 NAME Andre /Pires/
+1 SEX M
+1 BIRT
+2 PLAC Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F598@
+0 @I1355@ INDI
+1 NAME Luzia de /Souza/
+1 SEX F
+1 BIRT
+2 PLAC Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F598@
+0 @I1356@ INDI
+1 NAME João /Vieira/
+1 SEX M
+1 BIRT
+2 DATE 1591
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F599@
+0 @I1357@ INDI
+1 NAME Izabel /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE 1594
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F599@
+0 @I1366@ INDI
+1 NAME João Rodrigues /Benevides/
+1 SEX M
+1 BIRT
+2 DATE 1600
+2 PLAC Bretanha, Ponta Delgada, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F601@
+0 @I1367@ INDI
+1 NAME Sabbina /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE 1601
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 20 JAN 1601
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 15 FEB 1672
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 BURI
+2 DATE 16 FEB 1672
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F601@
+0 @I1373@ INDI
+1 NAME Francisco /Gomes/
+1 SEX M
+1 BIRT
+2 DATE 1600
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 FAMS @F602@
+0 @I1374@ INDI
+1 NAME Ursala de /Afonseca/
+1 SEX F
+1 BIRT
+2 DATE 1604
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 DEAT
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 BURI
+2 PLAC Relva, Ponta Delgada, São Miguel, Azores, Portugal
+1 FAMS @F602@
+0 @I1375@ INDI
+1 NAME Francisco Pires /Caluo/
+1 SEX M
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 19 APR 1586
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE before about 25 May 1655
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F603@
+0 @I1376@ INDI
+1 NAME Martha /Gonçalves/
+1 SEX F
+1 BIRT
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 CHR
+2 DATE 22 JAN 1592
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 DEAT
+2 DATE 19 JAN 1661
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+1 FAMS @F603@
+0 @I1390@ INDI
+1 NAME Santos /Fernandes/
+1 SEX M
+1 BIRT
+2 DATE 1610
+2 PLAC Crestuma, Vila Nova de Gaia, Porto, Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F609@
+0 @I1391@ INDI
+1 NAME Beatriz /Ferreira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1610
+2 PLAC Crestuma, Vila Nova de Gaia, Porto, Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F609@
+0 @I1392@ INDI
+1 NAME Gregório Rodrigues /Valença/
+1 SEX M
+1 BIRT
+2 DATE ABT 1620
+2 PLAC Viana do Castelo, Portugal
+1 DEAT
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 FAMS @F610@
+0 @I1393@ INDI
+1 NAME Úrsula de /Góes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1629
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 CHR
+2 DATE 17 JUL 1629
+2 PLAC Santíssimo Sacramento da Antiga Sé, Rio de Janeiro, Rio de Janeiro, Brazil
+1 DEAT
+2 DATE 18 OCT 1665
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 EVEN
+2 DATE 10 APR 1694
+1 FAMS @F610@
+0 @I1399@ INDI
+1 NAME Francisco /Frutuoso/
+1 SEX M
+1 BIRT
+2 DATE ABT 1585
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 4 SEP 1632
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F612@
+0 @I1400@ INDI
+1 NAME Maria Pires /Pacheco/
+1 SEX F
+1 BIRT
+2 DATE ABT 1590
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 17 JAN 1646
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F612@
+0 @I1403@ INDI
+1 NAME João /Lopes/
+1 SEX M
+1 BIRT
+2 DATE ABT 1570
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 12 JUN 1651
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+1 OCCU Antemunhas
+1 FAMS @F614@
+0 @I1404@ INDI
+1 NAME Catarina /Ribeira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1575
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 6 FEB 1632
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F614@
+0 @I1407@ INDI
+1 NAME Gonçalo /Vaz/
+1 SEX M
+1 BIRT
+2 DATE ABT 1604
+2 PLAC Nossa Senhora da Oliveira, Oliveira São Paio e São Sebastião, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 15 OCT 1673
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F615@
+0 @I1408@ INDI
+1 NAME Margarida /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1609
+2 PLAC Vizela, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F615@
+0 @I1411@ INDI
+1 NAME Francisco /Fernandes/
+1 SEX M
+1 BIRT
+2 DATE ABT 1600
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 DEAT
+2 DATE 11 MAY 1674
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F616@
+0 @I1412@ INDI
+1 NAME Izabel Gonçalves /Pella/
+1 SEX F
+1 BIRT
+2 DATE ABT 1600
+2 PLAC Portugal
+1 DEAT
+2 DATE 23 MAR 1673
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F616@
+0 @I1415@ INDI
+1 NAME Manoel /Gonçalves/
+1 SEX M
+1 DEAT
+2 DATE 24 JUN 1658
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F618@
+0 @I1416@ INDI
+1 NAME Madalena /Pedroza/
+1 SEX F
+1 BIRT
+2 PLAC Braga Sé, Braga, Braga, Portugal
+1 DEAT
+2 DATE 29 DEC 1633
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+1 FAMS @F618@
+0 @I1419@ INDI
+1 NAME Manoel /Francisco/
+1 SEX M
+1 BIRT
+2 DATE 1610
+2 PLAC Ovar, Aveiro, Portugal
+1 DEAT
+2 DATE AUG 1688
+2 PLAC Ovar, Ovar, Aveiro, Portugal
+1 FAMS @F619@
+0 @I1420@ INDI
+1 NAME Francisca /Pedro/
+1 SEX F
+1 BIRT
+2 DATE 1610
+1 DEAT
+2 DATE 1646
+2 PLAC Ovar, Aveiro, Portugal
+1 FAMS @F619@
+0 @I1421@ INDI
+1 NAME Manuel Francisco /Fernandes/
+1 SEX M
+1 BIRT
+2 DATE 1595
+2 PLAC Ovar, Aveiro, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F620@
+0 @I1422@ INDI
+1 NAME Maria /Francisca/
+1 SEX F
+1 BIRT
+2 DATE ABT 1628
+2 PLAC Portugal
+1 DEAT
+2 DATE ABT 1667
+1 FAMS @F620@
+0 @I1423@ INDI
+1 NAME Manuel /Marques/
+1 SEX M
+1 BIRT
+2 PLAC Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F621@
+0 @I1424@ INDI
+1 NAME Maria /Marques/
+1 SEX F
+1 BIRT
+2 DATE ABT 1603
+2 PLAC Portugal
+1 DEAT
+2 PLAC Portugal
+1 FAMS @F621@
+0 @I1433@ INDI
+1 NAME João /Fernandez/
+1 SEX M
+1 BIRT
+2 PLAC São João do Monte, Tondela, Viseu, Portugal
+1 DEAT
+2 DATE DECEASED
+1 RESI
+2 PLAC Fornelo do Monte, Vouzela, Viseu, Portugal
+1 FAMS @F626@
+0 @I1434@ INDI
+1 NAME Domingas /André/
+1 SEX F
+1 BIRT
+2 PLAC São João Do Monte, Tondela, Viseu, Portugal
+1 DEAT
+2 DATE DECEASED
+1 BURI
+2 DATE 1 DEC 1686
+2 PLAC Campanhã, Porto, Porto, Portugal
+1 FAMS @F626@
+0 @I1452@ INDI
+1 NAME Francisco /Albernaz/
+1 SEX M
+1 BIRT
+2 DATE ABT 1638
+2 PLAC Santa Cruz, Praia da Vitória, Terceira, Azores, Portugal
+1 DEAT
+2 DATE BEF 1682
+2 PLAC Praia da Vitória, Terceira, Azores, Portugal
+1 BURI
+2 DATE BEF 1682
+2 PLAC Praia da Vitória, Terceira, Azores, Portugal
+1 EVEN PZPY-9Q1 - GLB6-BZN
+2 DATE 8 MAY 2026
+1 FAMS @F635@
+0 @I1453@ INDI
+1 NAME Catherina /Vieira/
+1 SEX F
+1 BIRT
+2 DATE ABT 18 NOV 1642
+2 PLAC Santa Cruz, Praia da Vitória, Terceira, Azores, Portugal
+1 CHR
+2 DATE 25 NOV 1642
+2 PLAC Santa Cruz, Praia da Vitória, Terceira, Azores, Portugal
+1 DEAT
+2 DATE ABT 1686
+2 PLAC Terceira, Azores, Portugal
+1 BURI
+2 DATE MAR 1686
+2 PLAC Terceira, Azores, Portugal
+1 EVEN GDWG-RSZ
+2 DATE 8 MAY 2026
+1 FAMS @F635@
+0 @I1456@ INDI
+1 NAME Mathias /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE ABT 1620
+2 PLAC Faial, Azores, Portugal
+1 DEAT
+2 DATE BEF 1673
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 OCCU Calafate
+2 DATE 30 JAN 1664
+2 PLAC Horta, Faial, Azores, Portugal
+1 FAMS @F637@
+0 @I1457@ INDI
+1 NAME Barbara /Garcia/
+1 SEX F
+1 BIRT
+2 DATE ABT 1625
+2 PLAC Faial, Azores, Portugal
+1 DEAT
+2 DATE AFT 30 JAN 1664
+2 PLAC Horta, Faial, Azores, Portugal
+1 FAMS @F637@
+0 @I1460@ INDI
+1 NAME João /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE 1635
+2 PLAC Feteira, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 1685
+2 PLAC Faial, Azores, Portugal
+1 FAMS @F639@
+0 @I1461@ INDI
+1 NAME Inês /Correia/
+1 SEX F
+1 BIRT
+2 DATE 1637
+2 PLAC Feteira, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 5 JAN 1711
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 BURI
+2 DATE 5 JAN 1711
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 FAMS @F639@
+0 @I1462@ INDI
+1 NAME João Lourenço /Nunes/
+1 SEX M
+1 BIRT
+2 DATE 1642
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 1676
+2 PLAC Faial, Azores, Portugal
+1 BURI
+2 DATE 1676
+2 PLAC Faial, Azores, Portugal
+1 FAMS @F640@
+0 @I1463@ INDI
+1 NAME Madalena /George/
+1 SEX F
+1 BIRT
+2 DATE 1 JUN 1642
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE 1 JUN 1722
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 BURI
+2 DATE 2 JUN 1722
+2 PLAC Angústias, Horta, Faial, Azores, Portugal
+1 FAMS @F640@
+0 @I1469@ INDI
+1 NAME João /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE 1610
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F642@
+0 @I1470@ INDI
+1 NAME Maria /Luis/
+1 SEX F
+1 BIRT
+2 DATE 1620
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F642@
+0 @I1489@ INDI
+1 NAME Sebastião /Simões/
+1 SEX M
+1 BIRT
+2 DATE ABT 1596
+2 PLAC Macieira, Lousada, Porto, Portugal
+1 DEAT
+2 DATE 22 MAY 1661
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 FAMS @F653@
+0 @I1490@ INDI
+1 NAME Ana /Vaz/
+1 SEX F
+1 BIRT
+2 DATE ABT 1600
+2 PLAC Lousada, Porto, Portugal
+1 DEAT
+2 DATE 3 DEC 1662
+2 PLAC Lousada, Porto, Portugal
+1 FAMS @F653@
+0 @I1491@ INDI
+1 NAME Belchior /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE ABT 1598
+2 PLAC Porto, Porto, Portugal
+1 DEAT
+2 DATE 21 OCT 1704
+2 PLAC Portugal
+1 FAMS @F654@
+0 @I1492@ INDI
+1 NAME Catarina /Gaspar/
+1 SEX F
+1 BIRT
+2 PLAC Portugal
+1 CHR
+2 DATE 9 NOV 1595
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 DEAT
+2 DATE 7 JUN 1662
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 FAMS @F654@
+0 @I1493@ INDI
+1 NAME Domingos /Manuel/
+1 SEX M
+1 BIRT
+2 DATE 1570
+2 PLAC Portugal
+1 DEAT
+2 DATE 6 FEB 1665
+2 PLAC Silvares, Lousada, Porto, Portugal
+1 FAMS @F655@
+0 @I1494@ INDI
+1 NAME Francisca /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE 1565
+2 PLAC Portugal
+1 DEAT
+2 DATE 20 FEB 1644
+2 PLAC Lousada, Porto, Portugal
+1 FAMS @F655@
+0 @I1495@ INDI
+1 NAME Antônio /Bicudo/
+1 SEX M
+1 BIRT
+2 DATE ABT 1580
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE 4 DEC 1650
+2 PLAC Santana de Parnaíba, São Paulo, Brazil
+1 OCCU Bandeirante
+2 DATE 1628
+2 PLAC São Paulo, Brazil
+1 FAMS @F656@
+0 @I1496@ INDI
+1 NAME Maria de /Brito/
+1 SEX F
+1 BIRT
+2 DATE 1590
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE 2 MAY 1650
+2 PLAC Carapicuíba, São Paulo, Brazil
+1 FAMS @F656@
+0 @I1517@ INDI
+1 NAME Francisco de /Alvarenga/
+1 SEX M
+1 BIRT
+2 DATE 1587
+2 PLAC Santana de Parnaíba, São Paulo, Brazil
+1 DEAT
+2 DATE 10 AUG 1675
+2 PLAC São Paulo, São Paulo, Brazil
+1 BURI
+2 PLAC Guaratinguetá, São Paulo, Brazil
+1 EVEN
+1 EVEN Capitão
+1 FAMS @F668@
+0 @I1518@ INDI
+1 NAME Luzia /Leme/
+1 SEX F
+1 BIRT
+2 DATE ABT 1590
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE 23 OCT 1653
+2 PLAC Santana de Parnaíba, São Paulo, Brazil
+1 FAMS @F668@
+0 @I1527@ INDI
+1 NAME Fernão Munhoz /Paes/
+1 SEX M
+1 BIRT
+2 DATE 1620
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE ABT 1670
+2 PLAC Santana de Mogi das Cruzes, São Paulo, Brazil
+1 FAMS @F673@
+0 @I1528@ INDI
+1 NAME Mécia Nunes /Bicudo/
+1 SEX F
+1 BIRT
+2 DATE ABT 1624
+2 PLAC Santana de Mogi das Cruzes, São Paulo, Brazil
+1 DEAT
+2 DATE 1700
+2 PLAC Jacareí, São Paulo, Brazil
+1 FAMS @F673@
+0 @I1543@ INDI
+1 NAME Antônio Teixeira da /Cunha/
+1 SEX M
+1 BIRT
+2 DATE ABT 1640
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE 22 APR 1697
+2 PLAC Jacareí, São Paulo, Brazil
+1 FAMS @F681@
+0 @I1544@ INDI
+1 NAME Maria /Ribeiro/
+1 SEX F
+1 BIRT
+2 DATE JAN 1649
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F681@
+0 @I1557@ INDI
+1 NAME Joam Soares da /Ribeira/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F688@
+0 @I1558@ INDI
+1 NAME Isabel /Coutinha/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F688@
+0 @I1560@ INDI
+1 NAME Mel /Glz/
+1 SEX M
+1 DEAT
+2 DATE 15 SEP 1670
+2 PLAC Porto, Porto, Portugal
+1 FAMS @F689@
+0 @I1561@ INDI
+1 NAME Isabel Glz /Roiz/
+1 SEX F
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F689@
+0 @I1569@ INDI
+1 NAME Domingos /Álvares/
+1 SEX M
+1 BIRT
+2 DATE ABT 1595
+2 PLAC Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 6 AUG 1679
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 BURI
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMS @F690@
+0 @I1570@ INDI
+1 NAME Susana /Fernandes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1600
+2 PLAC Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 19 DEC 1661
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 BURI
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMS @F690@
+0 @I1571@ INDI
+1 NAME Pedro /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE APR 1592
+2 PLAC Ronfe, Guimarães, Braga, Portugal
+1 CHR
+2 DATE 11 APR 1592
+2 PLAC Ronfe, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 1 MAR 1643
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 BURI
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMS @F691@
+0 @I1572@ INDI
+1 NAME Catharina /Gonçalves/
+1 SEX F
+1 BIRT
+2 DATE ABT 1595
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 DEAT
+2 DATE 15 MAR 1666
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 BURI
+2 PLAC Brito, Guimarães, Braga, Portugal
+1 FAMS @F691@
+0 @I1580@ INDI
+1 NAME José /Vieira/
+1 SEX M
+1 BIRT
+2 DATE ABT 1635
+2 PLAC Faial, Azores, Portugal
+1 DEAT
+2 DATE BEF 1677
+2 PLAC Azores, Portugal
+1 FAMS @F694@
+0 @I1581@ INDI
+1 NAME Maria /Rodrigues/
+1 SEX F
+1 BIRT
+2 DATE ABT 1640
+2 PLAC Faial, Azores, Portugal
+1 DEAT
+2 DATE AFT 1677
+2 PLAC Azores, Portugal
+1 FAMS @F694@
+0 @I1585@ INDI
+1 NAME Gaspar Vaz /Cardoso/
+1 SEX M
+1 BIRT
+2 DATE 1623
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE 1705
+2 PLAC Santana de Parnaíba, São Paulo, Brazil
+1 FAMS @F696@
+0 @I1586@ INDI
+1 NAME Izabel /Rodrigues/
+1 SEX F
+1 BIRT
+2 DATE AFT 1630
+2 PLAC São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 EVEN Uma de suas bisavós era cabloca e os outros eram portugueses
+1 FAMS @F696@
+0 @I1589@ INDI
+1 NAME Salvador de Pontes do /Canto/
+1 SEX M
+1 BIRT
+2 DATE ABT 1639
+2 PLAC Santana de Mogi das Cruzes, São Paulo, Brazil
+1 DEAT
+2 DATE 1708
+2 PLAC São João Batista de Atibaia, São Paulo, Brazil
+1 EVEN Ascendência predominante: portuguesa
+1 FAMS @F698@
+0 @I1590@ INDI
+1 NAME Isabel /Sutil/
+1 SEX F
+1 BIRT
+2 DATE 1642
+2 PLAC São João Batista de Atibaia, São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE 1702
+2 PLAC São João Batista de Atibaia, São Paulo, São Paulo, Brazil
+1 EVEN Ascendência predominante: portuguesa
+1 FAMS @F698@
+0 @I1601@ INDI
+1 NAME Domingos /Gonçalves/
+1 SEX M
+1 BIRT
+2 DATE BEF 1620
+1 DEAT
+2 PLAC Portugal
+1 EVEN
+1 FAMS @F705@
+0 @I1602@ INDI
+1 NAME Domingas /Ramos/
+1 SEX F
+1 DEAT
+2 DATE 23 JUL 1661
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 EVEN
+1 FAMS @F705@
+0 @I1605@ INDI
+1 NAME Francisco de /Almeida/
+1 SEX M
+1 DEAT
+2 DATE 5 SEP 1686
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 FAMS @F706@
+0 @I1606@ INDI
+1 NAME Isabel /Ribeiro/
+1 SEX F
+1 DEAT
+2 DATE 10 MAR 1678
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+1 FAMS @F706@
+0 @I1616@ INDI
+1 NAME Bartolomeu Cardoso /Monteiro/
+1 SEX M
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Pico, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F711@
+0 @I1617@ INDI
+1 NAME Maria /Vieira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Pico, Azores, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F711@
+0 @I1620@ INDI
+1 NAME João de Ávila /Sodré/
+1 SEX M
+1 BIRT
+2 DATE ABT 1638
+2 PLAC Ilha da Graciosa, Azores, Portugal
+1 DEAT
+2 DATE ABT 1725
+1 FAMS @F712@
+0 @I1621@ INDI
+1 NAME Catarina /Correia/
+1 SEX F
+1 BIRT
+2 DATE ABT 1638
+2 PLAC Azores, Portugal
+1 DEAT
+2 DATE ABT 1725
+1 FAMS @F712@
+0 @I1624@ INDI
+1 NAME José Moreira de /Castilho/
+1 SEX M
+1 BIRT
+2 DATE 1639
+2 PLAC Mogi das Cruzes, São Paulo, Brazil
+1 DEAT
+2 DATE 13 AUG 1684
+2 PLAC Taubaté, São Paulo, Brazil
+1 FAMS @F714@
+0 @I1625@ INDI
+1 NAME Isabel Fragoso de /Freitas/
+1 SEX F
+1 BIRT
+2 DATE ABT 1654
+2 PLAC Mogi das Cruzes, São Paulo, Brazil
+1 DEAT
+2 DATE 1684
+2 PLAC Taubaté, São Paulo, Brazil
+1 FAMS @F714@
+0 @I1640@ INDI
+1 NAME Domingos Vieira /Cardoso/
+1 SEX M
+1 BIRT
+2 DATE ABT 1642
+2 PLAC Santos, São Paulo, Brazil
+1 DEAT
+2 DATE 1700
+2 PLAC Santos, São Paulo, Brazil
+1 FAMS @F722@
+0 @I1641@ INDI
+1 NAME Marta de Miranda /Moniz/
+1 SEX F
+1 BIRT
+2 DATE 1655
+2 PLAC São Paulo, São Paulo, Brazil
+1 CHR
+2 DATE 6 NOV 1655
+2 PLAC São Paulo, São Paulo, Brazil
+1 DEAT
+2 DATE ABT 1705
+2 PLAC São Paulo, São Paulo, Brazil
+1 FAMS @F722@
+0 @I1667@ INDI
+1 NAME Leandro /Fernandes/
+1 SEX M
+1 BIRT
+2 DATE 1618
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 CHR
+2 DATE ABT 1662
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 DEAT
+2 DATE 1693
+2 PLAC Braga, Portugal
+1 FAMS @F733@
+0 @I1668@ INDI
+1 NAME Marta /Gonçalves/
+1 SEX F
+1 BIRT
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 CHR
+2 DATE ABT 1668
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F733@
+0 @I1671@ INDI
+1 NAME Domingos /Martins/
+1 SEX M
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F735@
+0 @I1672@ INDI
+1 NAME Antonia /Gomes/
+1 SEX F
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Vila Nova, Setúbal, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F735@
+0 @I1673@ INDI
+1 NAME Pedro dos Reis /Pimentel/
+1 SEX M
+1 BIRT
+2 DATE ABT 1665
+2 PLAC Ilha da Graciosa, Azores, Portugal
+1 DEAT
+2 DATE 21 JUN 1737
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+1 FAMS @F736@
+0 @I1674@ INDI
+1 NAME Inês de /Sousa/
+1 SEX F
+1 BIRT
+2 DATE ABT 1670
+2 PLAC Santos, São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F736@
+0 @I1683@ INDI
+1 NAME João Antunes de /Brito/
+1 SEX M
+1 SOUR Apolonia de Albernaz.pdf
+1 BIRT
+2 DATE ABT 1680
+2 PLAC Taubaté, São Paulo, Brazil
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F741@
+0 @I1684@ INDI
+1 NAME Apolônia Rodrigues de /Albernaz/
+1 SEX F
+1 SOUR Apolonia de Albernaz.pdf
+1 SOUR Povoadores de S. Paulo – Domingos Luís – O Carvoeiro.pdf
+1 BIRT
+2 DATE 1690
+2 PLAC Guaratinguetá, São Paulo, Brazil
+1 DEAT
+2 DATE 11 SEP 1756
+2 PLAC Baependi, Minas Gerais, Brazil
+1 FAMC @F776@
+1 FAMS @F741@
+0 @I1696@ INDI
+1 NAME Domingos /Ribeiro/
+1 SEX M
+1 BIRT
+2 DATE 1673
+2 PLAC Loures, Lisbon, Portugal
+1 CHR
+2 DATE 13 JUL 1673
+2 PLAC Loures, Lisbon, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F748@
+0 @I1697@ INDI
+1 NAME Violante /Nunes/
+1 SEX F
+1 BIRT
+2 DATE 1673
+2 PLAC Olivais, Lisbon, Lisbon, Portugal
+1 CHR
+2 DATE 20 AUG 1673
+2 PLAC Olivais, Lisbon, Lisbon, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F748@
+0 @I1698@ INDI
+1 NAME Bernardino José Gomes /Sandim/
+1 SEX M
+1 SOUR 18621006 - joaquim Filho de Bernardino José Gomes Sandim e Francisca Leopoldina de Araújo.pdf
+1 SOUR 18790518 - José Filho de Antônio Ignácio Alves Lima - ver padrinhos.pdf
+1 SOUR 18510000 - Bernardino José Gomes Sandim e Francisca Leopoldina de Araújo - Assentos Morro Grande.pdf
+1 SOUR 18560000 - Bernardino José Sandim - terras.pdf
+1 SOUR 18560000 - Francisca Iria e Bernardino José Sandim - terras.pdf
+1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 BIRT
+2 DATE 1811
+2 PLAC Minas Gerais, Brasil
+1 DEAT
+2 DATE 11 AUG 1885
+2 PLAC Madre de Deus do Rio Grande, Turvo, Minas Gerais, Brasil
+1 BURI
+2 DATE 12 AUG 1885
+2 PLAC Madre de Deus do Rio Grande, Turvo, Minas Gerais, Brasil
+1 FAMC @F751@
+1 FAMS @F749@
+0 @I1699@ INDI
+1 NAME Francisca Leopoldina de /Araújo/
+1 SEX F
+1 SOUR 18621006 - joaquim Filho de Bernardino José Gomes Sandim e Francisca Leopoldina de Araújo.pdf
+1 SOUR 18510000 - Francisca Iria de Paula - Assentos Morro Grande.pdf
+1 SOUR 18510000 - Bernardino José Gomes Sandim e Francisca Leopoldina de Araújo - Assentos Morro Grande.pdf
+1 BIRT
+2 DATE 1824
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F752@
+1 FAMS @F749@
+0 @I1706@ INDI
+1 NAME José Gomes /Sandim/
+1 SEX M
+1 SOUR 17580119 - José Gomes Sandim - batismo (prados).pdf
+1 SOUR 17820617- José Gomes Sandim - casamento (barbacena).pdf
+1 BIRT
+2 DATE 1758
+2 PLAC Prados, Minas Gerais, Brasil
+1 CHR
+2 DATE 19 JAN 1758
+2 PLAC Prados, Minas Gerais, Brasil
+1 DEAT
+2 DATE 1817
+2 PLAC Fazenda Lavrinhas, São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+1 FAMC @F754@
+1 FAMS @F750@
+0 @I1707@ INDI
+1 NAME Thereza Antônia de /Souza/
+1 SEX F
+1 SOUR 18510401 - Thereza Antonia de Souza - inventário.pdf
+1 SOUR 18500809 - óbito de Thereza Antônia de Souza.pdf
+1 SOUR 17820617- José Gomes Sandim - casamento (barbacena).pdf
+1 BIRT
+2 DATE ABT 1770
+1 DEAT
+2 DATE 9 AUG 1850
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 BURI
+2 DATE 9 AUG 1850
+2 PLAC Cemitério do Carmo, São João del Rei, Minas Gerais, Brasil
+1 FAMC @F755@
+1 FAMS @F750@
+0 @I1709@ INDI
+1 NAME Manuel José Gomes /Sandim/
+1 SEX M
+1 SOUR 17830323-Manoel-filho de Manoel José da Rosa e Maria Joaquina de São José.pdf
+1 SOUR 18060129 - Casamento de Manoel José Gomes Sandim (Prados).pdf
+1 SOUR 18311206 - Manoel (José) Gomes Sandim - mapa.pdf
+1 SOUR 18721019 - Manoel José Gomes Sandim - morte.pdf
+1 SOUR 18720000 - Manoel José Gomes Sandim - inventário.pdf
+1 BIRT
+2 DATE 27 JUL 1783
+2 PLAC Barroso, Tiradentes, Minas Gerais, Brasil
+1 DEAT
+2 DATE 19 OCT 1872
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 BURI
+2 DATE 19 OCT 1872
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMC @F750@
+1 FAMS @F751@
+0 @I1722@ INDI
+1 NAME Ana Joaquina de São José /Neta/
+1 SEX F
+1 SOUR 18060129 - Casamento de Manoel José Gomes Sandim (Prados).pdf
+1 SOUR 18210000 - Ana Joaquina de São José - inventário.pdf
+1 DEAT
+2 DATE 14 FEB 1821
+1 FAMC @F759@
+1 FAMS @F751@
+0 @I1731@ INDI
+1 NAME João Antonio de Araújo /Cerqueira/
+1 SEX M
+1 SOUR 17870000 - Francisca Iria de Paula - info.pdf
+1 SOUR 18510000 - João Antonio de Araújo Cerqueira e 18570000 - Francisca Iria de Paula - inventario.pdf
+1 SOUR 18510000 - Francisca Iria de Paula - Assentos Morro Grande.pdf
+1 SOUR 18240810 - João Antonio de Araujo Serqueira - batismo de Joaquim.pdf
+1 SOUR 18311206 - joão antônio de araújo serqueira - mapa1.pdf
+1 SOUR 18311206 - joão antônio de araújo serqueira - juiz de paz 1.pdf
+1 SOUR 18311206 - João Antônio de Araujo Serqueira - juiz de paz suplente 2.pdf
+1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 BIRT
+2 DATE ABT 1780
+2 PLAC Portugal
+1 DEAT
+2 DATE 30 MAR 1851
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 OCCU Alferes
+2 DATE 10 AGO 1824
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 OCCU Alferes, lavrador, Juiz de Paz
+2 DATE 06 DEZ 1831
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 OCCU Alferes das antigas Ordenanças, proprietário
+2 DATE 23 JAN 1842
+2 PLAC São João del Rei, Minas Gerais, Brazil
+1 FAMS @F752@
+0 @I1732@ INDI
+1 NAME Francisca Iria de /Paula/
+1 SEX F
+1 SOUR 17870000 - Francisca Iria de Paula - info.pdf
+1 SOUR 18510000 - João Antonio de Araújo Cerqueira e 18570000 - Francisca Iria de Paula - inventario.pdf
+1 SOUR 18560000 - Francisca Iria e Bernardino José Sandim - terras.pdf
+1 SOUR 18510000 - Francisca Iria de Paula - Assentos Morro Grande.pdf
+1 SOUR 18311206 - joão antônio de araújo serqueira - mapa1.pdf
+1 BIRT
+2 DATE ABT 1787
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+1 DEAT
+2 DATE 2 MAY 1857
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 OCCU costureira
+2 DATE 6 DEZ 1831
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+1 FAMC @F760@
+1 FAMS @F752@
+0 @I1745@ INDI
+1 NAME Francisco Ferreira /Machado/
+1 SEX M
+1 SOUR 17810120 - Maria Ribeiro de Jesus - batismo.pdf
+1 SOUR 17790712 - Francisco Ferreira Machado e Tereza Maria da Cunha - casamento.pdf
+1 BIRT
+2 DATE ABT 1755
+2 PLAC São Thiago do Couto de Cambezi, Villa de Bastos, Braga, Portugal
+1 CHR
+2 DATE OCT 1790
+2 PLAC Minas Gerais, Brasil
+1 DEAT
+2 DATE 22 APR 1798
+2 PLAC São Miguel do Cajuru, São João Del Rei, Minas Gerais, Brasil
+1 FAMC @F756@
+1 FAMS @F753@
+0 @I1746@ INDI
+1 NAME Teresa Maria da /Cunha/
+1 SEX F
+1 SOUR 17790712 - Francisco Ferreira Machado e Tereza Maria da Cunha - casamento.pdf
+1 SOUR 17810120 - Maria Ribeiro de Jesus - batismo.pdf
+1 BIRT
+2 DATE 1767
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F757@
+1 FAMS @F753@
+0 @I1750@ INDI
+1 NAME Manoel Gomes /Sandim/
+1 SEX M
+1 SOUR 17820617- José Gomes Sandim - casamento (barbacena).pdf
+1 SOUR 17360528 - Manoel Gomes Sandim - casamento (Prados).pdf
+1 SOUR 17360000 - Gomes Sandim - Prados.pdf
+1 SOUR 17610707 - sesmaria de Manoel Gomes Sandim.pdf
+1 SOUR 17610811 - Manoel Gomes Sandim - sesmaria.pdf
+1 SOUR 17671225 - Manoel Gomes Sandim - morte e testamento.pdf
+1 SOUR 17671225 - Manoel Gomes Sandim - morte e testamento2.pdf
+1 SOUR 17690000 - Manoel Gomes Sandim e 17970000 - Francisca de Souza Caldas - inventario.pdf
+1 DEAT
+2 DATE 22 DEC 1767
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMC @F758@
+1 FAMS @F754@
+0 @I1751@ INDI
+1 NAME Francisca de Souza /Caldas/
+1 SEX F
+1 SOUR 17820617- José Gomes Sandim - casamento (barbacena).pdf
+1 SOUR 17360528 - Manoel Gomes Sandim - casamento (Prados).pdf
+1 SOUR 17690000 - Manoel Gomes Sandim e 17970000 - Francisca de Souza Caldas - inventario.pdf
+1 SOUR 17950208 - Francisca de Souza Caldas - morte pt1.pdf
+1 SOUR 17950208 - Francisca de Souza Caldas - morte pt2.pdf
+1 SOUR SOUZA-CALDAS.pdf
+1 DEAT
+2 DATE 8 FEB 1795
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMC @F770@
+1 FAMS @F754@
+0 @I1766@ INDI
+1 NAME Domingos Affonso /Chaves/
+1 SEX M
+1 SOUR 17820617- José Gomes Sandim - casamento (barbacena).pdf
+1 SOUR 17650120 - Domingos Afonso Chaves - indBatSaoJoseRei_D.pdf
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F755@
+0 @I1767@ INDI
+1 NAME Margarida Antonia de /Souza/
+1 SEX F
+1 SOUR 17820617- José Gomes Sandim - casamento (barbacena).pdf
+1 SOUR 17650120 - Domingos Afonso Chaves - indBatSaoJoseRei_D.pdf
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F755@
+0 @I1770@ INDI
+1 NAME Manoel Ferreira /Machado/
+1 SEX M
+1 SOUR 17790712 - Francisco Ferreira Machado e Tereza Maria da Cunha - casamento.pdf
+1 BIRT
+2 DATE 1720
+2 PLAC Couto, Barcelos, Braga, Portugal
+1 DEAT
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F756@
+0 @I1771@ INDI
+1 NAME Maria /Rita/
+1 SEX F
+1 SOUR 17790712 - Francisco Ferreira Machado e Tereza Maria da Cunha - casamento.pdf
+1 BIRT
+2 DATE 1730
+2 PLAC Couto, Barcelos, Braga, Portugal
+1 DEAT
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F756@
+0 @I1772@ INDI
+1 NAME Antônio Teixeira da /Cunha/
+1 SEX M
+1 SOUR 17351120 - Antônio Teixeira da Cunha - batismo.jpg
+1 SOUR 17350117 - Bernardo Teixeira da Silva e Sebastiana de Oliveira Franco - casamento (carrancas).jpg
+1 BIRT
+2 DATE 1735
+2 PLAC Carrancas, Minas Gerais, Brasil
+1 CHR
+2 DATE 20 NOV 1735
+2 PLAC Carrancas, Minas Gerais, Brasil
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F771@
+1 FAMS @F757@
+0 @I1773@ INDI
+1 NAME Antônia Maria da /Silva/
+1 SEX F
+1 SOUR 17790712 - Francisco Ferreira Machado e Tereza Maria da Cunha - casamento.pdf
+1 SOUR 17901010 - Maria - batismo.pdf
+1 BIRT
+2 DATE ABT 1740
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 DEAT
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F757@
+0 @I1783@ INDI
+1 NAME Manoel Gomes Sandim da /Ponte/
+1 SEX M
+1 CHR
+2 DATE 12 SEP 1677
+2 PLAC Terroso, Póvoa de Varzim, Porto, Portugal
+1 DEAT
+2 PLAC Santa Maria de Terroso, Póvoa de Varzim, Porto, Portugal
+1 BURI
+2 PLAC Portugal
+1 FAMS @F758@
+0 @I1784@ INDI
+1 NAME Ana /Goncalves/
+1 SEX F
+1 BIRT
+2 DATE 29 JAN 1679
+2 PLAC Sao Cristovao do Rio Mau, Braga, Portugal
+1 CHR
+2 DATE 5 FEB 1679
+2 PLAC São Cristovão do Rio Mau, Vila do Conde, Porto, Portugal
+1 DEAT
+2 DATE DECEASED
+1 FAMS @F758@
+0 @I1793@ INDI
+1 NAME Manoel José da /Rosa/
+1 SEX M
+1 SOUR 17830323-Manoel-filho de Manoel José da Rosa e Maria Joaquina de São José.pdf
+1 SOUR 17920603 - João - filho de Manoel José da Rosa e Maria Joaquina de São José.pdf
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F773@
+1 FAMS @F759@
+0 @I1794@ INDI
+1 NAME Maria Joaquina de São /José/
+1 SEX F
+1 SOUR 17830323-Manoel-filho de Manoel José da Rosa e Maria Joaquina de São José.pdf
+1 SOUR 18060129 - Casamento de Manoel José Gomes Sandim (Prados).pdf
+1 SOUR 18311206 - Manoel (José) Gomes Sandim - mapa.pdf
+1 SOUR 18721019 - Manoel José Gomes Sandim - morte.pdf
+1 SOUR 18720000 - Manoel José Gomes Sandim - inventário.pdf
+1 BIRT
+2 DATE BEF 10 JUN 1792
+1 DEAT
+2 DATE DECEASED
+1 FAMC @F761@
+1 FAMS @F759@
+0 @I1814@ INDI
+1 NAME Bernardo Pacheco de /Carvalho/
+1 SEX M
+1 SOUR Bernardo Pacheco de Carvalho.pdf
+1 SOUR 17610000 - Bernardo Pacheco de Carvalho e Ana Joaquina de São José - padrinhos.pdf
+1 SOUR 18200424 - Bernardo Pacheco de Carvalho e Anna Joaquina de S Jose - inventario.pdf
+1 BIRT
+2 DATE ABT 1715
+2 PLAC Agualva, Praia da Vitória, Terceira, Açores, Portugal
+1 DEAT
+2 DATE 1777
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMS @F761@
+0 @I1815@ INDI
+1 NAME Anna Joaquina de São /José/
+1 SEX F
+1 SOUR Bernardo Pacheco de Carvalho.pdf
+1 SOUR 18200424 - Bernardo Pacheco de Carvalho e Anna Joaquina de S Jose - inventario.pdf
+1 SOUR 17411017 - batismo de Ana Joaquina de São José.jpg
+1 BIRT
+2 DATE 17 OCT 1741
+2 PLAC Prados, Minas Gerais, Brasil
+1 CHR
+2 DATE 17 OCT 1741
+2 PLAC Prados, Minas Gerais, Brasil
+1 DEAT
+2 DATE BEF 1820
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMC @F774@
+1 FAMS @F761@
+0 @I1827@ INDI
+1 NAME Manuel Antonio de /Souza/
+1 SEX M
+1 SOUR 17521225 - Escolástica Maria Lopes de Siqueira.pdf
+1 SOUR 17730922 - Manoel Antonio de Souza - inventario.pdf
+1 BIRT
+2 DATE 23 JUL 1738
+2 PLAC Sermonde, Vila Nova de Gaia, Porto, Portugal
+1 CHR
+2 DATE 26 JUL 1738
+2 PLAC Sermonde, Vila Nova de Gaia, Porto, Portugal
+1 DEAT
+2 DATE 22 SEP 1773
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F762@
+0 @I1828@ INDI
+1 NAME João Lopes de /Siqueira/
+1 SEX M
+1 SOUR 17360604 - João Lopes de Siqueira e Ana da Fonseca Coutinho - casamento.pdf
+1 SOUR 17670000 - Capitão João Lopes de Siqueira e Ana da Fonseca Coutinho.pdf
+1 SOUR 16990409 - batismo de João Lopes de Siqueira.pdf
+1 SOUR 17460000 - João Lopes de Siqueira - requerimento.pdf
+1 SOUR 17490702 - Capitão João Lopes Siqueira - requerimento.pdf
+1 SOUR 17490723 - João Lopes de Siqueira - confirmação da patente.pdf
+1 SOUR 17771006 - Ana Lopes de Siqueira-filha de João Lopes de Siqueira.pdf
+1 SOUR 18560000 - João Lopes de Siqueira - terras.pdf
+1 BIRT
+2 DATE 9 APR 1699
+2 PLAC Areia, Crestuma, Vila Nova de Gaia, Porto, Portugal
+1 CHR
+2 DATE 14 APR 1699
+2 PLAC Santa Marinha, Vila Nova de Gaia, Porto, Portugal
+1 DEAT
+2 DATE 10 APR 1767
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F763@
+0 @I1829@ INDI
+1 NAME Ana da Fonseca /Coutinho/
+1 SEX F
+1 SOUR 17360604 - João Lopes de Siqueira e Ana da Fonseca Coutinho - casamento.pdf
+1 SOUR 17670000 - Capitão João Lopes de Siqueira e Ana da Fonseca Coutinho.pdf
+1 SOUR 17701211 - Ana da Fonseca Coutinho - índice de sesmaria.pdf
+1 SOUR 17850707 - Ana da Fondeca Coutinho - óbito e testamento pt1.pdf
+1 SOUR 17850707 - Ana da Fondeca Coutinho - óbito e testamento pt2.pdf
+1 BIRT
+2 DATE ABT 1720
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 DEAT
+2 DATE 7 JUL 1785
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMC @F764@
+1 FAMS @F763@
+0 @I1843@ INDI
+1 NAME Feliciano da Silva /Coutinho/
+1 SEX M
+1 SOUR 17360604 - João Lopes de Siqueira e Ana da Fonseca Coutinho - casamento.pdf
+1 BIRT
+2 DATE 6 MAY 1693
+2 PLAC São Salvador do Campo, Santo Tirso, Porto, Portugal
+1 DEAT
+2 DATE ABT 1770
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F764@
+0 @I1844@ INDI
+1 NAME Maria Portes /del-Rei/
+1 SEX F
+1 SOUR 17360604 - João Lopes de Siqueira e Ana da Fonseca Coutinho - casamento.pdf
+1 CHR
+2 DATE 19 MAR 1685
+2 PLAC Santana de Mogi das Cruzes, São Paulo, Brasil
+1 DEAT
+2 DATE 1770
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMS @F764@
+0 @I1846@ INDI
+1 NAME Antônio Gonçalves /Braga/
+1 SEX M
+1 SOUR 18610425 - Joaquim filho de Antônio Gonçalves Braga e Emerenciana Felisbina de Jesus.pdf
+1 FAMS @F765@
+0 @I1847@ INDI
+1 NAME Emerenciana Felisbina de /Jesus/
+1 SEX F
+1 NOTE Habilitação para casamento: 10 de abril de 1890
+1 FAMS @F765@
+0 @I1848@ INDI
+1 NAME Cristóvão Pereira de /Mello/
+1 SEX M
+1 SOUR 17230110 - Cristóvão Pereira de Melo e Teresa de Souza Caldas - casamento.pdf
+1 SOUR 17360528 - Manoel Gomes Sandim - casamento (Prados).pdf
+1 SOUR 17690000 - Manoel Gomes Sandim e 17970000 - Francisca de Souza Caldas - inventario.pdf
+1 SOUR SOUZA-CALDAS.pdf
+1 BIRT
+2 DATE 30 Dez 1685
+2 PLAC Santo Ildefonso, Porto, Porto, Portugal
+1 BAPM
+2 DATE 01 Jan 1686
+2 PLAC Santo Ildefonso, Porto, Porto, Portugal
+1 DEAT
+2 DATE 21 Jul 1734
+2 PLAC Prados, Minas Gerais, Brazil
+1 FAMS @F770@
+0 @I1849@ INDI
+1 NAME Teresa de Sousa /Caldas/
+1 SEX F
+1 SOUR 17230110 - Cristóvão Pereira de Melo e Teresa de Souza Caldas - casamento.pdf
+1 SOUR 17360528 - Manoel Gomes Sandim - casamento (Prados).pdf
+1 SOUR 17690000 - Manoel Gomes Sandim e 17970000 - Francisca de Souza Caldas - inventario.pdf
+1 SOUR SOUZA-CALDAS.pdf
+1 SOUR 17370206 - Thereza de Souza Caldas - segundo casamento.pdf
+1 BIRT
+2 DATE 1708
+2 PLAC São Gonçalo, Rio de Janeiro, Brazil
+1 DEAT
+2 DATE 25 Abr 1792
+2 PLAC Prados, Minas Gerais, Brazil
+1 BAPM
+2 DATE 22 Abr 1708
+2 PLAC São Gonçalo, Rio de Janeiro, Brazil
+1 FAMC @F775@
+1 FAMS @F770@
+0 @I1850@ INDI
+1 NAME Bernardo Teixeira da /Silva/
+1 SEX M
+1 SOUR 17350117 - Bernardo Teixeira da Silva e Sebastiana de Oliveira Franco - casamento (carrancas).jpg
+1 BIRT
+2 DATE ABT 1700
+2 PLAC São Paulo, São Paulo, Brazil
+1 FAMS @F771@
+0 @I1851@ INDI
+1 NAME Sebastiana de Oliveira /Franco/
+1 SEX F
+1 SOUR 17350117 - Bernardo Teixeira da Silva e Sebastiana de Oliveira Franco - casamento (carrancas).jpg
+1 BIRT
+2 DATE ABT 1715
+2 PLAC Jacareí, São Paulo, Brazil
+1 FAMC @F772@
+1 FAMS @F771@
+0 @I1852@ INDI
+1 NAME Ignácio Franco /Torres/
+1 SEX M
+1 SOUR 17180118 - Ignácio Franco Torres - escrivão.jpg
+1 SOUR 17190103 - Ignácio Franco Torres - Carta.jpg
+1 SOUR 17190103 - Ignácio Franco Torres - Carta pt2.jpg
+1 SOUR 17200727 - Ignacio Franco Torres - escrivao.jpg
+1 SOUR 17210108 - Ignácio Franco Torres - requerimento.pdf
+1 SOUR 17340306 - Ignácio Franco Torres - patente.pdf
+1 SOUR 17370327 - Ignácio Franco Torres - óbito.jpg
+1 SOUR 17370408 - Coronel Inácio Franco Torres - inventário.pdf
+1 SOUR 17171718 - Ignácio Franco Torres - capitão - indice.jpg
+1 SOUR 17171718 - Ignácio Franco Torres - escrivão - indice.jpg
+1 SOUR 17171718 - Ignácio Franco Torres - escrivao.jpg
+1 BIRT
+2 DATE ABT 1690
+2 PLAC Salvador, Bahia, Brasil
+1 DEAT
+2 DATE 27 MAR 1737
+2 PLAC Carrancas, Minas Gerais, Brasil
+1 OCCU Escrivão da Câmara Municipal
+2 DATE 18 JAN 1718
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 OCCU Escrivão da Câmara Municipal
+2 DATE 27 JUL 1720
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 OCCU Capitão-mor das Ordenanças da Aiuruoca
+2 DATE 06 MAR 1734
+2 PLAC Aiuruoca, Minas Gerais, Brasil
+1 FAMS @F772@
+0 @I1853@ INDI
+1 NAME Natália de /Oliveira/
+1 SEX F
+1 BIRT
+2 DATE ABT 1695
+2 PLAC Jacareí, São Paulo, Brasil
+1 FAMS @F772@
+0 @I1854@ INDI
+1 NAME Thomaz José da /Rosa/
+1 SEX M
+1 SOUR 17920603 - João - filho de Manoel José da Rosa e Maria Joaquina de São José.pdf
+1 FAMS @F773@
+0 @I1855@ INDI
+1 NAME Maria da /Conceição/
+1 SEX F
+1 SOUR 17920603 - João - filho de Manoel José da Rosa e Maria Joaquina de São José.pdf
+1 BIRT
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMS @F773@
+0 @I1856@ INDI
+1 NAME João /Lourenço/
+1 SEX M
+1 BIRT
+2 DATE 31 MAI 1702
+2 PLAC Madalena, Pico, Açores, Portugal
+1 FAMS @F774@
+0 @I1857@ INDI
+1 NAME Rosa /Maria/
+1 SEX F
+1 SOUR 17411017 - batismo de Ana Joaquina de São José.jpg
+1 BIRT
+2 DATE 1705
+2 PLAC Faial, Açores, Portugal
+1 DEAT
+2 DATE 18 Dez 1742
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMS @F774@
+0 @I1858@ INDI
+1 NAME Batista de Caldas /Castro/
+1 SEX M
+1 SOUR SOUZA-CALDAS.pdf
+1 SOUR 16990907 - Batista de Caldas Castro e Luisa de Souza Cordeiro - casamento.pdf
+1 BIRT
+2 DATE 5 MAR 1673
+2 PLAC Verdoejo, Valença, Viana do Castelo, Portugal
+1 FAMS @F775@
+0 @I1859@ INDI
+1 NAME Luísa de Souza /Cordeiro/
+1 SEX F
+1 SOUR SOUZA-CALDAS.pdf
+1 FAMS @F775@
+0 @I1860@ INDI
+1 NAME Bento da Costa /Preto/
+1 SEX M
+1 SOUR 17271026 - Bento da Costa Preto - sesmaria.pdf
+1 SOUR Povoadores de S. Paulo – Domingos Luís – O Carvoeiro.pdf
+1 SOUR 17960609 - Bento da Costa Preto e Leonor Rodrigues Cid.pdf
+1 BIRT
+2 DATE 1658
+2 PLAC Taubaté, São Paulo, Brasil
+1 FAMS @F776@
+0 @I1861@ INDI
+1 NAME Leonor Rodrigues /Cid/
+1 SEX F
+1 SOUR 17271026 - Bento da Costa Preto - sesmaria.pdf
+1 SOUR Povoadores de S. Paulo – Domingos Luís – O Carvoeiro.pdf
+1 SOUR 17960609 - Bento da Costa Preto e Leonor Rodrigues Cid.pdf
+1 BIRT avó
+2 DATE 1658
+2 PLAC Taubaté, São Paulo, Brasil
+1 FAMS @F776@
+0 @I1862@ INDI
+1 NAME Manoel Correa /Martins/
+1 SEX M
+1 SOUR 17640128 - Gonçalo Correa Neto e Tereza Maria Duarte - casamento.pdf
+1 BIRT
+2 DATE ABT 1718
+2 PLAC Braga, Portugal
+1 FAMS @F777@
+0 @I1863@ INDI
+1 NAME Izabel Fernandes da /Conceição/
+1 SEX F
+1 SOUR 17640128 - Gonçalo Correa Neto e Tereza Maria Duarte - casamento.pdf
+1 BIRT
+2 DATE ABT 1720
+2 PLAC Landim, Vila Nova de Famalicão, Braga, Portugal
+1 FAMS @F777@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+1 MARR
+2 DATE 13 de julho de 1963
+2 PLAC São Paulo, São Paulo, Brasil
+0 @F2@ FAM
+1 HUSB @I9@
+1 WIFE @I10@
+1 CHIL @I2@
+1 MARR
+2 DATE 9 de novembro de 1937
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brasil
+0 @F3@ FAM
+1 HUSB @I16@
+1 WIFE @I17@
+1 CHIL @I3@
+1 MARR
+2 DATE 2 de abril de 1923
+2 PLAC São Tomé das Letras, Minas Gerais, Brasil
+0 @F16@ FAM
+1 HUSB @I42@
+1 WIFE @I43@
+1 CHIL @I9@
+0 @F26@ FAM
+1 HUSB @I63@
+1 WIFE @I64@
+1 CHIL @I10@
+0 @F31@ FAM
+1 HUSB @I75@
+1 WIFE @I76@
+1 CHIL @I16@
+0 @F35@ FAM
+1 HUSB @I85@
+1 WIFE @I86@
+1 CHIL @I17@
+1 MARR
+2 DATE aproximadamente 1904
+0 @F46@ FAM
+1 HUSB @I108@
+1 WIFE @I109@
+1 CHIL @I42@
+0 @F47@ FAM
+1 HUSB @I110@
+1 WIFE @I111@
+1 CHIL @I43@
+0 @F48@ FAM
+1 HUSB @I112@
+1 WIFE @I113@
+1 CHIL @I63@
+1 MARR
+2 DATE 15 AUG 1863
+2 PLAC Carmo Da Cachoeira, Minas Gerais, Brazil
+0 @F49@ FAM
+1 HUSB @I120@
+1 WIFE @I121@
+1 CHIL @I64@
+1 MARR
+2 DATE 21 de setembro de 1864
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brasil
+0 @F51@ FAM
+1 HUSB @I129@
+1 WIFE @I130@
+1 CHIL @I75@
+1 MARR
+2 DATE aproximadamente 1850
+0 @F61@ FAM
+1 HUSB @I146@
+1 WIFE @I147@
+1 CHIL @I76@
+1 MARR
+2 DATE aproximadamente 1847
+0 @F67@ FAM
+1 HUSB @I156@
+1 WIFE @I157@
+1 CHIL @I85@
+1 MARR
+2 DATE 14 de setembro de 1873
+2 PLAC Nazaré, São João del Rei, Minas Gerais, Brasil
+0 @F75@ FAM
+1 HUSB @I135@
+1 WIFE @I172@
+1 CHIL @I86@
+1 MARR
+2 DATE 31 de julho de 1880
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brasil
+0 @F80@ FAM
+1 WIFE @I182@
+1 CHIL @I113@
+1 MARR
+0 @F81@ FAM
+1 HUSB @I183@
+1 WIFE @I184@
+1 CHIL @I120@
+0 @F82@ FAM
+1 WIFE @I185@
+1 CHIL @I121@
+1 MARR
+0 @F83@ FAM
+1 HUSB @I186@
+1 WIFE @I187@
+1 CHIL @I129@
+1 CHIL @I195@
+1 MARR
+2 DATE 23 de setembro de 1799
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F87@ FAM
+1 HUSB @I196@
+1 WIFE @I195@
+1 CHIL @I147@
+1 MARR
+2 DATE aproximadamente 1823
+2 PLAC Minas Gerais, Brasil
+0 @F93@ FAM
+1 HUSB @I208@
+1 WIFE @I209@
+1 CHIL @I130@
+1 MARR
+2 DATE 9 de setembro de 1812
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F100@ FAM
+1 HUSB @I229@
+1 WIFE @I230@
+1 CHIL @I146@
+1 MARR
+2 DATE aproximadamente 1822
+0 @F103@ FAM
+1 HUSB @I241@
+1 WIFE @I242@
+1 CHIL @I156@
+0 @F104@ FAM
+1 HUSB @I243@
+1 WIFE @I244@
+1 CHIL @I157@
+1 MARR
+2 DATE 8 de junho de 1858
+2 PLAC Nossa Senhora da Nazaré, São João del Rei, Minas Gerais, Brasil
+0 @F107@ FAM
+1 HUSB @I251@
+1 WIFE @I252@
+1 CHIL @I172@
+0 @F114@ FAM
+1 HUSB @I265@
+1 WIFE @I266@
+1 CHIL @I283@
+1 CHIL @I186@
+1 MARR
+2 DATE 14 de fevereiro de 1763
+2 PLAC Aiuruoca, Minas Gerais, Brasil
+0 @F122@ FAM
+1 HUSB @I283@
+1 WIFE @I284@
+1 CHIL @I229@
+1 MARR
+2 DATE 6 de maio de 1799
+2 PLAC São Miguel  do Cajuru, São João Del Rei, Minas Gerais, Brasil
+0 @F127@ FAM
+1 HUSB @I293@
+1 WIFE @I294@
+1 CHIL @I187@
+1 MARR
+2 DATE 8 de junho de 1779
+2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brasil
+0 @F137@ FAM
+1 HUSB @I315@
+1 WIFE @I316@
+1 CHIL @I208@
+1 MARR
+2 DATE 26 de agosto de 1782
+2 PLAC Piedade do Rio Grande, Minas Gerais, Brasil
+0 @F150@ FAM
+1 HUSB @I339@
+1 WIFE @I340@
+1 CHIL @I209@
+1 MARR
+2 DATE aproximadamente 1791
+0 @F157@ FAM
+1 HUSB @I356@
+1 WIFE @I357@
+1 CHIL @I230@
+1 MARR
+2 DATE 27 de agosto de 1802
+2 PLAC Madre de Deus de Minas, Minas Gerais, Brasil
+0 @F159@ FAM
+1 HUSB @I366@
+1 WIFE @I367@
+1 CHIL @I251@
+0 @F163@ FAM
+1 HUSB @I376@
+1 WIFE @I377@
+1 CHIL @I252@
+1 MARR
+2 DATE aproximadamente 1836
+2 PLAC São João del Rei, Minas Gerais, Brazil
+0 @F171@ FAM
+1 HUSB @I391@
+1 WIFE @I392@
+1 CHIL @I265@
+0 @F172@ FAM
+1 HUSB @I394@
+1 WIFE @I395@
+1 CHIL @I266@
+0 @F174@ FAM
+1 HUSB @I399@
+1 WIFE @I400@
+1 CHIL @I293@
+1 CHIL @I315@
+1 MARR
+2 DATE aproximadamente 1746
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F187@ FAM
+1 HUSB @I424@
+1 WIFE @I425@
+1 CHIL @I294@
+1 CHIL @I316@
+1 MARR
+2 DATE aproximadamente 1748
+2 PLAC Barbacena, Minas Gerais, Brasil
+0 @F195@ FAM
+1 HUSB @I441@
+1 WIFE @I442@
+1 CHIL @I340@
+1 MARR
+2 DATE aproximadamente 1754
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F207@ FAM
+1 HUSB @I466@
+1 WIFE @I467@
+1 CHIL @I356@
+1 MARR
+2 DATE 23 APR 1764
+2 PLAC Baependi, Minas Gerais, Brazil
+0 @F215@ FAM
+1 HUSB @I483@
+1 WIFE @I484@
+1 CHIL @I357@
+1 MARR
+2 DATE 6 DEZ 1769
+2 PLAC Aiuruoca, Minas Gerais, Brasil
+0 @F225@ FAM
+1 HUSB @I501@
+1 WIFE @I502@
+1 CHIL @I366@
+0 @F229@ FAM
+1 HUSB @I510@
+1 WIFE @I511@
+1 CHIL @I376@
+1 CHIL @I367@
+1 MARR
+2 DATE 25 de novembro de 1805
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+0 @F238@ FAM
+1 HUSB @I530@
+1 WIFE @I531@
+1 CHIL @I377@
+1 MARR
+2 DATE 1820
+2 PLAC São João del Rei, Minas Gerais, Brazil
+0 @F243@ FAM
+1 HUSB @I540@
+1 WIFE @I541@
+1 CHIL @I391@
+1 MARR
+2 DATE 11 de maio de 1680
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+0 @F244@ FAM
+1 HUSB @I543@
+1 WIFE @I544@
+1 CHIL @I392@
+1 MARR
+2 DATE 13 de julho de 1685
+2 PLAC São Sebastião, Darque, Viana do Castelo, Viana do Castelo, Portugal
+0 @F245@ FAM
+1 HUSB @I545@
+1 WIFE @I546@
+1 CHIL @I394@
+0 @F247@ FAM
+1 HUSB @I551@
+1 WIFE @I552@
+1 CHIL @I395@
+1 MARR
+2 DATE 17 de outubro de 1712
+2 PLAC São José del Rei, Minas Gerais, Brasil
+0 @F257@ FAM
+1 HUSB @I572@
+1 WIFE @I573@
+1 CHIL @I399@
+1 MARR
+2 DATE 12 de março de 1700
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+0 @F261@ FAM
+1 HUSB @I581@
+1 WIFE @I582@
+1 CHIL @I400@
+1 MARR
+2 DATE 1 de fevereiro de 1728
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F265@ FAM
+1 HUSB @I591@
+1 WIFE @I592@
+1 CHIL @I424@
+1 MARR
+2 DATE 3 de fevereiro de 1709
+2 PLAC Vitorino das Donas, Ponte de Lima, Viana do Castelo, Portugal
+0 @F268@ FAM
+1 HUSB @I600@
+1 WIFE @I601@
+1 CHIL @I425@
+1 MARR
+2 DATE 29 de Setembro de 1733
+2 PLAC Madalena, Pico, Azores, Portugal
+0 @F272@ FAM
+1 HUSB @I608@
+1 WIFE @I609@
+1 CHIL @I441@
+0 @F273@ FAM
+1 HUSB @I616@
+1 WIFE @I617@
+1 CHIL @I442@
+1 CHIL @I626@
+1 CHIL @I644@
+1 MARR
+2 DATE 15 de janeiro de 1737
+2 PLAC Prados, Minas Gerais, Brasil
+0 @F278@ FAM
+1 HUSB @I627@
+1 WIFE @I626@
+1 CHIL @I510@
+1 MARR
+2 DATE 28 de janeiro de 1764
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+0 @F290@ FAM
+1 HUSB @I645@
+1 WIFE @I646@
+1 CHIL @I466@
+1 MARR
+2 DATE aproximadamente 1727
+2 PLAC Barcelos, Braga, Portugal
+0 @F297@ FAM
+1 HUSB @I660@
+1 WIFE @I661@
+1 CHIL @I467@
+1 MARR
+2 DATE 28 SEP 1744
+2 PLAC Barbacena, Minas Gerais, Brazil
+0 @F301@ FAM
+1 HUSB @I668@
+1 WIFE @I669@
+1 CHIL @I483@
+1 MARR
+2 DATE 11 de outubro de 1711
+2 PLAC Brito, Guimarães, Braga, Portugal
+0 @F302@ FAM
+1 HUSB @I670@
+1 WIFE @I671@
+1 CHIL @I484@
+1 MARR
+2 DATE 15 de dezembro de 1739
+2 PLAC Prados, Barbacena, Minas Gerais, Brasil
+0 @F314@ FAM
+1 HUSB @I694@
+1 WIFE @I695@
+1 CHIL @I501@
+1 MARR
+2 DATE 23 de fevereiro de 1773
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F321@ FAM
+1 HUSB @I711@
+1 CHIL @I502@
+1 MARR
+0 @F322@ FAM
+1 HUSB @I713@
+1 CHIL @I531@
+1 MARR
+0 @F329@ FAM
+1 HUSB @I724@
+1 WIFE @I725@
+1 CHIL @I540@
+1 MARR
+2 DATE 8 de janeiro de 1626
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+0 @F330@ FAM
+1 HUSB @I728@
+1 WIFE @I729@
+1 CHIL @I541@
+1 MARR
+2 DATE 10 de fevereiro de 1647
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+0 @F331@ FAM
+1 HUSB @I731@
+1 WIFE @I732@
+1 CHIL @I543@
+0 @F332@ FAM
+1 HUSB @I733@
+1 WIFE @I734@
+1 CHIL @I544@
+0 @F333@ FAM
+1 HUSB @I735@
+1 WIFE @I736@
+1 CHIL @I545@
+1 MARR
+2 DATE 5 de maio de 1666
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Açores, Portugal
+0 @F337@ FAM
+1 HUSB @I747@
+1 WIFE @I748@
+1 CHIL @I546@
+1 MARR
+2 DATE 4 JAN 1670
+2 PLAC Rabo de Peixe, Azores, Portugal
+0 @F340@ FAM
+1 HUSB @I756@
+1 WIFE @I757@
+1 CHIL @I551@
+1 MARR
+2 DATE 23 de janeiro de 1674
+2 PLAC Nossa Senhora da Ajuda, Pedro Miguel, Horta, Faial, Açores, Portugal
+0 @F349@ FAM
+1 HUSB @I775@
+1 WIFE @I776@
+1 CHIL @I552@
+1 MARR
+2 DATE 26 de outubro de 1697
+2 PLAC Nossa Senhora da Candelária, Rio de Janeiro, Rio de Janeiro, Brasil
+0 @F351@ FAM
+1 HUSB @I779@
+1 WIFE @I780@
+1 CHIL @I572@
+1 MARR
+2 DATE 24 de janeiro de 1663
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+0 @F354@ FAM
+1 HUSB @I789@
+1 WIFE @I790@
+1 CHIL @I573@
+1 MARR
+2 DATE 8 de fevereiro de 1679
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+0 @F357@ FAM
+1 HUSB @I795@
+1 WIFE @I796@
+1 CHIL @I581@
+1 MARR
+2 DATE 29 de agosto de 1688
+2 PLAC Pardilhó, Estarreja, Aveiro, Portugal
+0 @F361@ FAM
+1 HUSB @I804@
+1 WIFE @I805@
+1 CHIL @I582@
+1 CHIL @I617@
+1 MARR
+2 DATE 7 de fevereiro de 1706
+2 PLAC Angústias, Horta, Faial, Açores, Portugal
+0 @F363@ FAM
+1 HUSB @I810@
+1 WIFE @I811@
+1 CHIL @I591@
+0 @F366@ FAM
+1 HUSB @I816@
+1 WIFE @I817@
+1 CHIL @I592@
+0 @F368@ FAM
+1 HUSB @I820@
+1 WIFE @I821@
+1 CHIL @I600@
+1 MARR
+2 DATE 3 JUL 1701
+2 PLAC Madalena, Madalena, Pico, Azores, Portugal
+0 @F372@ FAM
+1 HUSB @I829@
+1 WIFE @I830@
+1 CHIL @I601@
+1 MARR
+2 DATE 17 JUL 1705
+2 PLAC Ribeirinha, Horta, Faial, Azores, Portugal
+0 @F377@ FAM
+1 HUSB @I840@
+1 WIFE @I841@
+1 CHIL @I608@
+0 @F380@ FAM
+1 HUSB @I849@
+1 WIFE @I850@
+1 CHIL @I609@
+1 MARR
+2 DATE 24 de fevereiro de 1675
+2 PLAC São Miguel das Caldas de Vizela, Guimarães, Braga, Portugal
+0 @F382@ FAM
+1 HUSB @I853@
+1 WIFE @I854@
+1 CHIL @I616@
+1 MARR
+2 DATE 29 de junho de 1687
+2 PLAC São Miguel de Silvares, Lousada, Porto, Portugal
+0 @F384@ FAM
+1 HUSB @I865@
+1 WIFE @I866@
+1 CHIL @I645@
+0 @F385@ FAM
+1 HUSB @I867@
+1 WIFE @I868@
+1 CHIL @I646@
+0 @F386@ FAM
+1 HUSB @I870@
+1 WIFE @I871@
+1 CHIL @I660@
+0 @F396@ FAM
+1 HUSB @I888@
+1 WIFE @I889@
+1 CHIL @I661@
+0 @F397@ FAM
+1 HUSB @I890@
+1 WIFE @I891@
+1 CHIL @I668@
+1 MARR
+2 DATE 12 de fevereiro de 1669
+2 PLAC Ponte, Guimarães, Braga, Portugal
+0 @F398@ FAM
+1 HUSB @I892@
+1 WIFE @I893@
+1 CHIL @I669@
+1 MARR
+2 DATE 5 de maio de 1680
+2 PLAC Brito, Guimarães, Braga, Portugal
+0 @F400@ FAM
+1 HUSB @I896@
+1 WIFE @I897@
+1 CHIL @I670@
+1 MARR
+2 DATE 16 de maio de 1700
+2 PLAC Angústias, Horta, Faial, Açores, Portugal
+0 @F405@ FAM
+1 HUSB @I908@
+1 WIFE @I909@
+1 CHIL @I671@
+1 MARR
+2 DATE aproximadamente 1710
+2 PLAC Guarulhos, São Paulo, Brasil
+0 @F413@ FAM
+1 HUSB @I925@
+1 WIFE @I926@
+1 CHIL @I694@
+1 MARR
+2 DATE 4 de março de 1737
+2 PLAC Barbacena, Minas Gerais, Brasil
+0 @F421@ FAM
+1 HUSB @I945@
+1 WIFE @I946@
+1 CHIL @I695@
+1 MARR
+2 DATE 5 de outubro de 1745
+2 PLAC Santo Antônio da Ibertioga, Barbacena, Minas Gerais, Brasil
+0 @F437@ FAM
+1 HUSB @I975@
+1 WIFE @I976@
+1 CHIL @I713@
+1 MARR
+2 DATE 26 de novembro de 1764
+2 PLAC Prados, Minas Gerais, Brasil
+0 @F452@ FAM
+1 HUSB @I1004@
+1 WIFE @I1005@
+1 CHIL @I724@
+0 @F456@ FAM
+1 HUSB @I1014@
+1 WIFE @I1015@
+1 CHIL @I725@
+1 MARR
+2 DATE 24 de janeiro de 1612
+0 @F457@ FAM
+1 HUSB @I1016@
+1 WIFE @I1017@
+1 CHIL @I728@
+0 @F460@ FAM
+1 HUSB @I1022@
+1 WIFE @I1021@
+1 CHIL @I729@
+1 MARR
+2 DATE 21 de novembro de 1610
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+0 @F465@ FAM
+1 HUSB @I1032@
+1 WIFE @I1033@
+1 CHIL @I735@
+1 MARR
+2 DATE 11 JAN 1632
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Azores, Portugal
+0 @F466@ FAM
+1 HUSB @I1039@
+1 WIFE @I1040@
+1 CHIL @I736@
+1 MARR
+2 DATE 12 de novembro de 1642
+2 PLAC Rabo de Peixe, Ribeira Grande, São Miguel, Açores, Portugal
+0 @F471@ FAM
+1 HUSB @I1049@
+1 WIFE @I1050@
+1 CHIL @I747@
+1 MARR
+2 DATE 23 MAR 1647
+2 PLAC Rabo de Peixe, Azores, Portugal
+0 @F476@ FAM
+1 HUSB @I1063@
+1 WIFE @I1064@
+1 CHIL @I748@
+1 MARR
+2 DATE 4 NOV 1645
+2 PLAC Rabo de Peixe, Azores, Portugal
+0 @F480@ FAM
+1 HUSB @I1071@
+1 WIFE @I1072@
+1 CHIL @I757@
+0 @F483@ FAM
+1 HUSB @I1082@
+1 WIFE @I1083@
+1 CHIL @I775@
+0 @F484@ FAM
+1 HUSB @I1084@
+1 WIFE @I1085@
+1 CHIL @I776@
+1 MARR
+2 DATE 3 de outubro de 1672
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brasil
+0 @F487@ FAM
+1 HUSB @I1092@
+1 WIFE @I1093@
+1 CHIL @I779@
+1 MARR
+2 DATE 9 de maio de 1635
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+0 @F489@ FAM
+1 HUSB @I1098@
+1 WIFE @I1099@
+1 CHIL @I780@
+0 @F492@ FAM
+1 HUSB @I1109@
+1 WIFE @I1110@
+1 CHIL @I789@
+1 MARR
+2 DATE 1 de novembro de 1655
+2 PLAC São Miguel das Caldas de Vizela, Guimarães, Braga, Portugal
+0 @F494@ FAM
+1 HUSB @I1113@
+1 WIFE @I1114@
+1 CHIL @I790@
+1 MARR
+0 @F496@ FAM
+1 HUSB @I1120@
+1 WIFE @I1121@
+1 CHIL @I795@
+0 @F497@ FAM
+1 HUSB @I1122@
+1 WIFE @I1123@
+1 CHIL @I796@
+1 MARR
+2 DATE 29 de março de 1695
+2 PLAC Estarreja, Aveiro, Portugal
+0 @F500@ FAM
+1 HUSB @I1131@
+1 WIFE @I1132@
+1 CHIL @I804@
+1 MARR
+2 DATE 5 de fevereiro de 1673
+2 PLAC Angústias, Horta, Faial, Açores, Portugal
+0 @F505@ FAM
+1 HUSB @I1144@
+1 WIFE @I1145@
+1 CHIL @I805@
+1 CHIL @I1152@
+1 MARR
+2 DATE 22 de julho de 1685
+2 PLAC Angústias, Horta, Faial, Açores, Portugal
+0 @F508@ FAM
+1 HUSB @I1153@
+1 WIFE @I1152@
+1 CHIL @I976@
+1 MARR
+2 DATE 13 de outubro de 1726
+2 PLAC Prados, Minas Gerais, Brasil
+0 @F509@ FAM
+1 HUSB @I1154@
+1 WIFE @I1155@
+1 CHIL @I820@
+0 @F510@ FAM
+1 HUSB @I1156@
+1 WIFE @I1157@
+1 CHIL @I821@
+0 @F515@ FAM
+1 HUSB @I1169@
+1 WIFE @I1170@
+1 CHIL @I829@
+0 @F516@ FAM
+1 HUSB @I1171@
+1 WIFE @I1172@
+1 CHIL @I830@
+1 MARR
+2 DATE aproximadamente 1667
+2 PLAC Cedros, Horta, Faial, Azores, Portugal
+0 @F529@ FAM
+1 HUSB @I1192@
+1 WIFE @I1193@
+1 CHIL @I853@
+1 MARR
+2 DATE abril 1646
+2 PLAC Silvares, Lousada, Porto, Portugal
+0 @F531@ FAM
+1 HUSB @I1199@
+1 WIFE @I1200@
+1 CHIL @I854@
+1 MARR
+2 PLAC Portugal
+0 @F532@ FAM
+1 HUSB @I1201@
+1 WIFE @I1202@
+1 CHIL @I870@
+0 @F535@ FAM
+1 HUSB @I1206@
+1 WIFE @I1207@
+1 CHIL @I871@
+0 @F538@ FAM
+1 HUSB @I1212@
+1 WIFE @I1213@
+1 CHIL @I888@
+1 MARR
+2 DATE 28 de novembro de 1691
+2 PLAC Campanhã, Porto, Portugal
+0 @F539@ FAM
+1 HUSB @I1215@
+1 WIFE @I1216@
+1 CHIL @I889@
+1 MARR
+2 DATE antes 1701
+2 PLAC Porto, Porto, Portugal
+0 @F540@ FAM
+1 HUSB @I1221@
+1 WIFE @I1222@
+1 CHIL @I892@
+0 @F541@ FAM
+1 HUSB @I1223@
+1 WIFE @I1224@
+1 CHIL @I893@
+1 MARR
+2 DATE 26 de novembro de 1648
+2 PLAC Brito, Guimarães, Braga, Portugal
+0 @F543@ FAM
+1 HUSB @I1227@
+1 WIFE @I1228@
+1 CHIL @I896@
+0 @F544@ FAM
+1 HUSB @I1230@
+1 WIFE @I1231@
+1 CHIL @I897@
+1 MARR
+2 DATE 16 de maio de 1677
+2 PLAC Angústias, Horta, Faial, Açores, Portugal
+0 @F545@ FAM
+1 HUSB @I1234@
+1 WIFE @I1235@
+1 CHIL @I908@
+1 MARR
+2 DATE 15 de novembro de 1687
+2 PLAC Nossa Senhora de Nazaré, Nazaré Paulista, São Paulo, Brasil
+0 @F550@ FAM
+1 HUSB @I1247@
+1 WIFE @I1248@
+1 CHIL @I909@
+1 MARR
+2 DATE 23 de setembro de 1675
+2 PLAC Landal, Caldas da Rainha, Leiria, Portugal
+0 @F553@ FAM
+1 HUSB @I1256@
+1 WIFE @I1257@
+1 CHIL @I925@
+1 MARR
+2 DATE 1699
+2 PLAC Pico, Açores, Portugal
+0 @F556@ FAM
+1 HUSB @I1266@
+1 WIFE @I1267@
+1 CHIL @I926@
+0 @F567@ FAM
+1 HUSB @I1288@
+1 WIFE @I1289@
+1 CHIL @I945@
+1 MARR
+2 DATE 5 de março de 1704
+2 PLAC Vila Cova, Barcelos, Braga, Portugal
+0 @F568@ FAM
+1 HUSB @I1295@
+1 WIFE @I1296@
+1 CHIL @I946@
+1 MARR
+2 DATE aproximadamente 1720
+0 @F578@ FAM
+1 HUSB @I1313@
+1 WIFE @I1314@
+1 CHIL @I975@
+1 MARR
+2 DATE 22 de setembro de 1717
+2 PLAC Loures, Lisboa, Portugal
+0 @F579@ FAM
+1 HUSB @I1316@
+1 WIFE @I1317@
+1 CHIL @I1014@
+0 @F580@ FAM
+1 HUSB @I1318@
+1 WIFE @I1319@
+1 CHIL @I1015@
+0 @F582@ FAM
+1 HUSB @I1321@
+1 WIFE @I1322@
+1 CHIL @I1021@
+1 MARR
+2 DATE aproximadamente 1590
+2 PLAC Amorim, Póvoa de Varzim, Porto, Portugal
+0 @F587@ FAM
+1 HUSB @I1330@
+1 WIFE @I1331@
+1 CHIL @I1022@
+1 MARR
+2 PLAC São Tiago, Amorim, Póvoa de Varzim, Porto, Portugal
+0 @F591@ FAM
+1 HUSB @I1337@
+1 WIFE @I1338@
+1 CHIL @I1032@
+1 MARR
+0 @F594@ FAM
+1 HUSB @I1344@
+1 WIFE @I1345@
+1 CHIL @I1033@
+1 MARR
+0 @F595@ FAM
+1 HUSB @I1346@
+1 WIFE @I1347@
+1 CHIL @I1039@
+1 MARR
+2 DATE AFT 30 JAN 1593
+2 PLAC Rabo de Peixe, Azores, Portugal
+0 @F598@ FAM
+1 HUSB @I1354@
+1 WIFE @I1355@
+1 CHIL @I1040@
+0 @F599@ FAM
+1 HUSB @I1356@
+1 WIFE @I1357@
+1 CHIL @I1049@
+1 MARR
+2 DATE 1615
+2 PLAC Rabo de Peixe, Açores, Portugal
+0 @F601@ FAM
+1 HUSB @I1366@
+1 WIFE @I1367@
+1 CHIL @I1050@
+1 MARR
+2 DATE 9 JUN 1624
+2 PLAC Rabo de Peixe, Azores, Portugal
+0 @F602@ FAM
+1 HUSB @I1373@
+1 WIFE @I1374@
+1 CHIL @I1063@
+1 MARR
+2 DATE 1623
+2 PLAC Rabo de Peixe, Açores, Portugal
+0 @F603@ FAM
+1 HUSB @I1375@
+1 WIFE @I1376@
+1 CHIL @I1064@
+1 MARR
+2 DATE ABT 1612
+2 PLAC Rabo de Peixe, Azores, Portugal
+0 @F609@ FAM
+1 HUSB @I1390@
+1 WIFE @I1391@
+1 CHIL @I1084@
+0 @F610@ FAM
+1 HUSB @I1392@
+1 WIFE @I1393@
+1 CHIL @I1085@
+1 MARR
+2 DATE 10 de abril de 1644
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brasil
+0 @F612@ FAM
+1 HUSB @I1399@
+1 WIFE @I1400@
+1 CHIL @I1092@
+1 MARR
+2 DATE 1609
+2 PLAC São Miguel, Braga, Portugal
+0 @F614@ FAM
+1 HUSB @I1403@
+1 WIFE @I1404@
+1 CHIL @I1093@
+1 MARR
+2 DATE 11 de fevereiro de 1596
+2 PLAC São João das Caldas de Vizela, Vizela, Braga, Portugal
+0 @F615@ FAM
+1 HUSB @I1407@
+1 WIFE @I1408@
+1 CHIL @I1109@
+1 MARR
+2 DATE 7 de janeiro de 1629
+2 PLAC São Miguel das Caldas de Vizela, Vizela, Braga, Portugal
+0 @F616@ FAM
+1 HUSB @I1411@
+1 WIFE @I1412@
+1 CHIL @I1110@
+0 @F618@ FAM
+1 HUSB @I1415@
+1 WIFE @I1416@
+1 CHIL @I1114@
+0 @F619@ FAM
+1 HUSB @I1419@
+1 WIFE @I1420@
+1 CHIL @I1120@
+0 @F620@ FAM
+1 HUSB @I1421@
+1 WIFE @I1422@
+1 CHIL @I1121@
+0 @F621@ FAM
+1 HUSB @I1423@
+1 WIFE @I1424@
+1 CHIL @I1122@
+0 @F626@ FAM
+1 HUSB @I1433@
+1 WIFE @I1434@
+1 CHIL @I1123@
+0 @F635@ FAM
+1 HUSB @I1452@
+1 WIFE @I1453@
+1 CHIL @I1131@
+1 MARR
+2 DATE 2 JUL 1663
+2 PLAC Matriz, Santa Cruz, Vila da Praia, Terceira, Açôres, Portugal
+0 @F637@ FAM
+1 HUSB @I1456@
+1 WIFE @I1457@
+1 CHIL @I1132@
+0 @F639@ FAM
+1 HUSB @I1460@
+1 WIFE @I1461@
+1 CHIL @I1144@
+1 MARR
+2 DATE aproximadamente 1659
+2 PLAC Faial, Açores, Portugal
+0 @F640@ FAM
+1 HUSB @I1462@
+1 WIFE @I1463@
+1 CHIL @I1145@
+1 MARR
+2 DATE 27 de junho de 1666
+2 PLAC Angústias, Horta, Faial, Açores, Portugal
+0 @F642@ FAM
+1 HUSB @I1469@
+1 WIFE @I1470@
+1 CHIL @I1171@
+1 MARR
+2 DATE aproximadamente 1638
+2 PLAC Portugal
+0 @F653@ FAM
+1 HUSB @I1489@
+1 WIFE @I1490@
+1 CHIL @I1192@
+1 MARR
+2 DATE 14 novembro 1616
+2 PLAC Macieira, Lousada, Porto, Portugal
+0 @F654@ FAM
+1 HUSB @I1491@
+1 WIFE @I1492@
+1 CHIL @I1193@
+1 MARR
+2 DATE 16 de maio de 1617
+2 PLAC Silvares, Braga, Portugal
+0 @F655@ FAM
+1 HUSB @I1493@
+1 WIFE @I1494@
+1 CHIL @I1199@
+0 @F656@ FAM
+1 HUSB @I1495@
+1 WIFE @I1496@
+1 CHIL @I1201@
+0 @F668@ FAM
+1 HUSB @I1517@
+1 WIFE @I1518@
+1 CHIL @I1202@
+0 @F673@ FAM
+1 HUSB @I1527@
+1 WIFE @I1528@
+1 CHIL @I1206@
+1 MARR
+2 DATE 1655
+2 PLAC Mogi das Cruzes, São Paulo, Brasil
+0 @F681@ FAM
+1 HUSB @I1543@
+1 WIFE @I1544@
+1 CHIL @I1207@
+0 @F688@ FAM
+1 HUSB @I1557@
+1 WIFE @I1558@
+1 CHIL @I1212@
+0 @F689@ FAM
+1 HUSB @I1560@
+1 WIFE @I1561@
+1 CHIL @I1213@
+1 MARR
+2 DATE 12 FEB 1620
+2 PLAC São Nicolau, Porto, Porto, Portugal
+0 @F690@ FAM
+1 HUSB @I1569@
+1 WIFE @I1570@
+1 CHIL @I1223@
+1 MARR
+2 DATE 25 de fevereiro de 1618
+2 PLAC Brito, Guimarães, Braga, Portugal
+0 @F691@ FAM
+1 HUSB @I1571@
+1 WIFE @I1572@
+1 CHIL @I1224@
+1 MARR
+2 DATE 9 de fevereiro de 1615
+2 PLAC Brito, Guimarães, Braga, Portugal
+0 @F694@ FAM
+1 HUSB @I1580@
+1 WIFE @I1581@
+1 CHIL @I1231@
+1 MARR
+2 PLAC Açores, Portugal
+0 @F696@ FAM
+1 HUSB @I1585@
+1 WIFE @I1586@
+1 CHIL @I1234@
+0 @F698@ FAM
+1 HUSB @I1589@
+1 WIFE @I1590@
+1 CHIL @I1235@
+1 MARR
+2 DATE aproximadamente 1661
+2 PLAC São Paulo, São Paulo, Brasil
+0 @F705@ FAM
+1 HUSB @I1601@
+1 WIFE @I1602@
+1 CHIL @I1247@
+1 MARR
+2 DATE antes 1635
+0 @F706@ FAM
+1 HUSB @I1605@
+1 WIFE @I1606@
+1 CHIL @I1248@
+1 MARR
+2 DATE antes 1646
+0 @F711@ FAM
+1 HUSB @I1616@
+1 WIFE @I1617@
+1 CHIL @I1256@
+0 @F712@ FAM
+1 HUSB @I1620@
+1 WIFE @I1621@
+1 CHIL @I1257@
+0 @F714@ FAM
+1 HUSB @I1624@
+1 WIFE @I1625@
+1 CHIL @I1266@
+0 @F722@ FAM
+1 HUSB @I1640@
+1 WIFE @I1641@
+1 CHIL @I1267@
+1 MARR
+2 PLAC São Paulo, Brasil
+0 @F733@ FAM
+1 HUSB @I1667@
+1 WIFE @I1668@
+1 CHIL @I1288@
+0 @F735@ FAM
+1 HUSB @I1671@
+1 WIFE @I1672@
+1 CHIL @I1289@
+0 @F736@ FAM
+1 HUSB @I1673@
+1 WIFE @I1674@
+1 CHIL @I1295@
+1 MARR
+2 DATE 1 de novembro de 1687
+2 PLAC Candelária, Rio de Janeiro, Brasil
+0 @F741@ FAM
+1 HUSB @I1683@
+1 WIFE @I1684@
+1 CHIL @I1296@
+1 MARR
+2 DATE aproximadamente 1705
+2 PLAC Santa Maria de Baependi, Minas Gerais, Brasil
+0 @F748@ FAM
+1 HUSB @I1696@
+1 WIFE @I1697@
+1 CHIL @I1313@
+1 MARR
+2 DATE 9 de novembro de 1695
+2 PLAC Loures, Lisboa, Portugal
+0 @F749@ FAM
+1 HUSB @I1698@
+1 WIFE @I1699@
+1 CHIL @I135@
+1 MARR
+2 DATE ABT 1841
+0 @F750@ FAM
+1 HUSB @I1706@
+1 WIFE @I1707@
+1 CHIL @I1709@
+1 CHIL @I196@
+1 MARR
+2 DATE 17 JUN 1782
+2 PLAC Barbacena, Minas Gerais, Brasil
+0 @F751@ FAM
+1 HUSB @I1709@
+1 WIFE @I1722@
+1 CHIL @I1698@
+1 MARR
+2 DATE 29 JAN 1806
+2 PLAC Prados, Minas Gerais, Brasil
+0 @F752@ FAM
+1 HUSB @I1731@
+1 WIFE @I1732@
+1 CHIL @I1699@
+0 @F753@ FAM
+1 HUSB @I1745@
+1 WIFE @I1746@
+1 CHIL @I284@
+1 MARR
+2 DATE 12 JUL 1779
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F754@ FAM
+1 HUSB @I1750@
+1 WIFE @I1751@
+1 CHIL @I1706@
+1 MARR
+2 DATE 28 MAY 1736
+2 PLAC Nossa Senhora da Conceição, Prados, Minas Gerais, Brasil
+0 @F755@ FAM
+1 HUSB @I1766@
+1 WIFE @I1767@
+1 CHIL @I1707@
+0 @F756@ FAM
+1 HUSB @I1770@
+1 WIFE @I1771@
+1 CHIL @I1745@
+0 @F757@ FAM
+1 HUSB @I1772@
+1 WIFE @I1773@
+1 CHIL @I1746@
+1 MARR
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F758@ FAM
+1 HUSB @I1783@
+1 WIFE @I1784@
+1 CHIL @I1750@
+1 MARR
+2 DATE 31 AUG 1700
+2 PLAC São Cristóvão, Rio Mau, Vila do Conde, Porto, Portugal
+0 @F759@ FAM
+1 HUSB @I1793@
+1 WIFE @I1794@
+1 CHIL @I1722@
+0 @F760@ FAM
+1 HUSB @I644@
+1 WIFE @I619@
+1 CHIL @I1732@
+1 CHIL @I530@
+1 CHIL @I511@
+1 MARR
+2 DATE 26 de junho de 1784
+2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
+0 @F761@ FAM
+1 HUSB @I1814@
+1 WIFE @I1815@
+1 CHIL @I1794@
+1 MARR
+2 DATE 5 JUL 1761
+2 PLAC Prados, Minas Gerais, Brasil
+0 @F762@ FAM
+1 HUSB @I1827@
+1 WIFE @I629@
+1 CHIL @I619@
+1 MARR
+2 DATE 27 SEP 1770
+2 PLAC Rio das Mortes, São João del Rei, Minas Gerais, Brasil
+0 @F763@ FAM
+1 HUSB @I1828@
+1 WIFE @I1829@
+1 CHIL @I629@
+1 MARR
+2 DATE 14 JUN 1736
+2 PLAC Santo Antônio do Rio das Mortes Pequeno, São João del Rei, Minas Gerais, Brasil
+0 @F764@ FAM
+1 HUSB @I1843@
+1 WIFE @I1844@
+1 CHIL @I1829@
+0 @F765@ FAM
+1 HUSB @I1846@
+1 WIFE @I1847@
+1 CHIL @I112@
+0 @F770@ FAM
+1 HUSB @I1848@
+1 WIFE @I1849@
+1 CHIL @I1751@
+1 MARR
+2 DATE 10  Jan 1723
+2 PLAC São João del Rei, MG
+0 @F771@ FAM
+1 HUSB @I1850@
+1 WIFE @I1851@
+1 CHIL @I1772@
+1 MARR
+2 DATE 17 Jan 1735
+2 PLAC Carrancas, Minas Gerais, Brasil
+0 @F772@ FAM
+1 HUSB @I1852@
+1 WIFE @I1853@
+1 CHIL @I1851@
+0 @F773@ FAM
+1 HUSB @I1854@
+1 WIFE @I1855@
+1 CHIL @I1793@
+0 @F774@ FAM
+1 HUSB @I1856@
+1 WIFE @I1857@
+1 CHIL @I1815@
+0 @F775@ FAM
+1 HUSB @I1858@
+1 WIFE @I1859@
+1 CHIL @I1849@
+1 MARR
+2 DATE 7 SET 1699
+2 PLAC São Gonçalo, Rio de Janeiro, Brazil
+0 @F776@ FAM
+1 HUSB @I1860@
+1 WIFE @I1861@
+1 CHIL @I1684@
+0 @F777@ FAM
+1 HUSB @I1862@
+1 WIFE @I1863@
+1 CHIL @I627@
+0 TRLR
