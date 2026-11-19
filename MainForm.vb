@@ -15,6 +15,11 @@ Public Class GedEvent
     Public Property Description As String = ""
 End Class
 
+Public Class IndividualAssociation
+    Public Property TargetId As String = ""
+    Public Property RelationshipType As String = ""
+End Class
+
 Public Class Individual
     Public Property Id As String = ""
     Public Property Name As String = ""
@@ -25,6 +30,7 @@ Public Class Individual
     Public Property Sources As New List(Of String)
     Public Property Notes As New List(Of String)
     Public Property Memories As New List(Of String)
+    Public Property Associations As New List(Of IndividualAssociation)
 End Class
 
 Public Class Family
@@ -146,6 +152,7 @@ Public Class MainForm
         Dim currentIndividual As Individual = Nothing
         Dim currentFamily As Family = Nothing
         Dim currentEvent As GedEvent = Nothing
+        Dim currentAssociation As IndividualAssociation = Nothing
         Dim currentNoteIndex As Integer = -1
         Dim rx As New Regex("^(\d+)\s+(@[^@]+@|[A-Za-z0-9_]+)?\s*(.*)$")
 
@@ -160,6 +167,7 @@ Public Class MainForm
 
             If level = 0 Then
                 currentEvent = Nothing
+                currentAssociation = Nothing
                 currentNoteIndex = -1
                 currentIndividual = Nothing
                 currentFamily = Nothing
@@ -180,6 +188,7 @@ Public Class MainForm
             If currentRecordType = "INDI" AndAlso currentIndividual IsNot Nothing Then
                 If level = 1 Then
                     currentEvent = Nothing
+                    currentAssociation = Nothing
                     Select Case tagOrId
                         Case "NAME"
                             currentIndividual.Name = rest.Replace("/", "").Trim()
@@ -191,6 +200,11 @@ Public Class MainForm
                             currentIndividual.Famc = rest
                         Case "SOUR"
                             If Not String.IsNullOrWhiteSpace(rest) Then currentIndividual.Sources.Add(rest.Trim())
+                        Case "ASSO"
+                            If rest.StartsWith("@", StringComparison.Ordinal) Then
+                                currentAssociation = New IndividualAssociation With {.TargetId = rest}
+                                currentIndividual.Associations.Add(currentAssociation)
+                            End If
                         Case "NOTE"
                             currentIndividual.Notes.Add(rest)
                             currentNoteIndex = currentIndividual.Notes.Count - 1
@@ -206,6 +220,8 @@ Public Class MainForm
                     Else
                         currentIndividual.Notes(currentNoteIndex) &= rest
                     End If
+                ElseIf level = 2 AndAlso currentAssociation IsNot Nothing AndAlso tagOrId = "TYPE" Then
+                    currentAssociation.RelationshipType = rest
                 ElseIf level = 2 AndAlso currentEvent IsNot Nothing Then
                     If tagOrId = "DATE" Then currentEvent.DateText = rest
                     If tagOrId = "PLAC" Then currentEvent.Place = rest
@@ -477,6 +493,10 @@ Public Class MainForm
         For Each ind In individuals.Values
             If ind.Famc IsNot Nothing AndAlso Not families.ContainsKey(ind.Famc) Then ind.Famc = Nothing
             ind.Fams = ind.Fams.Where(Function(id) families.ContainsKey(id)).Distinct(StringComparer.OrdinalIgnoreCase).ToList()
+            ind.Associations = ind.Associations.
+                Where(Function(a) a IsNot Nothing AndAlso individuals.ContainsKey(a.TargetId) AndAlso a.TargetId <> ind.Id).
+                GroupBy(Function(a) a.TargetId & "|" & a.RelationshipType, StringComparer.OrdinalIgnoreCase).
+                Select(Function(g) g.First()).ToList()
         Next
         For Each fam In families.Values
             If fam.Husb IsNot Nothing AndAlso Not individuals.ContainsKey(fam.Husb) Then fam.Husb = Nothing
@@ -625,6 +645,10 @@ Public Class MainForm
         Dim relationsTab As New TabPage("👪 Família")
         relationsTab.Controls.Add(BuildRelationsPanel(ind))
         details.TabPages.Add(relationsTab)
+
+        Dim slaveryTab As New TabPage("⛓️ Senhor / escravizado")
+        slaveryTab.Controls.Add(BuildAssociationsPanel(ind))
+        details.TabPages.Add(slaveryTab)
     End Sub
 
     Private Function BuildNotesPanel(ind As Individual) As Control
@@ -923,6 +947,122 @@ Public Class MainForm
             Next
         Next
     End Sub
+
+    ' ASSO registra uma associação entre dois indivíduos; TYPE identifica o papel
+    ' no vínculo. SENHOR é usado no registro da pessoa escravizada e ESCRAVIZADO
+    ' no registro do senhor, conforme a perspectiva do indivíduo em foco.
+    Private Function BuildAssociationsPanel(ind As Individual) As Control
+        Dim panel As New Panel With {.Dock = DockStyle.Fill, .Padding = New Padding(12)}
+        Dim intro As New Label With {
+            .Text = "Registre vínculos históricos entre pessoas escravizadas e seus senhores. " &
+                    "Selecione SENHOR quando a pessoa em foco era escravizada; selecione ESCRAVIZADO quando a pessoa em foco era o senhor. " &
+                    "O vínculo é gravado nos dois registros GEDCOM como ASSO, com TYPE identificando os papéis inversos.",
+            .Dock = DockStyle.Top, .Height = 62, .AutoSize = False
+        }
+        Dim list As New ListBox With {.Dock = DockStyle.Fill, .HorizontalScrollbar = True}
+        Dim RefreshList As Action =
+            Sub()
+                list.Items.Clear()
+                For Each association In ind.Associations
+                    Dim targetName = PersonName(association.TargetId)
+                    list.Items.Add($"{association.RelationshipType} — {targetName} ({association.TargetId})")
+                Next
+            End Sub
+        RefreshList()
+
+        Dim buttons As New FlowLayoutPanel With {.Dock = DockStyle.Bottom, .Height = 44}
+        Dim addButton = MakeButton("➕ Incluir relação")
+        AddHandler addButton.Click, Sub()
+                                        Using dlg As New Form With {
+                                            .Text = "Incluir relação ASSO / TYPE",
+                                            .Width = 470, .Height = 175,
+                                            .StartPosition = FormStartPosition.CenterParent,
+                                            .FormBorderStyle = FormBorderStyle.FixedDialog,
+                                            .MinimizeBox = False, .MaximizeBox = False
+                                        }
+                                            Dim roleLabel As New Label With {.Text = "Papel da pessoa em foco:", .Dock = DockStyle.Top, .Height = 24}
+                                            Dim role As New ComboBox With {
+                                                .Dock = DockStyle.Top, .DropDownStyle = ComboBoxStyle.DropDownList
+                                            }
+                                            role.Items.AddRange({"SENHOR", "ESCRAVIZADO"})
+                                            role.SelectedIndex = 0
+                                            Dim hint As New Label With {
+                                                .Text = "SENHOR: a pessoa selecionada era escravizada. ESCRAVIZADO: a pessoa selecionada era o senhor.",
+                                                .Dock = DockStyle.Top, .Height = 42
+                                            }
+                                            Dim targetLabel As New Label With {.Text = "Indivíduo relacionado:", .Dock = DockStyle.Top, .Height = 24}
+                                            Dim target As New ComboBox With {.Dock = DockStyle.Top, .DropDownStyle = ComboBoxStyle.DropDownList}
+                                            For Each person In individuals.Values.Where(Function(p) p.Id <> ind.Id).OrderBy(Function(p) p.Name)
+                                                target.Items.Add(New PersonListItem(person.Id, $"{person.Name} ({person.Id})"))
+                                            Next
+                                            If target.Items.Count > 0 Then target.SelectedIndex = 0
+                                            Dim actions As New FlowLayoutPanel With {
+                                                .Dock = DockStyle.Bottom, .Height = 42,
+                                                .FlowDirection = FlowDirection.RightToLeft
+                                            }
+                                            Dim ok As New Button With {.Text = "Adicionar", .DialogResult = DialogResult.OK, .AutoSize = True}
+                                            Dim cancel As New Button With {.Text = "Cancelar", .DialogResult = DialogResult.Cancel, .AutoSize = True}
+                                            actions.Controls.AddRange({ok, cancel})
+                                            dlg.Controls.Add(target)
+                                            dlg.Controls.Add(targetLabel)
+                                            dlg.Controls.Add(hint)
+                                            dlg.Controls.Add(role)
+                                            dlg.Controls.Add(roleLabel)
+                                            dlg.Controls.Add(actions)
+                                            dlg.AcceptButton = ok
+                                            dlg.CancelButton = cancel
+                                            If target.Items.Count = 0 Then
+                                                MessageBox.Show("Não há outros indivíduos cadastrados para relacionar.", "ASSO / TYPE", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                                                Return
+                                            End If
+                                            If dlg.ShowDialog(Me) = DialogResult.OK AndAlso TypeOf target.SelectedItem Is PersonListItem Then
+                                                Dim targetId = DirectCast(target.SelectedItem, PersonListItem).Id
+                                                Dim relationshipType = CStr(role.SelectedItem)
+                                                If ind.Associations.Any(Function(a) a.TargetId = targetId AndAlso a.RelationshipType.Equals(relationshipType, StringComparison.OrdinalIgnoreCase)) Then
+                                                    MessageBox.Show("Esta relação já está cadastrada.", "ASSO / TYPE", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                                                    Return
+                                                End If
+                                                Dim inverseType = If(relationshipType = "SENHOR", "ESCRAVIZADO", "SENHOR")
+                                                ind.Associations.Add(New IndividualAssociation With {
+                                                    .TargetId = targetId,
+                                                    .RelationshipType = relationshipType
+                                                })
+                                                ' Mantém o vínculo nos dois registros, com papéis inversos.
+                                                Dim targetPerson = individuals(targetId)
+                                                If Not targetPerson.Associations.Any(Function(a) a.TargetId = ind.Id AndAlso
+                                                    a.RelationshipType.Equals(inverseType, StringComparison.OrdinalIgnoreCase)) Then
+                                                    targetPerson.Associations.Add(New IndividualAssociation With {
+                                                        .TargetId = ind.Id,
+                                                        .RelationshipType = inverseType
+                                                    })
+                                                End If
+                                                RefreshList()
+                                                statusLabel.Text = "Relação ASSO / TYPE adicionada nos registros dos dois indivíduos."
+                                            End If
+                                        End Using
+                                    End Sub
+
+        Dim removeButton = MakeButton("🗑 Remover relação")
+        AddHandler removeButton.Click, Sub()
+                                           If list.SelectedIndex < 0 OrElse list.SelectedIndex >= ind.Associations.Count Then Return
+                                           Dim removed = ind.Associations(list.SelectedIndex)
+                                           ind.Associations.RemoveAt(list.SelectedIndex)
+                                           Dim inverseType = If(removed.RelationshipType.Equals("SENHOR", StringComparison.OrdinalIgnoreCase),
+                                                                "ESCRAVIZADO", "SENHOR")
+                                           If individuals.ContainsKey(removed.TargetId) Then
+                                               individuals(removed.TargetId).Associations.RemoveAll(
+                                                   Function(a) a.TargetId = ind.Id AndAlso
+                                                               a.RelationshipType.Equals(inverseType, StringComparison.OrdinalIgnoreCase))
+                                           End If
+                                           RefreshList()
+                                           statusLabel.Text = "Relação removida dos registros dos dois indivíduos."
+                                       End Sub
+        buttons.Controls.AddRange({addButton, removeButton})
+        panel.Controls.Add(list)
+        panel.Controls.Add(buttons)
+        panel.Controls.Add(intro)
+        Return panel
+    End Function
 
     Private Function BuildRelationsPanel(ind As Individual) As Control
         Dim panel As New Panel With {.Dock = DockStyle.Fill, .AutoScroll = True, .Padding = New Padding(12)}
@@ -1381,6 +1521,9 @@ Public Class MainForm
             fam.Children.RemoveAll(Function(x) x = id)
         Next
         individuals.Remove(id)
+        For Each person In individuals.Values
+            person.Associations.RemoveAll(Function(a) String.Equals(a.TargetId, id, StringComparison.OrdinalIgnoreCase))
+        Next
         CleanReferences()
         selectedIndiId = individuals.Keys.FirstOrDefault()
         RefreshPeopleList()
@@ -1608,6 +1751,15 @@ Public Class MainForm
             Next
             For Each memoryName In ind.Memories
                 output.Add("1 _MEM " & Path.GetFileName(memoryName))
+            Next
+            For Each association In ind.Associations
+                If individuals.ContainsKey(association.TargetId) AndAlso
+                   (allowedIndividuals Is Nothing OrElse allowedIndividuals.Contains(association.TargetId)) Then
+                    output.Add("1 ASSO " & association.TargetId)
+                    If Not String.IsNullOrWhiteSpace(association.RelationshipType) Then
+                        output.Add("2 TYPE " & association.RelationshipType)
+                    End If
+                End If
             Next
             For Each ev In ind.Events
                 output.Add($"1 {ev.Type}{If(ev.Description <> "", " " & ev.Description, "")}")
