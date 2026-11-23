@@ -18,6 +18,7 @@
 1 SOUR 19980626 - Acácio Silvestre - designação de professor.pdf
 1 SOUR 19981016 - Acácio Silvestre - designação de professor.pdf
 1 SOUR 20000616 - Acácio Silvestre - filiação partidária.pdf
+1 SOUR 19681117 - Acácio Silvestre - batismo.pdf
 1 _MEM P9030109.JPG
 1 BIRT
 2 DATE 2 AUG 1968
@@ -84,6 +85,7 @@
 0 @I4@ INDI
 1 NAME Cicera Aparecida /Silvestre/
 1 SEX F
+1 SOUR 19640802 - Cicera Aparecida Silvestre - nascimento.pdf
 1 BIRT
 2 DATE 2 AUG 1964
 2 PLAC São Paulo, São Paulo, Brazil
@@ -91,6 +93,7 @@
 0 @I5@ INDI
 1 NAME Amilton /Silvestre/
 1 SEX M
+1 SOUR 19651206 - Amilton Silvestre - nascimento.pdf
 1 BIRT
 2 DATE 6 DEC 1965
 2 PLAC São Paulo, São Paulo, Brazil
@@ -117,6 +120,7 @@
 0 @I7@ INDI
 1 NAME Renato /Silvestre/
 1 SEX M
+1 SOUR 19691221 - Renato Silvestre - nascimento.pdf
 1 BIRT
 2 DATE 21 DEC 1969
 2 PLAC São Paulo, São Paulo, Brazil
