@@ -2254,6 +2254,9 @@
 1 NAME Emília Augusta de /Carvalho/
 1 SEX F
 1 SOUR 18820000 - RITA DE CÁSSIA DE RESENDE - inventário.pdf
+1 SOUR 18811006 - Liberato - filho de Emilia Augusta de Carvalho Resende.pdf
+1 SOUR 18830722 - Rita - filha de Emilia Augusta de Carvalho Resende.pdf
+1 SOUR 18870828 - Astrogilda - filha de Emilia Augusta de Carvalho Resende.pdf
 1 _MEM Emília Augusta de Carvalho.jpg
 1 _MEM Emília Augusta e José Bernardino.jpg
 1 _MEM Emília Augusta de Carvalho e o filho João Gonçalves.jpg
@@ -2295,6 +2298,7 @@
 0 @I175@ INDI
 1 NAME Rita
 1 SEX F
+1 SOUR 18830722 - Rita - filha de Emilia Augusta de Carvalho Resende.pdf
 1 BIRT
 2 DATE 22 JUL 1883
 2 PLAC Nossa Senhora da Piedade do Rio Grande, Turvo, Minas Gerais, Brazil
