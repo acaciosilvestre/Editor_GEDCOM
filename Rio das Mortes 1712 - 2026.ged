@@ -1665,6 +1665,7 @@
 1 SOUR 18370204 - José Ignácio Alves Lima - Juiz de Paz em Madre de Deus.pdf
 1 SOUR 18420217 - José Ignacio assina manifesto sobre revolta de 1842 - O Maiorista.pdf
 1 SOUR 18831019 - O Arauto de Minas - Ano VII No. 31.pdf
+1 SOUR 18400816 - José Ignácio Alves Lima - Relação de Habitantes de Madre de Deus.pdf
 1 NOTE 1856 - Registro de terras: Capão das Antas, Retiro Velho e Carumbé.
 1 NOTE Conteúdo da edição "O Astro de Minas". A página (número 4) traz um edital da Câmara Municipal de São João del-Rei datado de 28 de janeiro de 1837. O texto lista os cidadãos juramentados e empossados no cargo de Juiz de Paz nos diversos distritos da vila (como Distrito da Vila, Cajuru, Santo Antônio do Rio das Mortes, Piedade do Rio Grande, Madre de Deus, Carrancas, Nazaré, entre outros), correspondente à edição nº 1433, publicada em 4 de fevereiro de 1837.
 1 ASSO @I1972@
@@ -3522,8 +3523,6 @@
 2 PLAC Minas Gerais, Brazil
 1 FAMC @F114@
 1 FAMS @F122@
-1 FAMS @F123@
-1 FAMS @F124@
 0 @I284@ INDI
 1 NAME Maria Ribeiro de /Jesus/
 1 SEX F
@@ -3544,25 +3543,6 @@
 2 PLAC Jacuí, Minas Gerais, Brazil
 1 FAMC @F753@
 1 FAMS @F122@
-0 @I285@ INDI
-1 NAME Maria Francisca De /Jesus/
-1 SEX F
-1 BIRT
-2 DATE 1909
-1 DEAT
-2 DATE 14 JUN 1994
-2 PLAC Brazil
-1 EVEN
-2 PLAC Bom Sucesso, Paraíba, Brazil
-1 FAMS @F123@
-0 @I286@ INDI
-1 NAME Antônia Maria da /Conceição/
-1 SEX F
-1 BIRT
-2 DATE 1862
-1 DEAT
-2 DATE DECEASED
-1 FAMS @F124@
 0 @I287@ INDI
 1 NAME Carlos Alves /Lima/
 1 SEX M
@@ -4645,6 +4625,7 @@
 1 SOUR 18551010 - João Inácio de Carvalho - inventário.pdf
 1 SOUR 1838 - João Ignácio de Carvalho - mapa de população.jpg
 1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 SOUR 18390208 - João Ignácio de Carvalho - mapa.pdf
 1 BIRT
 2 DATE 1809
 2 PLAC São João del Rei, Minas Gerais, Brazil
@@ -6748,6 +6729,7 @@
 1 SOUR 18210610 - José - filho de Francisco Antônio de Carvalho e Delphina Henriqueta pt2.pdf
 1 SOUR 18240202 - Maria - filha de Francisco Antonio de Carvalho e Delphina Henriqueta.pdf
 1 SOUR 18370000 - DELFINA HENRIQUETA JULIA DE RESENDE.pdf
+1 SOUR 18310000 - Delphina Henriqueta Julia - mapa de população pt2.pdf
 1 BIRT
 2 DATE 1803
 2 PLAC Coimbra, Coimbra, Portugal
@@ -15134,6 +15116,7 @@
 0 @I1239@ INDI
 1 NAME Joseph Pires de /Siqueira/
 1 SEX M
+1 SOUR 17580123 - Thereza filha de Antônio Pereira de Mello.pdf
 1 BIRT
 2 DATE 1692
 2 PLAC Sé, São Paulo, São Paulo, Brazil
@@ -20373,6 +20356,9 @@
 1 SOUR 18311206 - joão antônio de araújo serqueira - juiz de paz 1.pdf
 1 SOUR 18311206 - João Antônio de Araujo Serqueira - juiz de paz suplente 2.pdf
 1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 SOUR 18400323 - João Antônio de Araújo Cerqueira - mapa1.pdf
+1 SOUR 18400323 - João Antônio de Araújo Cerqueira - mapa2.pdf
+1 SOUR 18390208 - João Antônio de Araújo Cerqueira - mapa cajuru.pdf
 1 ASSO @I2037@
 2 TYPE ESCRAVIZADO
 1 ASSO @I2038@
@@ -20694,6 +20680,7 @@
 0 @I1759@ INDI
 1 NAME Antônia Joaquina de /Mello/
 1 SEX F
+1 SOUR 17560229 - Antônia filha de Manoel Gomes Sandim e Francisca de Souza Caldas.pdf
 1 BIRT
 2 DATE 29 FEB 1756
 2 PLAC Prados, Minas Gerais, Brasil
@@ -20735,8 +20722,9 @@
 0 @I1763@ INDI
 1 NAME Joao Gomes /Sandim/
 1 SEX M
+1 SOUR 17670629 - batismo de João filho de Manoel Gomes Sandim.pdf
 1 BIRT
-2 DATE 1767
+2 DATE 27 6 1767
 2 PLAC Prados, Minas Gerais, Brasil
 1 DEAT
 2 DATE AFT NOV 1795
@@ -21623,6 +21611,8 @@
 1 SOUR 17360528 - Manoel Gomes Sandim - casamento (Prados).pdf
 1 SOUR 17690000 - Manoel Gomes Sandim e 17970000 - Francisca de Souza Caldas - inventario.pdf
 1 SOUR SOUZA-CALDAS.pdf
+1 ASSO @I2087@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE 30 Dez 1685
 2 PLAC Santo Ildefonso, Porto, Porto, Portugal
@@ -23572,6 +23562,66 @@
 1 ASSO @I1698@
 2 TYPE SENHOR
 1 FAMS @F839@
+0 @I2079@ INDI
+1 NAME Thomaz Pereira de /Mello/
+1 SEX M
+1 SOUR 17560229 - José filho de Thomaz Pereira de Mello.pdf
+1 BIRT
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMC @F770@
+1 FAMS @F840@
+0 @I2080@ INDI
+1 NAME Maria do Rosário /Vianna/
+1 SEX F
+1 SOUR 17560229 - José filho de Thomaz Pereira de Mello.pdf
+1 BIRT
+2 PLAC Vila de São José del Rei, Minas Gerais, Brasil
+1 FAMC @F841@
+1 FAMS @F840@
+0 @I2081@ INDI
+1 NAME Joseph
+1 SEX M
+1 SOUR 17560229 - José filho de Thomaz Pereira de Mello.pdf
+1 BIRT
+2 DATE 27 FEV 1756
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMC @F840@
+0 @I2082@ INDI
+1 NAME Antônio Nunes /Vianna/
+1 SEX M
+1 SOUR 17560229 - José filho de Thomaz Pereira de Mello.pdf
+1 FAMS @F841@
+0 @I2083@ INDI
+1 NAME Escolástica Pires /Monteiro/
+1 SEX F
+1 SOUR 17560229 - José filho de Thomaz Pereira de Mello.pdf
+1 FAMS @F841@
+0 @I2084@ INDI
+1 NAME Antônio Pereira de /Mello/
+1 SEX M
+1 SOUR 17580123 - Thereza filha de Antônio Pereira de Mello.pdf
+1 FAMC @F770@
+1 FAMS @F842@
+0 @I2085@ INDI
+1 NAME Izabel de /Pontes/
+1 SEX F
+1 SOUR 17580123 - Thereza filha de Antônio Pereira de Mello.pdf
+1 FAMC @F546@
+1 FAMS @F842@
+0 @I2086@ INDI
+1 NAME Thereza
+1 SEX F
+1 SOUR 17580123 - Thereza filha de Antônio Pereira de Mello.pdf
+1 BIRT
+2 DATE 23 JAN 1758
+2 PLAC Prados, Minas Gerais, Brasil
+1 FAMC @F842@
+0 @I2087@ INDI
+1 NAME Antônio
+1 SEX M
+1 SOUR 17311104 - Maria filha de Antônio e Esperança - padrinho Antônio escravo de Cristovão Pereira de Mello.pdf
+1 ASSO @I1848@
+2 TYPE SENHOR
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I3@
@@ -24358,14 +24408,6 @@
 1 MARR
 2 DATE 6 de maio de 1799
 2 PLAC São Miguel  do Cajuru, São João Del Rei, Minas Gerais, Brasil
-0 @F123@ FAM
-1 HUSB @I283@
-1 WIFE @I285@
-1 MARR
-2 DATE 30 NOV 1943
-0 @F124@ FAM
-1 HUSB @I283@
-1 WIFE @I286@
 0 @F125@ FAM
 1 HUSB @I290@
 1 WIFE @I289@
@@ -27104,6 +27146,7 @@
 0 @F546@ FAM
 1 HUSB @I1239@
 1 WIFE @I1238@
+1 CHIL @I2085@
 0 @F547@ FAM
 1 HUSB @I1240@
 1 WIFE @I1241@
@@ -28581,6 +28624,8 @@
 1 HUSB @I1848@
 1 WIFE @I1849@
 1 CHIL @I1751@
+1 CHIL @I2079@
+1 CHIL @I2084@
 1 MARR
 2 DATE 10  Jan 1723
 2 PLAC São João del Rei, MG
@@ -28945,5 +28990,20 @@
 0 @F839@ FAM
 1 HUSB @I2077@
 1 WIFE @I2078@
+1 MARR
+0 @F840@ FAM
+1 HUSB @I2079@
+1 WIFE @I2080@
+1 CHIL @I2081@
+1 MARR
+0 @F841@ FAM
+1 HUSB @I2082@
+1 WIFE @I2083@
+1 CHIL @I2080@
+1 MARR
+0 @F842@ FAM
+1 HUSB @I2084@
+1 WIFE @I2085@
+1 CHIL @I2086@
 1 MARR
 0 TRLR
