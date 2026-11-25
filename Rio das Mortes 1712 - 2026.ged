@@ -156,6 +156,7 @@
 1 SOUR 19740625 - Penido - Registro de Óbito.pdf
 1 SOUR 19700710 - Claudemir Silvestre Dias - filho de Penido - óbito.pdf
 1 NOTE Também conhecido como Penido Silvestre Antônio Dias e Penido Silvestre Dias
+1 NOTE padrinhos: Carlos Dionísio de Macedo e Maria Antônia dos Santos
 1 BIRT
 2 DATE 26 OCT 1918
 2 PLAC Bom Sucesso, Minas Gerais, Brazil
@@ -558,6 +559,10 @@
 1 SEX M
 1 SOUR 18911104 - Silvestre Antonio Dias - batismo.pdf
 1 SOUR 19160923 - Silvestre Antônio Dias - casamento.pdf
+1 SOUR 19190116 - Penido Antonio Dias - Batismo.pdf
+1 SOUR 19221015 - Estevao Antonio Dias - Batismo.pdf
+1 SOUR 19260313 - Maria dos Reis Andrade - Batismo.pdf
+1 NOTE padrinhos: Máximo de Mesquita e Maria Benedicta dos Reis
 1 BIRT
 2 DATE ABT 1891
 2 PLAC Bom Sucesso, Minas Gerais, Brazil
@@ -597,6 +602,7 @@
 1 NAME Estevão Antonio /Dias/
 1 SEX M
 1 SOUR 19221015 - Estevao Antonio Dias - Batismo.pdf
+1 SOUR 19420308 - Estevao Antonio Dias - Casamento.pdf
 1 BIRT
 2 DATE 2 SEP 1922
 2 PLAC Lavras, Minas Gerais, Brazil
@@ -621,11 +627,14 @@
 1 DEAT
 2 DATE 28 APR 2009
 2 PLAC Santa Mariana, Paraná, Brazil
+1 FAMC @F843@
 1 FAMS @F17@
 0 @I46@ INDI
 1 NAME Manoel Silvestre Antonio /Dias/
 1 SEX M
 1 SOUR 19240713 - Manoel Antonio Dias - Batismo.pdf
+1 SOUR 20030526 - Valdivino Dias - declaração de óbito.pdf
+1 SOUR 20030526 - Valdivino Dias - Cetidão de óbito.pdf
 1 BIRT
 2 DATE 14 MAY 1924
 2 PLAC Lavras, Minas Gerais, Brazil
@@ -650,6 +659,10 @@
 0 @I48@ INDI
 1 NAME Maria dos /Reis/
 1 SEX F
+1 SOUR 19260313 - Maria dos Reis Andrade - Batismo.pdf
+1 SOUR 19260106 - Maria dos Reis - Nascimento - Certidão.pdf
+1 SOUR 19770527 - casamento de Maria dos Reis.pdf
+1 _MEM Maria dos Reis.jpg
 1 BIRT
 2 DATE 6 JAN 1926
 2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
@@ -663,6 +676,7 @@
 0 @I49@ INDI
 1 NAME José do Carmo de /Andrade/
 1 SEX M
+1 SOUR 19770527 - casamento de Maria dos Reis.pdf
 1 BIRT
 2 DATE 28 OCT 1910
 2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
@@ -673,6 +687,8 @@
 0 @I50@ INDI
 1 NAME sebastiao silvestre /dias/
 1 SEX M
+1 SOUR 19280927 - Sebastião Antonio Dias - batismo.pdf
+1 SOUR 19280915 - Sebastião Silvestre Dias - Certidão de nascimento.pdf
 1 BIRT
 2 DATE 2 JAN 1928
 2 PLAC São Tiago, São Tiago, Minas Gerais, Brazil
@@ -693,6 +709,11 @@
 0 @I52@ INDI
 1 NAME Ana Dias Da /Cruz/
 1 SEX F
+1 SOUR 19311108 - Joana - Batismo.pdf
+1 SOUR 19491203 - Casamento de Vitor Paulino e Ana Dias.pdf
+1 SOUR 19710822 - Ana Dias Cruz - Óbito - Certidão.pdf
+1 NOTE batizada como Joana
+1 _MEM Ana Dias da Cruz.jpg
 1 BIRT
 2 DATE 8 NOV 1931
 2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
@@ -770,8 +791,15 @@
 2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
 1 FAMS @F23@
 0 @I59@ INDI
-1 NAME valdevino antonio /dias/
+1 NAME Valdevino Antônio /Dias/
 1 SEX M
+1 SOUR 19390911 - Valdevino - Batismo.pdf
+1 SOUR 19390911 - Valdevino - Batismo - Continuação.pdf
+1 SOUR 19390323 - Valdevino Antonio Dias - Certidão de Nascimento.pdf
+1 SOUR 19850330 - Valdevino Antônio Dias - Certidão de Óbito.pdf
+1 SOUR 19600903 - Valdevino Antonio Dias - casamento igreja.pdf
+1 SOUR 19600903 - Valdevino Antonio Dias - Casamento - Certidão.pdf
+1 SOUR 19681210 - Valdevino Antônio Dias filho de Valdevino Antônio Dias - óbito.pdf
 1 BIRT
 2 DATE 23 MAR 1939
 2 PLAC Carmo da Cachoeira, Minas Gerais, Brazil
@@ -1419,9 +1447,13 @@
 2 PLAC São Paulo, São Paulo, Brasil
 1 FAMC @F35@
 0 @I108@ INDI
-1 NAME Tomaz Joaquim dos /Santos/
+1 NAME Thomaz Joaquim dos /Santos/
 1 SEX M
 1 SOUR 18881112 - Thomaz Joaquim - Casamento.pdf
+1 SOUR 19260106 - Maria dos Reis - Nascimento - Certidão.pdf
+1 SOUR 19320123 - casamento de José filho de Thomaz Joaquim dos Santos.pdf
+1 SOUR 18940729 - Maria filha de Thomaz Joaquim dos Santos.pdf
+1 SOUR 19000812 - Candida filha de Thomaz Joaquim dos Santos.pdf
 1 BIRT
 2 DATE 1864
 2 PLAC Bom Sucesso, Minas Gerais, Brazil
@@ -1432,6 +1464,7 @@
 1 NAME Ana Candida de /Jesus/
 1 SEX F
 1 SOUR 18881112 - Thomaz Joaquim - Casamento.pdf
+1 SOUR 19260106 - Maria dos Reis - Nascimento - Certidão.pdf
 1 BIRT
 2 DATE 1864
 2 PLAC Bom Sucesso, Minas Gerais, Brazil
@@ -2552,6 +2585,18 @@
 1 SOUR 18291130 - óbito de Antônio filho de Lourenço e Maria - escravos de Joaquim Gomes Sandim.pdf
 1 SOUR 18400929 - óbito de Joaquim Gomes Sandim.pdf
 1 NOTE Causa da morte:  asma. Idade: 51 anos
+1 ASSO @I2096@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2095@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2098@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2099@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2101@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2102@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE ABT 1789
 1 DEAT
@@ -23626,6 +23671,131 @@
 1 SOUR 17311104 - Maria filha de Antônio e Esperança - padrinho Antônio escravo de Cristovão Pereira de Mello.pdf
 1 ASSO @I1848@
 2 TYPE SENHOR
+0 @I2088@ INDI
+1 NAME Antônio Bertoldo de /Noronha/
+1 SEX M
+1 SOUR 20090428 - Benta Maxima Dias - Certidão de óbito.pdf
+1 FAMS @F843@
+0 @I2089@ INDI
+1 NAME Sebastiana Máxima de /Jesus/
+1 SEX F
+1 SOUR 20090428 - Benta Maxima Dias - Certidão de óbito.pdf
+1 FAMS @F843@
+0 @I2090@ INDI
+1 NAME Maria Aparecida /Dias/
+1 SEX F
+1 SOUR 19620915 - Maria Aparecida Dias - óbito.pdf
+1 BIRT
+2 DATE 1961
+2 PLAC Lorena, São Paulo, Brasil
+1 DEAT
+2 DATE 15 SET 1962
+2 PLAC Lorena, São Paulo, Brasil
+1 FAMC @F24@
+0 @I2091@ INDI
+1 NAME Valdevino Antônio /Dias/
+1 SEX M
+1 SOUR 19681210 - Valdevino Antônio Dias filho de Valdevino Antônio Dias - óbito.pdf
+1 BIRT
+2 DATE 8 MAR 1965
+2 PLAC Lorena, SãoPaulo, Brasil
+1 DEAT
+2 DATE 10 DEZ 1968
+2 PLAC Lorena, SãoPaulo, Brasil
+1 FAMC @F24@
+0 @I2092@ INDI
+1 NAME Rosa Marta /Dias/
+1 SEX F
+1 SOUR 19631107 - Rosa Marta Dias.pdf
+1 BIRT
+2 DATE 7 NOV 1963
+2 PLAC Lorena, São Paulo, Brasil
+1 FAMC @F24@
+0 @I2093@ INDI
+1 NAME Valdivino
+1 SEX M
+1 SOUR 19470806 - Valdivino Dias (3C) - batismo.pdf
+1 BIRT
+2 DATE 6 AGO 1947
+2 PLAC Três Corações, Minas Gerais, Brasil
+1 FAMC @F18@
+0 @I2094@ INDI
+1 NAME Vicente
+1 SEX M
+1 SOUR 18310704 - Vicente filho de Laureanno e Maria.pdf
+1 BIRT
+2 DATE 4 JUL 1831
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 FAMC @F844@
+0 @I2095@ INDI
+1 NAME Laureanno
+1 SEX M
+1 SOUR 18310704 - Vicente filho de Laureanno e Maria.pdf
+1 ASSO @I196@
+2 TYPE SENHOR
+1 FAMS @F844@
+0 @I2096@ INDI
+1 NAME Maria
+1 SEX F
+1 SOUR 18310704 - Vicente filho de Laureanno e Maria.pdf
+1 ASSO @I196@
+2 TYPE SENHOR
+1 FAMS @F844@
+0 @I2097@ INDI
+1 NAME Faustina
+1 SEX F
+1 SOUR 18320202 - Faustina - filha de Francisco de Nação e Domingas Crioula escravos de Joaquim Gomes Sandim.pdf
+1 BIRT
+2 DATE 2 FEV 1832
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 FAMC @F845@
+0 @I2098@ INDI
+1 NAME Francisco
+1 SEX M
+1 SOUR 18320202 - Faustina - filha de Francisco de Nação e Domingas Crioula escravos de Joaquim Gomes Sandim.pdf
+1 ASSO @I196@
+2 TYPE SENHOR
+1 FAMS @F845@
+0 @I2099@ INDI
+1 NAME Domingas
+1 SEX F
+1 SOUR 18320202 - Faustina - filha de Francisco de Nação e Domingas Crioula escravos de Joaquim Gomes Sandim.pdf
+1 ASSO @I196@
+2 TYPE SENHOR
+1 FAMS @F845@
+0 @I2100@ INDI
+1 NAME Antônio
+1 SEX M
+1 SOUR 18291130 - óbito de Antônio filho de Lourenço e Maria - escravos de Joaquim Gomes Sandim.pdf
+1 BIRT
+2 DATE SET 1829
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 DEAT
+2 DATE 30 NOV 1829
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 FAMC @F846@
+0 @I2101@ INDI
+1 NAME Lourenço
+1 SEX M
+1 SOUR 18291130 - óbito de Antônio filho de Lourenço e Maria - escravos de Joaquim Gomes Sandim.pdf
+1 ASSO @I196@
+2 TYPE SENHOR
+1 FAMS @F846@
+0 @I2102@ INDI
+1 NAME Maria
+1 SEX F
+1 SOUR 18291130 - óbito de Antônio filho de Lourenço e Maria - escravos de Joaquim Gomes Sandim.pdf
+1 ASSO @I196@
+2 TYPE SENHOR
+1 FAMS @F846@
+0 @I2103@ INDI
+1 NAME Adão
+1 SEX M
+1 SOUR 18270902 - Adão filho de Francisco e Domingas.pdf
+1 BIRT
+2 DATE 2 SET 1827
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 FAMC @F845@
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I3@
@@ -23746,6 +23916,7 @@
 0 @F18@ FAM
 1 HUSB @I46@
 1 WIFE @I47@
+1 CHIL @I2093@
 0 @F19@ FAM
 1 HUSB @I49@
 1 WIFE @I48@
@@ -23758,6 +23929,9 @@
 0 @F21@ FAM
 1 HUSB @I53@
 1 WIFE @I52@
+1 MARR
+2 DATE 3 DEZ 1949
+2 PLAC Carmo da Cachoeira, Minas Gerais, Brasil
 0 @F22@ FAM
 1 HUSB @I55@
 1 WIFE @I54@
@@ -23770,6 +23944,9 @@
 0 @F24@ FAM
 1 HUSB @I59@
 1 WIFE @I60@
+1 CHIL @I2090@
+1 CHIL @I2091@
+1 CHIL @I2092@
 1 MARR
 2 DATE 3 de junho de 1960
 2 PLAC Três Corações, Minas Gerais, Brasil
@@ -29009,5 +29186,26 @@
 1 HUSB @I2084@
 1 WIFE @I2085@
 1 CHIL @I2086@
+1 MARR
+0 @F843@ FAM
+1 HUSB @I2088@
+1 WIFE @I2089@
+1 CHIL @I45@
+1 MARR
+0 @F844@ FAM
+1 HUSB @I2095@
+1 WIFE @I2096@
+1 CHIL @I2094@
+1 MARR
+0 @F845@ FAM
+1 HUSB @I2098@
+1 WIFE @I2099@
+1 CHIL @I2097@
+1 CHIL @I2103@
+1 MARR
+0 @F846@ FAM
+1 HUSB @I2101@
+1 WIFE @I2102@
+1 CHIL @I2100@
 1 MARR
 0 TRLR
