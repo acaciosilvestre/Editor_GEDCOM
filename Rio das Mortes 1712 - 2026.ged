@@ -1474,14 +1474,15 @@
 0 @I110@ INDI
 1 NAME Manoel Vicente /Ferreira/
 1 SEX M
+1 SOUR 19390323 - Valdevino Antonio Dias - Certidão de Nascimento.pdf
 1 BIRT
-2 PLAC Panchthar, Koshi, Nepal
 1 DEAT
 2 DATE DECEASED
 1 FAMS @F47@
 0 @I111@ INDI
 1 NAME Maria Antonia de /Souza/
 1 SEX F
+1 SOUR 19390323 - Valdevino Antonio Dias - Certidão de Nascimento.pdf
 1 DEAT
 2 DATE DECEASED
 1 FAMS @F47@
@@ -7620,6 +7621,7 @@
 1 SEX M
 1 SOUR 17100907 - Manoel Rodrigues Pires e 17100320 - Maria Jacinta.pdf
 1 SOUR 17470224 - Manuel Rodrigues Pires - sepultamento.jpg
+1 SOUR 17420420 - Manoel filho de Manoel Rodrigues Pires e Maria Jacintha.pdf
 1 BIRT
 2 DATE 7 SEP 1710
 2 PLAC Madalena, Pico, Azores, Portugal
@@ -20066,7 +20068,6 @@
 1 SOUR 18510000 - Francisca Iria de Paula - Assentos Morro Grande.pdf
 1 SOUR 18510000 - Bernardino José Gomes Sandim e Francisca Leopoldina de Araújo - Assentos Morro Grande.pdf
 1 BIRT
-2 DATE 1824
 2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
 1 DEAT
 2 DATE DECEASED
@@ -20093,6 +20094,7 @@
 0 @I1702@ INDI
 1 NAME Antonio Bernardino de /Araujo/
 1 SEX M
+1 SOUR 19120113 - Antônio Bernardino de Araújo - segundo casamento.pdf
 1 BIRT
 2 DATE 13 JUN 1854
 2 PLAC Fazenda dos Chaves, Madre de Deus de Minas, Minas Gerais, Brasil
@@ -20408,6 +20410,9 @@
 1 SOUR 18400323 - João Antônio de Araújo Cerqueira - mapa1.pdf
 1 SOUR 18400323 - João Antônio de Araújo Cerqueira - mapa2.pdf
 1 SOUR 18390208 - João Antônio de Araújo Cerqueira - mapa cajuru.pdf
+1 SOUR 18231130 - João Antônio e Francisca Iria padrinhos de José.pdf
+1 SOUR 18100111 - João Antônio de Araújo Serqueira testemunha de José Joaquim.pdf
+1 NOTE Em 1810 já estava em São João del Rei (testemunha de casamento de José Joaquim)
 1 ASSO @I2037@
 2 TYPE ESCRAVIZADO
 1 ASSO @I2038@
@@ -20415,6 +20420,12 @@
 1 ASSO @I2039@
 2 TYPE ESCRAVIZADO
 1 ASSO @I2040@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2104@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2105@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2106@
 2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE ABT 1780
@@ -20451,15 +20462,6 @@
 2 PLAC São Miguel do Cajuru, São João del Rei, Minas Gerais, Brasil
 1 FAMC @F760@
 1 FAMS @F752@
-0 @I1733@ INDI
-1 NAME Francisca Leopoldina de /Araujo/
-1 SEX F
-1 BIRT
-2 DATE 1807
-2 PLAC Minas Gerais, Brazil
-1 DEAT
-2 DATE DECEASED
-1 FAMC @F752@
 0 @I1734@ INDI
 1 NAME EMÍDIA CAROLINA DE /ARAÚJO/
 1 SEX F
@@ -22583,6 +22585,7 @@
 1 SOUR 18650612 - Antônio filho de Francisco e Aniceta - óbito.pdf
 1 SOUR 18760922 - Theodoro - filho de Francisco e Aniceta - batismo.pdf
 1 SOUR 18890112 - Theodoro - filho de Francisco e Aniceta - óbito.pdf
+1 NOTE Francisco foi escravizado por João Vilela Fialho
 1 FAMS @F814@
 0 @I1956@ INDI
 1 NAME Aniceta
@@ -22592,6 +22595,7 @@
 1 SOUR 18760922 - Theodoro - filho de Francisco e Aniceta - batismo.pdf
 1 SOUR 18890112 - Theodoro - filho de Francisco e Aniceta - óbito.pdf
 1 SOUR 18860312 - Belmira.pdf
+1 NOTE Foi escravizada por João Vilela Fialho
 1 FAMS @F814@
 0 @I1957@ INDI
 1 NAME Inocente
@@ -23253,7 +23257,7 @@
 2 TYPE SENHOR
 1 BIRT
 0 @I2036@ INDI
-1 NAME Exmeria
+1 NAME Exméria
 1 SEX F
 1 SOUR 18110330 - Exmeria filha de Maria.pdf
 1 BIRT
@@ -23796,6 +23800,47 @@
 2 DATE 2 SET 1827
 2 PLAC Silvianópolis, Minas Gerais, Brasil
 1 FAMC @F845@
+0 @I2104@ INDI
+1 NAME Francisco
+1 SEX M
+1 SOUR 18370912 - Inocente filho de Francisco e Joana.pdf
+1 SOUR 18311206 - joão antônio de araújo serqueira - mapa1.pdf
+1 SOUR 18400323 - João Antônio de Araújo Cerqueira - mapa1.pdf
+1 ASSO @I1731@
+2 TYPE SENHOR
+1 BIRT
+2 DATE ABT 1806
+1 FAMS @F847@
+0 @I2105@ INDI
+1 NAME Joana
+1 SEX F
+1 SOUR 18370912 - Inocente filho de Francisco e Joana.pdf
+1 SOUR 18311206 - joão antônio de araújo serqueira - mapa1.pdf
+1 SOUR 18400323 - João Antônio de Araújo Cerqueira - mapa1.pdf
+1 ASSO @I1731@
+2 TYPE SENHOR
+1 BIRT
+2 DATE ABT 1805
+1 FAMS @F847@
+0 @I2106@ INDI
+1 NAME Inocente
+1 SEX M
+1 SOUR 18370912 - Inocente filho de Francisco e Joana.pdf
+1 NOTE De acordo com a relação de habitantes 1840, em São Miguel do Cajuru, este indivíduo tem de ser Anastácia ou Inez, ambas com 3 anos de idade, apesar de ter sido declarado como menino.
+1 ASSO @I1731@
+2 TYPE SENHOR
+1 BIRT
+2 DATE 12 SET 1837
+2 PLAC São Vicente, Minas Gerais, Brasil
+1 FAMC @F847@
+0 @I2107@ INDI
+1 NAME Manoel
+1 SEX M
+1 SOUR 17420420 - Manoel filho de Manoel Rodrigues Pires e Maria Jacintha.pdf
+1 BIRT
+2 DATE 20 ABR 1742
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMC @F268@
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I3@
@@ -25511,6 +25556,7 @@
 1 CHIL @I602@
 1 CHIL @I604@
 1 CHIL @I607@
+1 CHIL @I2107@
 1 MARR
 2 DATE 29 de Setembro de 1733
 2 PLAC Madalena, Pico, Azores, Portugal
@@ -28610,7 +28656,6 @@
 0 @F752@ FAM
 1 HUSB @I1731@
 1 WIFE @I1732@
-1 CHIL @I1733@
 1 CHIL @I1734@
 1 CHIL @I1735@
 1 CHIL @I1736@
@@ -29207,5 +29252,10 @@
 1 HUSB @I2101@
 1 WIFE @I2102@
 1 CHIL @I2100@
+1 MARR
+0 @F847@ FAM
+1 HUSB @I2104@
+1 WIFE @I2105@
+1 CHIL @I2106@
 1 MARR
 0 TRLR
