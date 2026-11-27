@@ -1816,6 +1816,8 @@
 1 NOTE batizada sub conditione
 1 _MEM José Bernardino do Carmo Sandim.jpg
 1 _MEM Emília Augusta e José Bernardino.jpg
+1 ASSO @I2115@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE ABT 1851
 2 PLAC Minas Gerais, Brazil
@@ -1839,6 +1841,8 @@
 1 SOUR 18970221 - O Amigo do Povo - lançamento de impostos.pdf
 1 SOUR 18970228 - O Amigo do Povo - lançamento de imposto.pdf
 1 SOUR 18970307 - O Amigo do Povo - lançamento de imposto.pdf
+1 SOUR 19151104 - Antônio Ignácio Alves Lima - juramento de louvados.pdf
+1 SOUR 19151106 - auto de descrição - inventário de Joana Justiniana Pereira.pdf
 1 BIRT
 2 DATE 26 APR 1852
 2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
@@ -2452,6 +2456,9 @@
 1 SEX M
 1 SOUR 17811021 - Ignácio e Antônio Alves Lima - batismo.pdf
 1 SOUR 17990903 - Ignácio Alves Lima - casamento.pdf
+1 SOUR 18301017 - Maria filha de Severiano Alves Lima.pdf
+1 ASSO @I2111@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE 21 OCT 1781
 2 PLAC São José del Rei, Minas Gerais, Brazil
@@ -2461,6 +2468,9 @@
 1 DEAT
 2 DATE AFT 1853
 2 PLAC São João del Rei, Minas Gerais, Brazil
+1 RESI bairro da Lagoa Limpa
+2 DATE 24 MAI 1829
+2 PLAC Santana do Sapucaí, Minas Gerais, Brasil
 1 FAMC @F114@
 1 FAMS @F83@
 0 @I187@ INDI
@@ -2468,6 +2478,8 @@
 1 SEX F
 1 SOUR 17840508 - Floriana Antonia de São José - batismo.pdf
 1 SOUR 17990903 - Ignácio Alves Lima - casamento.pdf
+1 SOUR 18290524 - batismo de Cândido - afilhado de Floriana Antônia de São José.pdf
+1 SOUR 18301017 - Maria filha de Severiano Alves Lima.pdf
 1 BIRT
 2 DATE ABT 1784
 2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
@@ -2476,6 +2488,9 @@
 2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
 1 DEAT
 2 DATE DECEASED
+1 RESI bairro da Lagoa Limpa
+2 DATE 24 MAI 1829
+2 PLAC Santana do Sapucaí, Minas Gerais, Brasil
 1 FAMC @F127@
 1 FAMS @F83@
 0 @I188@ INDI
@@ -2520,6 +2535,9 @@
 1 NAME Severiano Alves /Lima/
 1 SEX M
 1 SOUR 18250209 - Severino Alves Lima - casamento - SJDR(1824-1831).pdf
+1 SOUR 18301017 - Maria filha de Severiano Alves Lima.pdf
+1 ASSO @I2109@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE 2 NOV 1803
 2 PLAC Piedade do Rio Grande, Minas Gerais, Brazil
@@ -2533,6 +2551,8 @@
 0 @I192@ INDI
 1 NAME Carlota Maria de /Jesus/
 1 SEX F
+1 SOUR 18250209 - Severino Alves Lima - casamento - SJDR(1824-1831).pdf
+1 SOUR 18301017 - Maria filha de Severiano Alves Lima.pdf
 1 BIRT
 2 DATE 1809
 2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
@@ -2543,6 +2563,8 @@
 0 @I193@ INDI
 1 NAME Joaquim Alves de /Mendonça/
 1 SEX M
+1 SOUR 18260925 - casamento de Joaquim Alves de Mendonça.pdf
+1 SOUR 18310626 - Jose filho de Joaquim Alves de Mendonça.pdf
 1 BIRT
 2 DATE 1804
 1 CHR
@@ -2577,7 +2599,6 @@
 2 DATE DECEASED
 1 FAMC @F83@
 1 FAMS @F87@
-1 FAMS @F769@
 0 @I196@ INDI
 1 NAME Joaquim Gomes /Sandim/
 1 SEX M
@@ -2585,7 +2606,9 @@
 1 SOUR 18320202 - Faustina - filha de Francisco de Nação e Domingas Crioula escravos de Joaquim Gomes Sandim.pdf
 1 SOUR 18291130 - óbito de Antônio filho de Lourenço e Maria - escravos de Joaquim Gomes Sandim.pdf
 1 SOUR 18400929 - óbito de Joaquim Gomes Sandim.pdf
+1 SOUR 18250209 - Severino Alves Lima - casamento - SJDR(1824-1831).pdf
 1 NOTE Causa da morte:  asma. Idade: 51 anos
+1 NOTE 9 de janeiro de 1825: testemunhou o casamento de Severiano Alves Lima e Carlota Maria de Jesus em Santana do Sapucaí, Minas Gerais
 1 ASSO @I2096@
 2 TYPE ESCRAVIZADO
 1 ASSO @I2095@
@@ -2607,7 +2630,6 @@
 2 DATE 1 APR 1851
 1 FAMC @F750@
 1 FAMS @F87@
-1 FAMS @F769@
 0 @I197@ INDI
 1 NAME Justino
 1 SEX M
@@ -2637,7 +2659,7 @@
 2 DATE ABT 1825
 1 DEAT
 2 DATE DECEASED
-1 FAMC @F769@
+1 FAMC @F87@
 1 FAMS @F88@
 0 @I200@ INDI
 1 NAME Francisco Alves /Lima/
@@ -2652,6 +2674,7 @@
 0 @I201@ INDI
 1 NAME Mariana Teresa de /Jesus/
 1 SEX F
+1 NOTE filha de Joaquim Gomes Sandim e Maria Angélica de Jesus (primeira esposa, falecida por volta de 1823)
 1 DEAT
 2 DATE DECEASED
 1 FAMS @F89@
@@ -2695,6 +2718,7 @@
 0 @I205@ INDI
 1 NAME Ana Maria /Conceição/
 1 SEX F
+1 SOUR 18440904 - casamento de Anna Maria da Conceição.pdf
 1 BIRT
 2 DATE ABT 1820
 2 PLAC São João del Rei, Minas Gerais, Brazil
@@ -20038,6 +20062,7 @@
 1 SOUR 18560000 - Bernardino José Sandim - terras.pdf
 1 SOUR 18560000 - Francisca Iria e Bernardino José Sandim - terras.pdf
 1 SOUR 18420123 - Diário do Comércio - abaixo assinado.pdf
+1 SOUR 18831019 - O Arauto de Minas - Ano VII No. 31.pdf
 1 ASSO @I2063@
 2 TYPE ESCRAVIZADO
 1 ASSO @I2067@
@@ -20183,6 +20208,8 @@
 1 SOUR 18311206 - Manoel (José) Gomes Sandim - mapa.pdf
 1 SOUR 18721019 - Manoel José Gomes Sandim - morte.pdf
 1 SOUR 18720000 - Manoel José Gomes Sandim - inventário.pdf
+1 ASSO @I2108@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE 27 JUL 1783
 2 PLAC Barroso, Tiradentes, Minas Gerais, Brasil
@@ -20311,6 +20338,7 @@
 1 SEX F
 1 SOUR 18060129 - Casamento de Manoel José Gomes Sandim (Prados).pdf
 1 SOUR 18210000 - Ana Joaquina de São José - inventário.pdf
+1 NOTE Em 8 de julho de 1863, quando o filho Antônio José Sandim se casou, já era falecida.
 1 DEAT
 2 DATE 14 FEB 1821
 1 FAMC @F759@
@@ -20368,6 +20396,7 @@
 0 @I1728@ INDI
 1 NAME Antonio José /Sandim/
 1 SEX M
+1 SOUR 18630708 - casamento de Antônio José Sandim.pdf
 1 BIRT
 2 PLAC São João del Rei, Minas Gerais, Brasil
 1 CHR
@@ -22046,6 +22075,7 @@
 1 SEX M
 1 SOUR 18790518 - José Filho de Antônio Ignácio Alves Lima - ver padrinhos.pdf
 1 SOUR 19010713 - José Ignácio Alves Lima e Ana Etelvina de Meireles - casamento.pdf
+1 SOUR 19701221 - óbito de José Ignácio Alves Lima - o neto.pdf
 1 _MEM José Ignácio Alves de Lima.jpg
 1 BIRT
 2 DATE 18 MAI 1879
@@ -23841,6 +23871,82 @@
 2 DATE 20 ABR 1742
 2 PLAC São João del Rei, Minas Gerais, Brasil
 1 FAMC @F268@
+0 @I2108@ INDI
+1 NAME Bárbara
+1 SEX F
+1 SOUR 18300531 - batismo de Bárbara - adulta.pdf
+1 ASSO @I1709@
+2 TYPE SENHOR
+1 BAPM adulta
+2 DATE 31 MAI 1830
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @I2109@ INDI
+1 NAME Marcelina
+1 SEX F
+1 SOUR 18310626 - Marcelina filha de Marianna.pdf
+1 ASSO @I191@
+2 TYPE SENHOR
+1 BAPM
+2 DATE 26 JUN 1831
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 BIRT
+2 DATE 11 JUN 1831
+2 PLAC Silvianópolis, Minas Gerais, Brasil
+1 FAMC @F848@
+0 @I2110@ INDI
+1 NAME Marianna
+1 SEX F
+1 SOUR 18310626 - Marcelina filha de Marianna.pdf
+1 NOTE escravizada de José Ancelino, andante
+1 FAMS @F848@
+0 @I2111@ INDI
+1 NAME Siméria
+1 SEX F
+1 SOUR 18310626 - Marcelina filha de Marianna.pdf
+1 NOTE madrinha de Marcelina
+1 ASSO @I186@
+2 TYPE SENHOR
+0 @I2112@ INDI
+1 NAME Maria
+1 SEX F
+1 SOUR 18301017 - Maria filha de Severiano Alves Lima.pdf
+1 BAPM
+2 DATE 17 OUT 1830
+2 PLAC Santana de Sapucaí, Minas Gerais, Brasil
+1 BIRT
+2 DATE 12 OUT 1830
+2 PLAC Santana de Sapucaí, Minas Gerais, Brasil
+1 FAMC @F85@
+0 @I2113@ INDI
+1 NAME José
+1 SEX M
+1 SOUR 18310626 - Jose filho de Joaquim Alves de Mendonça.pdf
+1 NOTE padrinhos: José Ignácio Alves Lima, solteiro, e Carlota Maria de Jesus
+1 BAPM
+2 DATE 26 JUN 1831
+2 PLAC Santana de Sapucaí, Minas gerais, Brasil
+1 BIRT
+2 DATE 16 JUN 1831
+2 PLAC Santana de Sapucaí, Minas gerais, Brasil
+1 FAMC @F86@
+0 @I2114@ INDI
+1 NAME Francisco
+1 SEX M
+1 SOUR 18360117 - Francisco filho de Francisco Alves Lima e Mariana Teresa de Jesus.pdf
+1 BAPM nome correto do pai é Francisco e não Ignácio
+2 DATE 17 JAN 1836
+2 PLAC Santana de Sapucaí, Minas Gerais, Brasil
+1 BIRT
+2 DATE 8 JAN 1836
+2 PLAC Santana de Sapucaí, Minas Gerais, Brasil
+1 FAMC @F34@
+0 @I2115@ INDI
+1 NAME Marianna
+1 SEX F
+1 SOUR 18890227 - casamento de Marianna.pdf
+1 NOTE casou-se em Carrancas, Minas Gerais, após a abolição
+1 ASSO @I135@
+2 TYPE SENHOR
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I3@
@@ -24054,6 +24160,7 @@
 0 @F34@ FAM
 1 HUSB @I83@
 1 WIFE @I84@
+1 CHIL @I2114@
 1 MARR
 2 DATE 22 de junho de 1972
 2 PLAC Ipuiúna, Minas Gerais, Brasil
@@ -24403,12 +24510,14 @@
 0 @F85@ FAM
 1 HUSB @I191@
 1 WIFE @I192@
+1 CHIL @I2112@
 1 MARR
 2 DATE 9 de fevereiro de 1825
 2 PLAC Madre de Deus de Minas, Minas Gerais, Brasil
 0 @F86@ FAM
 1 HUSB @I193@
 1 WIFE @I194@
+1 CHIL @I2113@
 1 MARR
 2 DATE 25 de setembro de 1826
 2 PLAC Silvianópolis, Minas Gerais, Brasil
@@ -24416,6 +24525,7 @@
 1 HUSB @I196@
 1 WIFE @I195@
 1 CHIL @I147@
+1 CHIL @I199@
 1 MARR
 2 DATE aproximadamente 1823
 2 PLAC Minas Gerais, Brasil
@@ -28842,10 +28952,6 @@
 1 HUSB @I1716@
 1 WIFE @I1768@
 1 MARR
-0 @F769@ FAM
-1 HUSB @I196@
-1 WIFE @I195@
-1 CHIL @I199@
 0 @F770@ FAM
 1 HUSB @I1848@
 1 WIFE @I1849@
@@ -29258,4 +29364,7 @@
 1 WIFE @I2105@
 1 CHIL @I2106@
 1 MARR
+0 @F848@ FAM
+1 WIFE @I2110@
+1 CHIL @I2109@
 0 TRLR
