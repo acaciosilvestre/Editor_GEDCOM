@@ -1748,6 +1748,7 @@
 1 SOUR 18851018 - Joaquim escravo de Rita Firmina Leonor.png
 1 SOUR 18890523 - Inventário - Rita Firmina Leonor.pdf
 1 SOUR 18840725 - Sabina - ex escrava de Rita Firmina Leonor.png
+1 SOUR 19040713 - Registro de Divisão de Terras - M de Deus.pdf
 1 BIRT
 2 DATE 1818
 2 PLAC São João del Rei, Minas Gerais, Brazil
@@ -1843,6 +1844,12 @@
 1 SOUR 18970307 - O Amigo do Povo - lançamento de imposto.pdf
 1 SOUR 19151104 - Antônio Ignácio Alves Lima - juramento de louvados.pdf
 1 SOUR 19151106 - auto de descrição - inventário de Joana Justiniana Pereira.pdf
+1 SOUR 19000920 - divisão da Fazenda das Pedras.pdf
+1 SOUR 19040713 - Registro de Divisão de Terras - M de Deus.pdf
+1 SOUR 19231029 - Divisão de Terras - Andrelândia.pdf
+1 SOUR 19211104 - registro de divisão de terras - Faz dos Campos e Capão das Antas.pdf
+1 NOTE Divisão da Fazenda das Pedras em 20 novembro 1900:
+2 CONT https://www.familysearch.org/ark:/61903/3:1:3QHK-8QL7-P9XV?view=fullText&keywords=Ign%C3%A1cio+Alves+Lima&searchForm=advanced&lang=pt
 1 BIRT
 2 DATE 26 APR 1852
 2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
@@ -1900,6 +1907,7 @@
 1 SOUR 18800920 - Custódio Alves Lima e Guilhermina - casamento.pdf
 1 SOUR 18890523 - Inventário - Rita Firmina Leonor.pdf
 1 SOUR 1897-1898 - Recenseamento eleitoral - Ananias e Custódio Alves Lima.pdf
+1 SOUR 19040713 - Registro de Divisão de Terras - M de Deus.pdf
 1 NOTE Listado no Recenseamento eleitoral de 1897-1898
 1 BIRT
 2 DATE ABT 1857
@@ -1937,6 +1945,8 @@
 0 @I144@ INDI
 1 NAME João Ignácio Alves /Lima/
 1 SEX M
+1 ASSO @I2122@
+2 TYPE ESCRAVIZADO
 1 DEAT
 2 DATE DECEASED
 1 FAMC @F51@
@@ -23948,6 +23958,53 @@
 1 NOTE casou-se em Carrancas, Minas Gerais, após a abolição
 1 ASSO @I135@
 2 TYPE SENHOR
+0 @I2116@ INDI
+1 NAME Henrique Alves /Lima/
+1 SEX M
+1 SOUR 19081107 - casamento de Henrique Alves Lima e Regina Martha de Resende.pdf
+1 FAMC @F60@
+1 FAMS @F849@
+0 @I2117@ INDI
+1 NAME Regina Martha de /Resende/
+1 SEX F
+1 SOUR 19081107 - casamento de Henrique Alves Lima e Regina Martha de Resende.pdf
+1 FAMC @F787@
+1 FAMS @F849@
+0 @I2118@ INDI
+1 NAME Francisco Calixto de /Lima/
+1 SEX M
+1 SOUR 19021225 - Francisco filho de João Ignácio Alves Lima.pdf
+1 NOTE casamento feito na Paróquia de São João Bosco
+1 BAPM
+2 DATE 25 DEZ 1902
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 BIRT
+2 DATE 14 OUT 1902
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMC @F60@
+1 FAMS @F850@
+0 @I2119@ INDI
+1 NAME Clara Constância de /Carvalho/
+1 SEX F
+1 SOUR 19170908 - Clara filha de José Honório de Carvalho.pdf
+1 FAMC @F851@
+1 FAMS @F850@
+0 @I2120@ INDI
+1 NAME José Honório de /Carvalho/
+1 SEX M
+1 SOUR 19170908 - Clara filha de José Honório de Carvalho.pdf
+1 FAMS @F851@
+0 @I2121@ INDI
+1 NAME Maria Avelina da /Conceição/
+1 SEX F
+1 SOUR 19170908 - Clara filha de José Honório de Carvalho.pdf
+1 FAMS @F851@
+0 @I2122@ INDI
+1 NAME Joana
+1 SEX F
+1 SOUR 18880922 - casamento de José Paraguaio e Joana.pdf
+1 ASSO @I144@
+2 TYPE SENHOR
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I3@
@@ -24339,6 +24396,8 @@
 0 @F60@ FAM
 1 HUSB @I144@
 1 WIFE @I145@
+1 CHIL @I2116@
+1 CHIL @I2118@
 0 @F61@ FAM
 1 HUSB @I146@
 1 WIFE @I147@
@@ -29056,6 +29115,7 @@
 1 WIFE @I1894@
 1 CHIL @I1892@
 1 CHIL @I1883@
+1 CHIL @I2117@
 1 MARR
 2 DATE ABT 1873
 0 @F788@ FAM
@@ -29368,4 +29428,21 @@
 0 @F848@ FAM
 1 WIFE @I2110@
 1 CHIL @I2109@
+0 @F849@ FAM
+1 HUSB @I2116@
+1 WIFE @I2117@
+1 MARR
+2 DATE 17 NOV 1908
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F850@ FAM
+1 HUSB @I2118@
+1 WIFE @I2119@
+1 MARR
+2 DATE 15 FEV 1953
+2 PLAC São João del Rei, Minas Gerais, Brasil
+0 @F851@ FAM
+1 HUSB @I2120@
+1 WIFE @I2121@
+1 CHIL @I2119@
+1 MARR
 0 TRLR
