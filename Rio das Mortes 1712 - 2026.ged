@@ -1057,6 +1057,7 @@
 0 @I79@ INDI
 1 NAME José Alves /Lima/
 1 SEX M
+1 SOUR 18920329 - Jose Alves Lima - Batismo.pdf
 1 BIRT
 2 DATE 24 MAR 1892
 2 PLAC Madre de Deus de Minas, Minas Gerais, Brazil
@@ -2469,6 +2470,10 @@
 1 SOUR 18301017 - Maria filha de Severiano Alves Lima.pdf
 1 ASSO @I2111@
 2 TYPE ESCRAVIZADO
+1 ASSO @I2125@
+2 TYPE ESCRAVIZADO
+1 ASSO @I2130@
+2 TYPE ESCRAVIZADO
 1 BIRT
 2 DATE 21 OCT 1781
 2 PLAC São José del Rei, Minas Gerais, Brazil
@@ -2748,6 +2753,7 @@
 0 @I207@ INDI
 1 NAME Rita /Lima/
 1 SEX F
+1 SOUR 18260613 - Rita - filha de Ignácio Alves Lima - batismo.pdf
 1 BIRT
 2 DATE 1826
 1 CHR
@@ -4250,6 +4256,7 @@
 1 NAME Domingos Marques /Pereira/
 1 SEX M
 1 SOUR 18261213 - Domingos Marques Pereira - inventário.pdf
+1 SOUR 17920930 - Domingos - filho de Rosa Maria de São José.pdf
 1 BIRT
 2 DATE ABT 1770
 2 PLAC Minas Gerais, Brazil
@@ -22868,7 +22875,7 @@
 2 PLAC Madre de Deus, Minas Gerais, Brasil
 1 FAMC @F818@
 0 @I1983@ INDI
-1 NAME Ismênia
+1 NAME Isméria
 1 SEX F
 1 SOUR 18711217 - Ismênia filha de Venâncio e Marcelina.pdf
 1 BIRT
@@ -24005,6 +24012,78 @@
 1 SOUR 18880922 - casamento de José Paraguaio e Joana.pdf
 1 ASSO @I144@
 2 TYPE SENHOR
+0 @I2123@ INDI
+1 NAME Thereza
+1 SEX F
+1 SOUR 18110428 - Thereza filha de Domingos e Exméria.pdf
+1 BAPM
+2 DATE 28 ABR 1811
+2 PLAC São João del Rei, Minas Gerais, Brasil
+1 FAMC @F852@
+0 @I2124@ INDI
+1 NAME Domingos
+1 SEX M
+1 SOUR 18110428 - Thereza filha de Domingos e Exméria.pdf
+1 NOTE Angola
+1 FAMS @F852@
+0 @I2125@ INDI
+1 NAME Exméria
+1 SEX F
+1 SOUR 18110428 - Thereza filha de Domingos e Exméria.pdf
+1 ASSO @I186@
+2 TYPE SENHOR
+1 FAMS @F852@
+0 @I2126@ INDI
+1 NAME Maria José /Alves/
+1 SEX F
+1 SOUR 19130627 - casamento de Maria José Alves.pdf
+1 BIRT
+2 DATE ABT 1894
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 FAMC @F56@
+0 @I2127@ INDI
+1 NAME José
+1 SEX M
+1 SOUR 19140429 - batismo de José filho de José Custódio Alves Lima e Jesuina Esmênia.pdf
+1 NOTE R@dr1g@
+1 BAPM
+2 DATE 29 ABR 1914
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 BIRT
+2 DATE 25 FEV 1914
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+0 @I2128@ INDI
+1 NAME Lourdes /Alves/
+1 SEX F
+1 SOUR 19200724 - casamento de Lourdes Alves.pdf
+1 FAMC @F56@
+0 @I2129@ INDI
+1 NAME José
+1 SEX M
+1 SOUR 18750404 - josé - José filho de José Alves Lima e Mariana Cândida de Jesus.png
+1 BAPM
+2 DATE 4 ABR 1875
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 FAMC @F53@
+0 @I2130@ INDI
+1 NAME Domingos
+1 SEX M
+1 SOUR 18271208 - óbito de Domingos.pdf
+1 ASSO @I186@
+2 TYPE SENHOR
+1 DEAT
+2 DATE 8 DEZ 1827
+2 PLAC Pouso Alegre, Minas Gerais, Brasil
+1 BIRT
+2 DATE ABT 1747
+0 @I2131@ INDI
+1 NAME Alexandrina
+1 SEX F
+1 SOUR 18791203 - Alexandrina - afilhada de Antonio Ignacio Alves Lima.png
+1 BAPM
+2 DATE 3 DEZ 1879
+2 PLAC Madre de Deus, Minas Gerais, Brasil
+1 FAMC @F53@
 0 @F1@ FAM
 1 HUSB @I2@
 1 WIFE @I3@
@@ -24348,6 +24427,8 @@
 0 @F53@ FAM
 1 HUSB @I131@
 1 WIFE @I133@
+1 CHIL @I2129@
+1 CHIL @I2131@
 1 MARR
 2 DATE 10 de setembro de 1873
 2 PLAC Madre de Deus do Rio Grande, Turvo, Minas Gerais, Brasil
@@ -24370,6 +24451,8 @@
 0 @F56@ FAM
 1 HUSB @I136@
 1 WIFE @I138@
+1 CHIL @I2126@
+1 CHIL @I2128@
 1 MARR
 2 DATE 20 de fevereiro de 1892
 2 PLAC Madre de Deus de Minas, Minas Gerais, Brasil
@@ -29444,5 +29527,10 @@
 1 HUSB @I2120@
 1 WIFE @I2121@
 1 CHIL @I2119@
+1 MARR
+0 @F852@ FAM
+1 HUSB @I2124@
+1 WIFE @I2125@
+1 CHIL @I2123@
 1 MARR
 0 TRLR
